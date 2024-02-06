@@ -1,7 +1,7 @@
-1|Catppuccin-Mocha|Catppuccin.catppuccin-vsc~Catppuccin Mocha|~/.config/swww/Catppuccin-Mocha/evening-sky.png
-0|Catppuccin-Latte|Catppuccin.catppuccin-vsc~Catppuccin Latte|~/.config/swww/Catppuccin-Latte/samurai_bebop.png
+0|Catppuccin-Mocha|Catppuccin.catppuccin-vsc~Catppuccin Mocha|~/.config/swww/Catppuccin-Mocha/evening-sky.png
+0|Catppuccin-Latte|Catppuccin.catppuccin-vsc~Catppuccin Latte|~/.config/swww/Catppuccin-Latte/waifu_jasmin.jpg
 0|Decay-Green|decaycs.decay~Decayce|~/.config/swww/Decay-Green/moments_before_desk.png
-0|Rose-Pine|mvllow.rose-pine~Rosé Pine|~/.config/swww/Rose-Pine/japan_tower_pink.jpg
+1|Rose-Pine|mvllow.rose-pine~Rosé Pine|~/.config/swww/Rose-Pine/lakeside_sunset.png
 0|Tokyo-Night|enkia.tokyo-night~Tokyo Night Storm|~/.config/swww/Tokyo-Night/edger_lucy_neon.jpg
 0|Material-Sakura|mvllow.rose-pine~Rosé Pine Dawn|~/.config/swww/Material-Sakura/material_pastel_2.jpg
 0|Graphite-Mono|StepanVanzuriak.mono~mono dark|~/.config/swww/Graphite-Mono/gojo.png
