@@ -300,8 +300,12 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 autocmd FileType tex let b:coc_pairs = [["$", "$"]]
 autocmd FileType markdown let b:coc_pairs_disabled = ['`']
 " Autoformat
+" coc-prettier
+command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 
 nmap <C-L> <ESC>:Autoformat<CR>:w<CR>
+
+" nmap <C-L> <ESC>:Prettier<CR>:w<CR>
 " YCM
 " let g:ycm_auto_trigger = 1
 " let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
