@@ -1,0 +1,33 @@
+{
+    "colors.enable": true,
+    "pairs.enableBackspace": true,
+    "pairs.enableCharacters": [
+        "(",
+        "[",
+        "{",
+        "'",
+        "\"",
+        "`"
+    ],
+    "coc.preferences.jumpCommand": "tab drop",
+    "clangd.path": "/usr/bin/clangd",
+    "suggest.noselect": true,
+    "clangd.fallbackFlags": [
+        "-xc++",
+        "-std=c++17",
+        "-I/usr/local/include/oatpp-1.3.0/oatpp"
+    ],
+    "highlight.colors.enable": true,
+    "hover.autoHide": true,
+    "list.floatPreview": true,
+    "outline.previewBorderRounded": true,
+    "suggest.timeout": 500,
+    "suggest.floatConfig": {
+        "border": true,
+        "shadow": true,
+        "winblend": 20,
+        "highlight": "CocFloating",
+        "borderhighlight": "CocFloating"
+    },
+    "suggest.maxCompleteItemCount": 256
+}
