@@ -19,7 +19,6 @@ elif [ $(readlink $waybar_dir/themes/theme.css) != "$waybar_dir/themes/${gtkThem
     reload_flag=1
 fi
 
-
 # calculate height from control file or monitor res
 
 b_height=`grep '^1|' $waybar_dir/config.ctl | cut -d '|' -f 2`
@@ -42,20 +41,21 @@ export g_paddin=$(( b_height*15/100 ))   # module padding 15% of height
 export w_radius=$(( b_height*30/100 ))   # workspace rad 30% of height
 export w_margin=$(( b_height*10/100 ))   # workspace margin 10% of height
 export w_paddin=$(( b_height*10/100 ))   # workspace padding 10% of height
-export w_padact=$(( b_height*40/100 ))   # workspace active padding 40% of height
+export w_padact=$(( b_height*15/100 ))   # workspace active padding 40% of height
 export s_fontpx=$(( b_height*38/100 ))   # font size 38% of height
 
 if [ $b_height -lt 30 ] ; then
-    export e_paddin=0
+    export e_paddin=2
 fi
-if [ $s_fontpx -lt 10 ] ; then
-    export s_fontpx=10
+if [ $s_fontpx -lt 16 ] ; then
+    export s_fontpx=16
 fi
 
 
 # list modules and generate theme style
 
 export modules_ls=$(grep -m 1 '".*.": {'  --exclude="$modules_dir/footer.jsonc" $modules_dir/*.jsonc | cut -d '"' -f 2 | awk -F '/' '{ if($1=="custom") print "#custom-"$NF"," ; else print "#"$NF","}')
+echo $modules_ls
 envsubst < $in_file > $out_file
 
 

@@ -1,0 +1,5 @@
+    "manjaro": {
+        "format": " {}",
+        "exec":"echo ; echo  Manjaro Support",
+        "on-click":"~/.config/hypr/scripts/logoutlaunch.sh 2"
+    },

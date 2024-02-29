@@ -13,6 +13,10 @@ window#waybar {
     background: @bar-bg;
 }
 
+window#waybar.empty #window {
+    background-color: transparent;
+}
+
 tooltip {
     background: @main-bg;
     color: @main-fg;
@@ -143,3 +147,4 @@ ${modules_ls}
     margin-left: ${e_margin}px;
     padding-left: ${e_paddin}px;
 }
+
