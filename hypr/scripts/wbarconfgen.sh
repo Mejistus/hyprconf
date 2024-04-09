@@ -85,6 +85,7 @@ gen_mod()
     mod="${mod// /"\",\""}"
 
     echo -e "\t\"modules-${pos}\": [\"custom/padd\",\"${mod}\",\"custom/padd\"]," >> $conf_file
+    echo "\t\"modules-${pos}\": [\"custom/padd\",\"${mod}\",\"custom/padd\"]," 
     write_mod=`echo $write_mod $mod`
 }
 

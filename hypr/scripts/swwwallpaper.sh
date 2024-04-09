@@ -59,10 +59,10 @@ Wall_Set()
     fi
 
     swww img "$wallSet" \
-    --transition-bezier .43,1.19,1,.4 \
+    --transition-bezier 1,1,1,1 \
     --transition-type "$xtrans" \
-    --transition-duration 0.7 \
-    --transition-fps 60 \
+    --transition-duration 1.5 \
+    --transition-fps 144 \
     --invert-y \
     --transition-pos "$( hyprctl cursorpos )"
 }
