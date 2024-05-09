@@ -1,4 +1,4 @@
-1|Catppuccin-Mocha|Catppuccin.catppuccin-vsc~Catppuccin Mocha|~/.config/swww/Catppuccin-Mocha/color-train.png
+1|Catppuccin-Mocha|Catppuccin.catppuccin-vsc~Catppuccin Mocha|~/.config/swww/Catppuccin-Mocha/house.jpg
 0|Catppuccin-Latte|Catppuccin.catppuccin-vsc~Catppuccin Latte|~/.config/swww/Catppuccin-Latte/shaded_landscape.jpg
 0|Decay-Green|decaycs.decay~Decayce|~/.config/swww/Decay-Green/blue_swirl.png
 0|Rose-Pine|mvllow.rose-pine~Rosé Pine|~/.config/swww/Rose-Pine/house.jpg
