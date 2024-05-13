@@ -27,7 +27,7 @@ ListView {
 
     implicitHeight: userItemHeight
 
-    activeFocusOnTab : true
+    // activeFocusOnTab : false
 
     /*
      * Signals that a user was explicitly selected

@@ -17,4 +17,5 @@ TextField {
     
         anchors.centerIn: parent
     }
+    activeFocusOnPress: true
 }
