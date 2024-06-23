@@ -5,12 +5,10 @@ screenshot
 effect-blur=15x15
 effect-vignette=1:1
 color=1f1d2e80
-font="Noto Sans CJK SC"
+font="Inter"
 indicator
 indicator-radius=200
 indicator-thickness=20
-indicator-caps-lock
-
 line-color=1f1d2e
 ring-color=191724
 inside-color=1f1d2e
@@ -34,7 +32,7 @@ bs-hl-color=31748f
 grace=2
 grace-no-mouse
 grace-no-touch
-datestr=%B%e日, 周%a
-timestr=%I:%M 
+datestr=周%a   %b %e日
+timestr=%I:%M %p
 fade-in=0.3
 ignore-empty-password
