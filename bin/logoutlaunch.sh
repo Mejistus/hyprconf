@@ -49,7 +49,7 @@ esac
 
 #// scale font size
 
-export fntSize=$(( y_mon * 2 / 100 ))
+export fntSize=$(( y_mon * 3 / 200 ))
 
 
 #// detect wallpaper brightness
