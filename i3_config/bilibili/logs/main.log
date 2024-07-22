@@ -1,0 +1,660 @@
+[2024-07-22 13:15:09.197] [info]  (SystemService)       [System info]:
+ {
+  osArch: 'x64',
+  processArch: 'x64',
+  osType: 'Linux',
+  platform: 'linux',
+  endianness: 'LE',
+  hostName: 'Asahi',
+  totalMemory: 32918130688
+}
+[2024-07-22 13:15:09.205] [info]  (SystemService)       [App info]:
+ {
+  version: '1.14.0',
+  initVersion: '1.14.0',
+  buildCode: '10010140002406171744',
+  buildId: '838596',
+  buildJobId: '15145830',
+  chid: 'official',
+  downloadPath: '/home/mejistus/Videos/bilibili'
+}
+[2024-07-22 13:15:09.210] [info]  (SystemService)       [User info] {}
+[2024-07-22 13:15:09.210] [info]  (SystemService)       Initing app configs!
+[2024-07-22 13:15:09.225] [info]  (SystemService)       Set initial version: 1.14.0
+[2024-07-22 13:15:09.263] [info]  (PlayerService)       Initing player exp.
+[2024-07-22 13:15:09.263] [info]  (PlayerService)       Load player config.
+[2024-07-22 13:15:09.270] [info]  (AppService)          Resource permision ok.
+[2024-07-22 13:15:09.270] [warn]  (AppService)          Run resource default...
+[2024-07-22 13:15:09.281] [info]  (AppService)             Local app server ready, port: 39523
+[2024-07-22 13:15:09.400] [info]  (AppEvents)              Process args ["/usr/lib/electron21/electron","/usr/lib/bilibili/app.asar"]
+[2024-07-22 13:15:09.420] [info]  (FfAbTestService)        Fetch FF info.
+[2024-07-22 13:15:09.432] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:15:09.447] [info]  (ReportService)          Initing log-report!
+[2024-07-22 13:15:09.494] [info]  (AuthService)            init buivd 
+[2024-07-22 13:15:09.494] [info]  (AuthService)            no buvid
+[2024-07-22 13:15:09.494] [info]  (AuthService)            notfound buvid
+[2024-07-22 13:15:09.538] [info]  (DownloadService)        Init bili-download!
+[2024-07-22 13:15:09.561] [info]  (SystemService)          Initing ffmpeg!
+[2024-07-22 13:15:09.561] [info]  (SystemService)          Creating ffmpeg dir: /home/mejistus/.config/bilibili/ffmpeg
+[2024-07-22 13:15:09.562] [info]  (SystemService)          Fetch ffmpeg
+[2024-07-22 13:15:09.636] [info]  (ReportService)          Init log-report success!
+[2024-07-22 13:15:09.658] [info]  (AppService)             App ready!
+[2024-07-22 13:15:09.713] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 13:15:09.719] [info]  (AppService)             Local server ready, port: 22331
+[2024-07-22 13:15:09.720] [info]  (AuthService)            Updating cookies!
+[2024-07-22 13:15:10.272] [debug] (AppService)             Creating windows!
+[2024-07-22 13:15:10.287] [info]  (WindowFactory)          Main window created!
+[2024-07-22 13:15:10.296] [info]  (TrayMenuService)        Creating app tray.
+[2024-07-22 13:15:10.298] [info]  (TrayMenuService)        Creating app menu.
+[2024-07-22 13:15:10.300] [info]  (ReportService)          Initing performance samples!
+[2024-07-22 13:15:10.668] [info]  (SystemService)          NativeTheme updated, shouldUseDarkColors: false
+[2024-07-22 13:15:10.747] [info]  (FfAbTestService)        FF env, s-c undefined-prod
+[2024-07-22 13:15:10.786] [info]  (FfAbTestService)        FF versions, l-r: NaN-33450
+[2024-07-22 13:15:10.787] [info]  (FfAbTestService)        Fetch FF details, env: prod
+[2024-07-22 13:15:10.881] [info]  (PlayerService)          Init player versions.
+[2024-07-22 13:15:10.883] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:15:11.129] [info]  (AuthService)            set buvid in regedit
+[2024-07-22 13:15:11.317] [info]  (AuthService)            Updating cookies!
+[2024-07-22 13:15:11.863] [info]  (AuthService)            set buvid in regedit succeedsystem illegal
+[2024-07-22 13:15:11.987] [info]  (NotificationService)    Notification conf updated: {"on":true,"initTime":10,"firstPush":-1,"pushGap":120,"dynamic":{"on":true,"probability":0.5},"live":{"on":true,"probability":0.5},"hotsSeries":{"on":true,"day":5,"hour":18}} true
+[2024-07-22 13:15:11.988] [info]  (SystemService)          Fetch appConfig success!
+[2024-07-22 13:15:12.125] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:15:12.244] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 13:15:12.469] [info]  (SystemService)          Fetch ffmpeg success!
+[2024-07-22 13:15:12.476] [info]  (SystemService)          Unzip ffmpeg
+[2024-07-22 13:15:12.885] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:15:12.937] [debug] (WindowFactory)          Splash window ready!
+[2024-07-22 13:15:12.955] [info]  (WindowFactory)          Player window created!
+[2024-07-22 13:15:13.469] [info]  (AuthController)         set gaia fingerprint webgl
+[2024-07-22 13:15:14.066] [info]  (RenderProcess)          Activate page: HomeRecomand
+[2024-07-22 13:15:14.073] [info]  (WindowController)       Player window ready!
+[2024-07-22 13:15:14.214] [info]  (SystemService)          Unzip ffmpeg success!
+[2024-07-22 13:15:14.300] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:15:14.550] [info]  (AuthService)            Updating cookies!
+[2024-07-22 13:15:14.613] [info]  (AuthService)            Updating cookies!
+[2024-07-22 13:15:14.833] [info]  (WindowController)       Search page ready!
+[2024-07-22 13:15:14.865] [info]  (WindowEvents)           Register boss shortcut: Ctrl+Shift+C
+[2024-07-22 13:15:14.866] [info]  (WindowEvents)           Is boss shortcut registered: true
+[2024-07-22 13:15:14.866] [debug] (WindowFactory)          Main window ready!
+[2024-07-22 13:15:14.872] [info]  (DownloadService)        Init DownloadURL Events
+[2024-07-22 13:15:14.885] [info]  (AuthService)            Judge login status!
+[2024-07-22 13:15:14.900] [warn]  (UpdateService)          APPIMAGE env is not defined, current application is not an AppImage
+[2024-07-22 13:15:14.901] [info]  (UpdateService)          Patch info: [0] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.14.0","sv":"1.9.0","ev":"1.14.0"}
+[2024-07-22 13:15:14.901] [info]  (UpdateService)          Patch info: [1] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.13.6","sv":"1.9.0","ev":"1.13.6"}
+[2024-07-22 13:15:14.901] [info]  (UpdateService)          Patch info: [2] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.13.5","sv":"1.9.0","ev":"1.13.5"}
+[2024-07-22 13:15:14.907] [info]  (NotificationService)    Notification mainWindowReady
+[2024-07-22 13:15:14.938] [info]  (AuthService)            Init system-fp!
+[2024-07-22 13:15:14.947] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 13:15:14.987] [info]  (DownloadService)        Check auto start download:  undefined
+[2024-07-22 13:15:15.066] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 13:15:15.375] [info]  (AuthService)            Init system-fp success!
+[2024-07-22 13:15:15.657] [info]  (AuthService)            Login status:  false
+[2024-07-22 13:17:31.746] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:17:31.970] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:17:36.921] [info]  (AuthController)         Request login!
+[2024-07-22 13:17:36.948] [info]  (WindowFactory)          Login window created!
+[2024-07-22 13:17:37.057] [info]  (WindowFactory)          Initialize login page!
+[2024-07-22 13:17:37.072] [info]  (WindowEvents)           LoginWindow page ready!
+[2024-07-22 13:17:37.951] [info]  (AuthController)         Init login buvid!
+[2024-07-22 13:17:38.765] [info]  (AuthService)            Checking login status!
+[2024-07-22 13:17:59.255] [info]  (AuthController)         Setup BiliConf, true true
+[2024-07-22 13:17:59.300] [info]  (AuthService)            Login status true, updating cookies!
+[2024-07-22 13:17:59.336] [info]  (AuthService)            Updating cookies!
+[2024-07-22 13:17:59.343] [info]  (AuthService)            Get user info!
+[2024-07-22 13:17:59.374] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:17:59.379] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:17:59.382] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:17:59.409] [info]  (AuthService)            Login success!
+[2024-07-22 13:17:59.432] [info]  (EventsService)          Login successful!
+[2024-07-22 13:17:59.482] [info]  (DownloadService)        Update bili-download, cachePath: /home/mejistus/Videos/bilibili
+[2024-07-22 13:17:59.486] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:17:59.941] [info]  (AuthController)         set gaia fingerprint webgl
+[2024-07-22 13:18:00.064] [info]  (RenderProcess)          Activate page: HomeRecomand
+[2024-07-22 13:18:00.080] [info]  (WindowController)       Player window ready!
+[2024-07-22 13:18:00.233] [info]  (WindowController)       Search page ready!
+[2024-07-22 13:18:07.068] [info]  (RenderProcess)          Activate page: MineHistory
+[2024-07-22 13:18:09.301] [info]  (WindowController)       Open player window: {"type":"ugc","bvid":"BV1SY4y1d7yZ","p":1,"fromSpmid":"main.mine-history.0.0.pv"}
+[2024-07-22 13:18:28.311] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:18:30.036] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:18:30.259] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:18:30.757] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:20:05.228] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:20:05.453] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:20:14.704] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:20:15.483] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:20:15.715] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:20:17.455] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:20:18.739] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:20:18.985] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:20:19.337] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:21:07.727] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:21:07.938] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:21:19.054] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:21:20.365] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:23:16.361] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:23:16.579] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:23:18.262] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:23:25.141] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:23:25.362] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:23:26.004] [info]  (WindowEvents)           Start close window:  mainWindow
+[2024-07-22 13:23:26.004] [info]  (WindowFactory)          Main window closed!
+[2024-07-22 13:23:26.012] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:23:26.013] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:23:26.013] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:23:26.613] [info]  (WindowEvents)           Start close window:  playerWindow
+[2024-07-22 13:23:26.635] [info]  (WindowEvents)           Start close window:  playerWindow
+[2024-07-22 13:23:26.635] [info]  (WindowFactory)          Player window closed!
+[2024-07-22 13:23:26.639] [info]  (SystemService)          Start app sleep timer! (900000ms)
+[2024-07-22 13:23:26.860] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:25:46.769] [info]  (SystemService)       [System info]:
+ {
+  osArch: 'x64',
+  processArch: 'x64',
+  osType: 'Linux',
+  platform: 'linux',
+  endianness: 'LE',
+  hostName: 'Asahi',
+  totalMemory: 32918130688
+}
+[2024-07-22 13:25:46.775] [info]  (SystemService)       [App info]:
+ {
+  version: '1.14.0',
+  initVersion: '1.14.0',
+  buildCode: '10010140002406171744',
+  buildId: '838596',
+  buildJobId: '15145830',
+  chid: 'official',
+  downloadPath: '/home/mejistus/Videos/bilibili'
+}
+[2024-07-22 13:25:46.778] [info]  (SystemService)       [User info] { isLogin: true, mid: 1400915060, uname: 'Automatus' }
+[2024-07-22 13:25:46.779] [info]  (SystemService)       Initing app configs!
+[2024-07-22 13:25:46.804] [info]  (PlayerService)       Initing player exp.
+[2024-07-22 13:25:46.804] [info]  (PlayerService)       Load player config.
+[2024-07-22 13:25:46.811] [info]  (AppService)          Resource permision ok.
+[2024-07-22 13:25:46.811] [warn]  (AppService)          Run resource default...
+[2024-07-22 13:25:46.819] [info]  (AppService)             Local app server ready, port: 38841
+[2024-07-22 13:25:46.820] [warn]  (AppEvents)              Second instance!
+[2024-07-22 13:25:46.821] [info]  (SystemService)          Clear app sleep timer!
+[2024-07-22 13:25:46.822] [info]  (FfAbTestService)        Fetch FF info.
+[2024-07-22 13:25:46.831] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:25:46.844] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:25:46.845] [info]  (ReportService)          Initing log-report!
+[2024-07-22 13:25:46.854] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:25:46.867] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 13:25:46.917] [info]  (AuthService)            init buivd 73FDD4BB055D6407F6F88E4024072205YIaTWqSgxQJaK5+eScDxdw
+[2024-07-22 13:25:46.921] [info]  (AuthService)            buvidmark 1
+[2024-07-22 13:25:46.931] [info]  (DownloadService)        Init bili-download!
+[2024-07-22 13:25:46.950] [info]  (SystemService)          Initing ffmpeg!
+[2024-07-22 13:25:47.024] [info]  (ReportService)          Init log-report success!
+[2024-07-22 13:25:47.035] [info]  (AppService)             App ready!
+[2024-07-22 13:25:47.046] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 13:25:47.049] [info]  (AppService)             Local server ready, port: 22332
+[2024-07-22 13:25:47.050] [info]  (AuthService)            Updating cookies!
+[2024-07-22 13:25:47.050] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:25:47.107] [debug] (AppService)             Creating windows!
+[2024-07-22 13:25:47.116] [info]  (WindowFactory)          Main window created!
+[2024-07-22 13:25:47.117] [info]  (TrayMenuService)        Creating app tray.
+[2024-07-22 13:25:47.117] [info]  (TrayMenuService)        Creating app menu.
+[2024-07-22 13:25:47.120] [info]  (ReportService)          Initing performance samples!
+[2024-07-22 13:25:47.189] [info]  (SystemService)          NativeTheme updated, shouldUseDarkColors: false
+[2024-07-22 13:25:47.231] [info]  (SystemService)          Start app sleep timer! (900000ms)
+[2024-07-22 13:25:47.232] [info]  (WindowEvents)           Window closed:  mainWindow
+[2024-07-22 13:25:48.049] [info]  (WindowController)       Open player window: {"type":"ugc","bvid":"BV1SY4y1d7yZ","p":1,"fromSpmid":"main.mine-history.0.0.pv"}
+[2024-07-22 13:25:48.069] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:25:51.926] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:25:52.467] [info]  (WindowController)       Open player window: {"type":"ugc","bvid":"BV1qH4y1c7yX","p":1,"fromSpmid":"main.mine-history.0.0.pv"}
+[2024-07-22 13:25:52.482] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:01.659] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:26:12.651] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:12.883] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:26:14.673] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:14.816] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:15.488] [info]  (WindowEvents)           Start close window:  playerWindow
+[2024-07-22 13:26:15.534] [info]  (WindowEvents)           Start close window:  playerWindow
+[2024-07-22 13:26:15.535] [info]  (WindowFactory)          Player window closed!
+[2024-07-22 13:26:15.546] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:15.561] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:15.565] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:18.317] [info]  (WindowController)       Open player window: {"type":"ugc","bvid":"BV1oP411k7fu","p":1,"fromSpmid":"main.mine-history.0.0.pv"}
+[2024-07-22 13:26:18.327] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:19.579] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:26:33.894] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:34.117] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:26:36.102] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:36.682] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:37.068] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:37.514] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:37.820] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:38.947] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:40.265] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:26:40.608] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:40.829] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:26:41.379] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:43.859] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:46.405] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:26:47.531] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:55.682] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:26:57.275] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:26:57.502] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:27:11.032] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:28:50.684] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:28:50.915] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:28:57.489] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:29:08.246] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:29:08.468] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:29:19.170] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:29:37.468] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:29:37.689] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:29:38.233] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:29:38.813] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:29:39.033] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:29:40.140] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:29:52.064] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:29:52.282] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:29:54.557] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:30:09.258] [info]  (UpdateService)          Patch info: [0] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.14.0","sv":"1.9.0","ev":"1.14.0"}
+[2024-07-22 13:30:09.258] [info]  (UpdateService)          Patch info: [1] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.13.6","sv":"1.9.0","ev":"1.13.6"}
+[2024-07-22 13:30:09.258] [info]  (UpdateService)          Patch info: [2] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.13.5","sv":"1.9.0","ev":"1.13.5"}
+[2024-07-22 13:30:09.258] [info]  (NotificationService)    Notification conf updated: {"on":true,"initTime":10,"firstPush":-1,"pushGap":120,"dynamic":{"on":true,"probability":0.5},"live":{"on":true,"probability":0.5},"hotsSeries":{"on":true,"day":5,"hour":18}} false
+[2024-07-22 13:30:09.259] [info]  (SystemService)          Fetch appConfig success!
+[2024-07-22 13:30:28.936] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:30:29.156] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:30:36.567] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:31:16.435] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:31:16.672] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:31:20.672] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:31:37.323] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:31:37.546] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:31:41.258] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:32:11.971] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:32:12.193] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:32:27.933] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:38:23.058] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:38:23.063] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:38:23.175] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:38:23.273] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:38:23.768] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:38:27.546] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:38:30.678] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:38:33.337] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:45:09.225] [info]  (PlayerService)          Load player config.
+[2024-07-22 13:45:14.490] [error] (SystemService)          Fetch appConfig error! FetchError: request to https://api.bilibili.com/x/elec-frontend/config/appconfig failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 13:45:16.751] [info]  (PlayerService)          Init player versions.
+[2024-07-22 13:49:39.474] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:49:39.476] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:49:39.693] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:49:39.936] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 13:49:42.003] [info]  (WindowEvents)           Start close window:  mainWindow
+[2024-07-22 13:49:43.946] [info]  (ConfigController)       SetIsQuitByCloseMain:  false
+[2024-07-22 13:49:44.001] [info]  (WindowEvents)           Start close window:  mainWindow
+[2024-07-22 13:49:44.002] [info]  (WindowFactory)          Main window closed!
+[2024-07-22 13:49:44.008] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:49:44.036] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:49:44.036] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 13:49:47.761] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:49:48.851] [error] (AuthService)            Refresh userInfo error: FetchError: request to https://api.bilibili.com/x/web-interface/nav failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 13:57:29.216] [info]  (SystemService)       [System info]:
+ {
+  osArch: 'x64',
+  processArch: 'x64',
+  osType: 'Linux',
+  platform: 'linux',
+  endianness: 'LE',
+  hostName: 'Asahi',
+  totalMemory: 32918130688
+}
+[2024-07-22 13:57:29.221] [info]  (SystemService)       [App info]:
+ {
+  version: '1.14.0',
+  initVersion: '1.14.0',
+  buildCode: '10010140002406171744',
+  buildId: '838596',
+  buildJobId: '15145830',
+  chid: 'official',
+  downloadPath: '/home/mejistus/Videos/bilibili'
+}
+[2024-07-22 13:57:29.225] [info]  (SystemService)       [User info] { isLogin: true, mid: 1400915060, uname: 'Automatus' }
+[2024-07-22 13:57:29.225] [info]  (SystemService)       Initing app configs!
+[2024-07-22 13:57:29.251] [info]  (PlayerService)       Initing player exp.
+[2024-07-22 13:57:29.251] [info]  (PlayerService)       Load player config.
+[2024-07-22 13:57:29.258] [info]  (AppService)          Resource permision ok.
+[2024-07-22 13:57:29.258] [warn]  (AppService)          Run resource default...
+[2024-07-22 13:57:29.266] [info]  (AppService)             Local app server ready, port: 45375
+[2024-07-22 13:57:29.504] [info]  (AppEvents)              Process args ["/usr/lib/electron21/electron","/usr/lib/bilibili/app.asar"]
+[2024-07-22 13:57:29.516] [info]  (FfAbTestService)        Fetch FF info.
+[2024-07-22 13:57:29.521] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:57:29.529] [info]  (ReportService)          Initing log-report!
+[2024-07-22 13:57:29.537] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 13:57:29.548] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 13:57:29.585] [info]  (AuthService)            init buivd 73FDD4BB055D6407F6F88E4024072205YIaTWqSgxQJaK5+eScDxdw
+[2024-07-22 13:57:29.589] [info]  (AuthService)            buvidmark 1
+[2024-07-22 13:57:29.597] [info]  (DownloadService)        Init bili-download!
+[2024-07-22 13:57:29.615] [info]  (SystemService)          Initing ffmpeg!
+[2024-07-22 13:57:29.689] [info]  (ReportService)          Init log-report success!
+[2024-07-22 13:57:29.701] [info]  (AppService)             App ready!
+[2024-07-22 13:57:29.711] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 13:57:29.713] [info]  (AppService)             Local server ready, port: 22331
+[2024-07-22 13:57:29.714] [info]  (AuthService)            Updating cookies!
+[2024-07-22 13:57:29.763] [debug] (AppService)             Creating windows!
+[2024-07-22 13:57:29.775] [info]  (WindowFactory)          Main window created!
+[2024-07-22 13:57:29.776] [info]  (TrayMenuService)        Creating app tray.
+[2024-07-22 13:57:29.777] [info]  (TrayMenuService)        Creating app menu.
+[2024-07-22 13:57:29.778] [info]  (ReportService)          Initing performance samples!
+[2024-07-22 13:57:29.853] [info]  (SystemService)          NativeTheme updated, shouldUseDarkColors: false
+[2024-07-22 13:57:30.323] [info]  (WindowEvents)           App activated!
+[2024-07-22 13:57:30.552] [debug] (WindowFactory)          Splash window ready!
+[2024-07-22 13:57:30.586] [info]  (WindowFactory)          Player window created!
+[2024-07-22 13:57:31.283] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 13:57:31.625] [info]  (AuthController)         set gaia fingerprint webgl
+[2024-07-22 13:57:31.723] [info]  (WindowController)       Player window ready!
+[2024-07-22 13:57:31.794] [info]  (RenderProcess)          Activate page: HomeRecomand
+[2024-07-22 13:57:31.976] [info]  (WindowController)       Search page ready!
+[2024-07-22 13:57:32.023] [info]  (WindowEvents)           Register boss shortcut: Ctrl+Shift+C
+[2024-07-22 13:57:32.023] [info]  (WindowEvents)           Is boss shortcut registered: true
+[2024-07-22 13:57:32.023] [debug] (WindowFactory)          Main window ready!
+[2024-07-22 13:57:32.035] [info]  (DownloadService)        Init DownloadURL Events
+[2024-07-22 13:57:32.053] [info]  (AuthService)            Checking refresh BiliConf.
+[2024-07-22 13:57:32.062] [info]  (AuthService)            Judge login status!
+[2024-07-22 13:57:32.070] [warn]  (UpdateService)          APPIMAGE env is not defined, current application is not an AppImage
+[2024-07-22 13:57:32.074] [info]  (NotificationService)    Notification mainWindowReady
+[2024-07-22 13:57:32.077] [info]  (AuthService)            System-fp ready!
+[2024-07-22 13:57:32.092] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 13:57:32.095] [info]  (DownloadService)        Check auto start download:  undefined
+[2024-07-22 13:57:32.102] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 13:57:37.417] [error] (PlayerService)          Load player config error: FetchError: request to https://api.bilibili.com/x/elec-frontend/config/playerconfig failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 13:57:37.418] [error] (SystemService)          Fetch appConfig error! FetchError: request to https://api.bilibili.com/x/elec-frontend/config/appconfig failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 13:57:42.660] [error] (FfAbTestService)        Fetch FF error: FetchError: request to https://api.bilibili.com/x/polymer/pc-electron/ff-version failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 13:58:07.453] [error] (AuthService)            Checking refresh BiliConf error!
+[2024-07-22 13:58:09.476] [error] (AuthService)            Judge login error! FetchError: request to https://api.bilibili.com/x/web-interface/nav failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 14:02:39.420] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:53:07.651] [info]  (SystemService)       [System info]:
+ {
+  osArch: 'x64',
+  processArch: 'x64',
+  osType: 'Linux',
+  platform: 'linux',
+  endianness: 'LE',
+  hostName: 'Asahi',
+  totalMemory: 32918122496
+}
+[2024-07-22 16:53:07.662] [info]  (SystemService)       [App info]:
+ {
+  version: '1.14.0',
+  initVersion: '1.14.0',
+  buildCode: '10010140002406171744',
+  buildId: '838596',
+  buildJobId: '15145830',
+  chid: 'official',
+  downloadPath: '/home/mejistus/Videos/bilibili'
+}
+[2024-07-22 16:53:07.666] [info]  (SystemService)       [User info] { isLogin: true, mid: 1400915060, uname: 'Automatus' }
+[2024-07-22 16:53:07.666] [info]  (SystemService)       Initing app configs!
+[2024-07-22 16:53:07.693] [info]  (PlayerService)       Initing player exp.
+[2024-07-22 16:53:07.693] [info]  (PlayerService)       Load player config.
+[2024-07-22 16:53:07.700] [info]  (AppService)          Resource permision ok.
+[2024-07-22 16:53:07.700] [warn]  (AppService)          Run resource default...
+[2024-07-22 16:53:07.708] [info]  (AppService)             Local app server ready, port: 40937
+[2024-07-22 16:53:07.846] [info]  (AppEvents)              Process args ["/usr/lib/electron21/electron","/usr/lib/bilibili/app.asar"]
+[2024-07-22 16:53:07.857] [info]  (FfAbTestService)        Fetch FF info.
+[2024-07-22 16:53:07.862] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 16:53:07.871] [info]  (ReportService)          Initing log-report!
+[2024-07-22 16:53:07.879] [info]  (FfAbTestService)        Parse FF tree.
+[2024-07-22 16:53:07.891] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 16:53:07.928] [info]  (AuthService)            init buivd 73FDD4BB055D6407F6F88E4024072205YIaTWqSgxQJaK5+eScDxdw
+[2024-07-22 16:53:07.932] [info]  (AuthService)            buvidmark 1
+[2024-07-22 16:53:07.941] [info]  (DownloadService)        Init bili-download!
+[2024-07-22 16:53:07.959] [info]  (SystemService)          Initing ffmpeg!
+[2024-07-22 16:53:08.039] [info]  (ReportService)          Init log-report success!
+[2024-07-22 16:53:08.058] [info]  (AppService)             App ready!
+[2024-07-22 16:53:08.068] [info]  (NotificationService)    Notification appReady or abTestInfoChange false
+[2024-07-22 16:53:08.070] [info]  (AppService)             Local server ready, port: 22331
+[2024-07-22 16:53:08.071] [info]  (AuthService)            Updating cookies!
+[2024-07-22 16:53:08.123] [debug] (AppService)             Creating windows!
+[2024-07-22 16:53:08.137] [info]  (WindowFactory)          Main window created!
+[2024-07-22 16:53:08.139] [info]  (TrayMenuService)        Creating app tray.
+[2024-07-22 16:53:08.139] [info]  (TrayMenuService)        Creating app menu.
+[2024-07-22 16:53:08.141] [info]  (ReportService)          Initing performance samples!
+[2024-07-22 16:53:08.220] [info]  (SystemService)          NativeTheme updated, shouldUseDarkColors: false
+[2024-07-22 16:53:08.648] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:53:08.883] [debug] (WindowFactory)          Splash window ready!
+[2024-07-22 16:53:08.911] [info]  (WindowFactory)          Player window created!
+[2024-07-22 16:53:09.392] [info]  (AuthController)         set gaia fingerprint webgl
+[2024-07-22 16:53:09.480] [info]  (WindowController)       Player window ready!
+[2024-07-22 16:53:09.571] [info]  (RenderProcess)          Activate page: HomeRecomand
+[2024-07-22 16:53:09.742] [info]  (WindowController)       Search page ready!
+[2024-07-22 16:53:09.907] [info]  (WindowEvents)           Register boss shortcut: Ctrl+Shift+C
+[2024-07-22 16:53:09.908] [info]  (WindowEvents)           Is boss shortcut registered: true
+[2024-07-22 16:53:09.908] [debug] (WindowFactory)          Main window ready!
+[2024-07-22 16:53:09.913] [info]  (DownloadService)        Init DownloadURL Events
+[2024-07-22 16:53:09.928] [info]  (AuthService)            Checking refresh BiliConf.
+[2024-07-22 16:53:09.937] [info]  (AuthService)            Judge login status!
+[2024-07-22 16:53:09.947] [warn]  (UpdateService)          APPIMAGE env is not defined, current application is not an AppImage
+[2024-07-22 16:53:09.952] [info]  (NotificationService)    Notification mainWindowReady
+[2024-07-22 16:53:09.956] [info]  (AuthService)            System-fp ready!
+[2024-07-22 16:53:09.972] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 16:53:09.975] [info]  (DownloadService)        Check auto start download:  undefined
+[2024-07-22 16:53:09.983] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 16:53:15.866] [error] (SystemService)          Fetch appConfig error! FetchError: request to https://api.bilibili.com/x/elec-frontend/config/appconfig failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 16:53:16.127] [error] (PlayerService)          Load player config error: FetchError: request to https://api.bilibili.com/x/elec-frontend/config/playerconfig failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 16:53:17.879] [error] (FfAbTestService)        Fetch FF error: FetchError: request to https://api.bilibili.com/x/polymer/pc-electron/ff-version failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 16:53:29.572] [info]  (RenderProcess)          Activate page: SearchPage
+[2024-07-22 16:53:32.286] [info]  (RenderProcess)          Activate page: MineHistory
+[2024-07-22 16:53:33.716] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 16:53:33.732] [info]  (DownloadService)        Clear check download timer.
+[2024-07-22 16:53:33.732] [info]  (RenderProcess)          Activate page: MineDownload
+[2024-07-22 16:53:34.603] [info]  (RenderProcess)          Activate page: MineFavorite
+[2024-07-22 16:53:37.514] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:53:45.899] [error] (AuthService)            Judge login error! FetchError: request to https://api.bilibili.com/x/web-interface/nav failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 16:53:46.168] [error] (AuthService)            Checking refresh BiliConf error!
+[2024-07-22 16:54:22.337] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:22.345] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:22.349] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:22.547] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:54:25.572] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:54:26.296] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:36.876] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:36.881] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:36.886] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:37.103] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:54:41.089] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:54:44.479] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:44.484] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:44.488] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:54:44.685] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:54:45.447] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:55:00.293] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:00.297] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:00.302] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:00.501] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:55:01.797] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:55:02.057] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:02.062] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:02.067] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:02.298] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:55:03.833] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:55:04.058] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:04.064] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:04.070] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:04.272] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:55:13.059] [info]  (WindowController)       Open player window: {"type":"ugc","bvid":"BV1ax4y1x7we","fromSpmid":"main.mine-collection.0.0.pv","mediaList":null}
+[2024-07-22 16:55:29.671] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:30.002] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 16:55:30.150] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:30.528] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 16:55:30.829] [info]  (WindowEvents)           Focus on mainWindow!
+[2024-07-22 16:55:32.625] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 16:55:35.355] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:55:44.878] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 16:55:45.104] [info]  (WindowEvents)           App activated!
+[2024-07-22 16:55:45.654] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 16:56:47.989] [error] (AuthService)            Refresh userInfo error: FetchError: request to https://api.bilibili.com/x/web-interface/nav failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (/usr/lib/bilibili/app.asar/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:527:28)
+    at TLSSocket.socketErrorListener (node:_http_client:454:9)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2024-07-22 17:01:50.909] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:01:51.135] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:01:52.091] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:01:52.317] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:01:52.533] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:01:53.000] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:01:53.245] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:01:53.466] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:01:56.474] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:05:00.602] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:05:00.827] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:05:01.435] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:05:35.604] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:05:35.831] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:05:37.041] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:06:17.475] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:06:17.706] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:06:18.376] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:06:28.759] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:06:28.988] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:06:29.826] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:07:50.693] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:07:50.918] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:07:51.800] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:07:52.958] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:07:53.180] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:07:53.900] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:08:07.718] [info]  (UpdateService)          Patch info: [0] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.14.0","sv":"1.9.0","ev":"1.14.0"}
+[2024-07-22 17:08:07.718] [info]  (UpdateService)          Patch info: [1] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.13.6","sv":"1.9.0","ev":"1.13.6"}
+[2024-07-22 17:08:07.718] [info]  (UpdateService)          Patch info: [2] {"on":true,"s":"04c6fb8672","b":"0~999","bc":1000,"v":"1.13.5","sv":"1.9.0","ev":"1.13.5"}
+[2024-07-22 17:08:07.718] [info]  (NotificationService)    Notification conf updated: {"on":true,"initTime":10,"firstPush":-1,"pushGap":120,"dynamic":{"on":true,"probability":0.5},"live":{"on":true,"probability":0.5},"hotsSeries":{"on":true,"day":5,"hour":18}} false
+[2024-07-22 17:08:07.719] [info]  (SystemService)          Fetch appConfig success!
+[2024-07-22 17:08:21.141] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:08:21.360] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:08:22.351] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:08:34.845] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:08:35.066] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:08:35.546] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:09:18.781] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:09:19.009] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:09:19.388] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:09:19.821] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:09:20.046] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:09:21.838] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:09:43.862] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:09:44.080] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:09:44.584] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:11:32.822] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:11:33.047] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:11:33.952] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:12:16.477] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:12:16.696] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:12:24.356] [info]  (WindowController)       Open main window!
+[2024-07-22 17:12:41.735] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:12:45.103] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:12:45.328] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:12:45.791] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:12:58.478] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:12:58.697] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:13:01.294] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:13:08.541] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:13:08.788] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:13:10.129] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:13:13.049] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:13:13.275] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:13:13.885] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:14:03.230] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:14:03.456] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:14:03.787] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:14:24.028] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:14:24.250] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:14:24.808] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:14:25.174] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:14:25.397] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:14:25.851] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:14:26.243] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:14:26.463] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:14:26.768] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:15:35.840] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:15:36.062] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:15:37.257] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:15:40.525] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:15:40.751] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:15:41.489] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:15:58.086] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:15:58.301] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:16:04.467] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:16:16.944] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:16:17.154] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:16:18.025] [info]  (WindowEvents)           App deactivated!
+[2024-07-22 17:16:18.495] [info]  (WindowEvents)           Focus on playerWindow!
+[2024-07-22 17:16:18.731] [info]  (WindowEvents)           App activated!
+[2024-07-22 17:16:19.363] [info]  (WindowEvents)           App deactivated!

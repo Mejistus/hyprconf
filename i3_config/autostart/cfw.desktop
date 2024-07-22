@@ -1,0 +1,8 @@
+[Desktop Entry]
+    Type=Application
+    Version=0.20.39
+    Name=Clash for Windows
+    Comment=Clash for Windows startup script
+    Exec="/home/mejistus/Public/Clash/cfw"
+    StartupNotify=false
+    Terminal=false

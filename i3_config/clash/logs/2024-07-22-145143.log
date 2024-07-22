@@ -1,0 +1,1604 @@
+14:51:43 INF inbound create success inbound=mixed addr=:7890 network=tcp
+14:51:43 INF inbound create success inbound=mixed addr=:7890 network=udp
+14:51:43 INF [API] listening addr=127.0.0.1:43441
+14:51:43 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:38166 rAddr=raw.githubusercontent.com:443
+14:51:43 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:38188 rAddr=raw.githubusercontent.com:443
+14:51:43 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:38180 rAddr=api.github.com:443 proxy=DIRECT
+14:51:43 INF [Config] initial compatible provider name=苹果服务
+14:51:43 INF [Config] initial compatible provider name=哔哩哔哩
+14:51:43 INF [Config] initial compatible provider name=微软服务
+14:51:43 INF [Config] initial compatible provider name=ChatGPT
+14:51:43 INF [Config] initial compatible provider name=TikTok
+14:51:43 INF [Config] initial compatible provider name=磁力下载
+14:51:43 INF [Config] initial compatible provider name=境内使用
+14:51:43 INF [Config] initial compatible provider name=故障转移
+14:51:43 INF [Config] initial compatible provider name=自动选择
+14:51:43 INF [Config] initial compatible provider name=Telegram
+14:51:43 INF [Config] initial compatible provider name=节点选择
+14:51:43 INF [Config] initial compatible provider name=Steam
+14:51:43 INF [Config] initial compatible provider name=Copilot
+14:51:43 INF [Config] initial compatible provider name=海外使用
+14:51:43 INF [Config] initial compatible provider name=谷歌服务
+14:51:43 INF [Config] initial compatible provider name=Twitter
+14:51:43 INF [Config] initial compatible provider name=Netflix
+14:51:43 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+14:51:43 INF [UDP] connected lAddr=198.18.0.1:60052 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:43 INF [UDP] connected lAddr=198.18.0.1:59456 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:44 INF [TCP] connected lAddr=198.18.0.1:57990 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+14:51:45 INF [UDP] connected lAddr=198.18.0.1:60106 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:45 INF [UDP] connected lAddr=198.18.0.1:58693 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:46 INF [TCP] connected lAddr=198.18.0.1:58006 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+14:51:49 INF [UDP] connected lAddr=198.18.0.1:54344 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:49 INF [UDP] connected lAddr=198.18.0.1:45512 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:50 INF [TCP] connected lAddr=198.18.0.1:58454 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+14:51:57 INF [UDP] connected lAddr=198.18.0.1:52315 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:57 INF [UDP] connected lAddr=198.18.0.1:51105 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:51:57 INF [TCP] connected lAddr=198.18.0.1:59996 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:13 INF [UDP] connected lAddr=198.18.0.1:37146 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:52:36 INF [TCP] connected lAddr=127.0.0.1:57322 rAddr=api.mason-registry.dev:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:37 INF [TCP] connected lAddr=127.0.0.1:57332 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:38 INF [TCP] connected lAddr=127.0.0.1:57342 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:39 INF [TCP] connected lAddr=127.0.0.1:57354 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:40 INF [TCP] connected lAddr=127.0.0.1:57356 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:45 INF [UDP] connected lAddr=198.18.0.1:56292 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:52:48 INF [TCP] connected lAddr=127.0.0.1:38122 rAddr=nodejs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:49 INF [TCP] connected lAddr=127.0.0.1:38126 rAddr=iojs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:52:58 INF [UDP] connected lAddr=198.18.0.1:51278 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:00 INF [UDP] connected lAddr=198.18.0.1:58990 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:06 INF [TCP] connected lAddr=127.0.0.1:40284 rAddr=api.mason-registry.dev:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:06 INF [TCP] connected lAddr=127.0.0.1:40286 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:07 INF [TCP] connected lAddr=127.0.0.1:53708 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:09 INF [TCP] connected lAddr=127.0.0.1:53724 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:09 INF [TCP] connected lAddr=127.0.0.1:53732 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:19 INF [UDP] connected lAddr=198.18.0.1:35207 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:19 INF [UDP] connected lAddr=198.18.0.1:47798 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:19 INF [UDP] connected lAddr=198.18.0.1:57489 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:19 INF [UDP] connected lAddr=198.18.0.1:56401 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:30 INF [UDP] connected lAddr=198.18.0.1:50286 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:30 INF [TCP] connected lAddr=127.0.0.1:41338 rAddr=api.mason-registry.dev:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:30 INF [UDP] connected lAddr=198.18.0.1:43317 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:31 INF [TCP] connected lAddr=127.0.0.1:41342 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49372 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49318 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49388 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49336 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49428 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49426 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49352 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49404 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49412 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49322 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49360 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=198.18.0.1:49380 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [TCP] connected lAddr=127.0.0.1:41346 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:31 INF [UDP] connected lAddr=198.18.0.1:36841 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:32 INF [TCP] connected lAddr=198.18.0.1:56604 rAddr=20.205.243.166:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:32 INF [UDP] connected lAddr=198.18.0.1:41231 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:33 INF [TCP] connected lAddr=198.18.0.1:48526 rAddr=185.199.111.133:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:49 INF [UDP] connected lAddr=198.18.0.1:54225 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:49 INF [UDP] connected lAddr=198.18.0.1:48356 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:53:53 INF [TCP] connected lAddr=198.18.0.1:45652 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:53 INF [TCP] connected lAddr=198.18.0.1:45636 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:53 INF [TCP] connected lAddr=198.18.0.1:45604 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:53 INF [TCP] connected lAddr=198.18.0.1:45616 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:53:53 INF [TCP] connected lAddr=198.18.0.1:45626 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:54:12 INF [TCP] connected lAddr=127.0.0.1:46488 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:54:13 INF [TCP] connected lAddr=127.0.0.1:46500 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:54:38 INF [TCP] connected lAddr=127.0.0.1:36872 rAddr=api.mason-registry.dev:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:54:38 INF [UDP] connected lAddr=198.18.0.1:35755 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:54:39 INF [TCP] connected lAddr=198.18.0.1:42338 rAddr=76.76.21.9:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:54:42 INF [TCP] connected lAddr=127.0.0.1:36878 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:54:43 INF [TCP] connected lAddr=127.0.0.1:36892 rAddr=files.pythonhosted.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:54:53 INF [UDP] connected lAddr=198.18.0.1:50245 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:54:53 INF [UDP] connected lAddr=198.18.0.1:47501 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:54:53 INF [TCP] connected lAddr=198.18.0.1:43096 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:00 INF [TCP] connected lAddr=198.18.0.1:45744 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:05 INF [TCP] connected lAddr=198.18.0.1:39324 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:05 INF [TCP] connected lAddr=198.18.0.1:39310 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:05 INF [TCP] connected lAddr=198.18.0.1:39328 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:17 INF [TCP] connected lAddr=198.18.0.1:35004 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:17 INF [TCP] connected lAddr=198.18.0.1:34990 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35020 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35058 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35076 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35052 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35050 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35054 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35026 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35078 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35038 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:19 INF [TCP] connected lAddr=198.18.0.1:35074 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:29 INF [TCP] connected lAddr=127.0.0.1:38604 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:47 INF [TCP] connected lAddr=127.0.0.1:51950 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:47 INF [UDP] connected lAddr=198.18.0.1:36639 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:55:48 INF [TCP] connected lAddr=198.18.0.1:59232 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:48 INF [TCP] connected lAddr=127.0.0.1:51952 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:48 INF [TCP] connected lAddr=198.18.0.1:59236 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:51 INF [TCP] connected lAddr=127.0.0.1:51966 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:55:51 INF [UDP] connected lAddr=198.18.0.1:41728 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:55:57 INF [UDP] connected lAddr=198.18.0.1:60101 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:56:57 INF [UDP] connected lAddr=198.18.0.1:34898 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:56:58 INF [TCP] connected lAddr=198.18.0.1:40824 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:57:42 INF [TCP] connected lAddr=127.0.0.1:46510 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:57:58 INF [UDP] connected lAddr=198.18.0.1:52348 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:58:00 INF [UDP] connected lAddr=198.18.0.1:35999 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+14:58:13 INF [TCP] connected lAddr=198.18.0.1:40962 rAddr=104.16.25.34:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:58:14 INF [TCP] connected lAddr=127.0.0.1:47860 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:58:52 INF [TCP] connected lAddr=127.0.0.1:37470 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:52 INF [TCP] connected lAddr=127.0.0.1:37510 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:52 INF [TCP] connected lAddr=127.0.0.1:37488 rAddr=business.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+14:58:52 INF [TCP] connected lAddr=127.0.0.1:37480 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+14:58:52 INF [TCP] connected lAddr=127.0.0.1:37456 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+14:58:52 INF [TCP] connected lAddr=127.0.0.1:37500 rAddr=prod.rewardsplatform.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:52 INF [TCP] connected lAddr=127.0.0.1:37516 rAddr=copilot.microsoft.com:443 mode=rule rule=Domain(copilot.microsoft.com) proxy=Copilot[香港WAP-优化]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37534 rAddr=ntp.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37526 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37542 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37602 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37610 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37556 rAddr=substrate.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37624 rAddr=img-s-msn-com.akamaized.net:443 mode=rule rule=DomainSuffix(img-s-msn-com.akamaized.net) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37570 rAddr=c.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37584 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37592 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37632 rAddr=browser.events.data.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37512 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37622 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37644 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:53 INF [TCP] connected lAddr=127.0.0.1:37638 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:54 INF [TCP] connected lAddr=127.0.0.1:37654 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:58:55 INF [TCP] connected lAddr=127.0.0.1:37668 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[DIRECT]
+14:58:55 INF [TCP] connected lAddr=127.0.0.1:37660 rAddr=graph.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37692 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37724 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37754 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37708 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37740 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37678 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37758 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37762 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:56 INF [TCP] connected lAddr=127.0.0.1:37770 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:57 INF [TCP] connected lAddr=127.0.0.1:48228 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:57 INF [TCP] connected lAddr=127.0.0.1:48240 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+14:58:57 INF [TCP] connected lAddr=127.0.0.1:37722 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+14:58:57 INF [TCP] connected lAddr=127.0.0.1:48242 rAddr=browser.events.data.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+14:59:01 INF [TCP] connected lAddr=127.0.0.1:48248 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+14:59:01 INF [TCP] connected lAddr=127.0.0.1:48258 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+14:59:03 INF [TCP] connected lAddr=127.0.0.1:48262 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+14:59:03 INF [TCP] connected lAddr=127.0.0.1:48274 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[DIRECT]
+14:59:04 INF [TCP] connected lAddr=127.0.0.1:48278 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+14:59:04 INF [TCP] connected lAddr=127.0.0.1:48292 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+14:59:11 INF [TCP] connected lAddr=127.0.0.1:58308 rAddr=tse1.mm.bing.net:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:11 INF [TCP] connected lAddr=127.0.0.1:58318 rAddr=tse1.mm.bing.net:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:12 INF [TCP] connected lAddr=127.0.0.1:58344 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:59:12 INF [TCP] connected lAddr=127.0.0.1:58328 rAddr=nvchad.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:23 INF [TCP] connected lAddr=127.0.0.1:33484 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:23 INF [TCP] connected lAddr=127.0.0.1:33500 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:23 INF [TCP] connected lAddr=127.0.0.1:33504 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33538 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33516 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33528 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33548 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33576 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33588 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33600 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33564 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:25 INF [TCP] connected lAddr=127.0.0.1:33590 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:27 INF [TCP] connected lAddr=127.0.0.1:43800 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:27 INF [TCP] connected lAddr=127.0.0.1:43810 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:28 INF [TCP] connected lAddr=127.0.0.1:43822 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+14:59:52 INF [TCP] connected lAddr=127.0.0.1:55876 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:59:52 INF [TCP] connected lAddr=127.0.0.1:55884 rAddr=msedge.b.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:59:54 INF [TCP] connected lAddr=127.0.0.1:55894 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+14:59:54 INF [TCP] connected lAddr=127.0.0.1:55890 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[香港WAP-优化]
+15:00:13 INF [TCP] connected lAddr=127.0.0.1:33572 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+15:00:13 INF [TCP] connected lAddr=127.0.0.1:33578 rAddr=ntp.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:00:13 INF [UDP] connected lAddr=198.18.0.1:46876 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33616 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33630 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33650 rAddr=img-s-msn-com.akamaized.net:443 mode=rule rule=DomainSuffix(img-s-msn-com.akamaized.net) proxy=微软服务[DIRECT]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33580 rAddr=c.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33594 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33602 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33644 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33658 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:00:14 INF [TCP] connected lAddr=127.0.0.1:33656 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:00:57 INF [TCP] connected lAddr=127.0.0.1:40896 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+15:01:33 INF [TCP] connected lAddr=127.0.0.1:56794 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:01:57 INF [UDP] connected lAddr=198.18.0.1:46146 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:01:58 INF [TCP] connected lAddr=198.18.0.1:49500 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:02:00 INF [TCP] connected lAddr=127.0.0.1:34578 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:02:00 INF [TCP] connected lAddr=127.0.0.1:34580 rAddr=turing-smartfind.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:02:00 INF [TCP] connected lAddr=127.0.0.1:34612 rAddr=turing-smartfind.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:02:00 INF [TCP] connected lAddr=127.0.0.1:34652 rAddr=turing-smartfind.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:02:00 INF [TCP] connected lAddr=127.0.0.1:34624 rAddr=turing-smartfind.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:02:00 INF [TCP] connected lAddr=127.0.0.1:34638 rAddr=turing-smartfind.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:02:00 INF [TCP] connected lAddr=127.0.0.1:34596 rAddr=turing-smartfind.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:02:01 INF [TCP] connected lAddr=127.0.0.1:34660 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:02:04 INF [TCP] connected lAddr=127.0.0.1:34668 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[日本-优化2]
+15:02:38 INF [TCP] connected lAddr=127.0.0.1:45242 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:02:38 INF [TCP] connected lAddr=127.0.0.1:45254 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:02:43 INF [TCP] connected lAddr=127.0.0.1:45260 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:02:51 INF [TCP] connected lAddr=127.0.0.1:46116 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:02:58 INF [UDP] connected lAddr=198.18.0.1:38547 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:03:00 INF [UDP] connected lAddr=198.18.0.1:58206 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:03:52 INF [TCP] connected lAddr=127.0.0.1:42402 rAddr=substrate.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[DIRECT]
+15:03:54 INF [TCP] connected lAddr=127.0.0.1:42408 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:04:02 INF [TCP] connected lAddr=127.0.0.1:48000 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:04:02 INF [TCP] connected lAddr=127.0.0.1:48008 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:04:04 INF [TCP] connected lAddr=127.0.0.1:48022 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:04:04 INF [TCP] connected lAddr=127.0.0.1:48016 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+15:04:10 INF [TCP] connected lAddr=127.0.0.1:46070 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:04:17 INF [TCP] connected lAddr=127.0.0.1:50536 rAddr=github.com:443 mode=global
+15:04:17 INF [TCP] connected lAddr=127.0.0.1:50534 rAddr=github.com:443 mode=global
+15:04:18 INF [TCP] connected lAddr=127.0.0.1:50540 rAddr=codeload.github.com:443 mode=global
+15:04:18 INF [TCP] connected lAddr=127.0.0.1:50556 rAddr=codeload.github.com:443 mode=global
+15:04:35 INF [TCP] connected lAddr=127.0.0.1:41828 rAddr=github.com:443 mode=global
+15:04:39 INF [TCP] connected lAddr=127.0.0.1:58192 rAddr=codeload.github.com:443 mode=global
+15:05:13 INF [UDP] connected lAddr=198.18.0.1:41900 rAddr=192.168.1.1:53 mode=global
+15:05:27 INF [TCP] connected lAddr=127.0.0.1:37570 rAddr=client.wns.windows.com:443 mode=global
+15:05:32 INF [TCP] connected lAddr=127.0.0.1:37584 rAddr=self.events.data.microsoft.com:443 mode=global
+15:06:25 INF [UDP] connected lAddr=198.18.0.1:47743 rAddr=192.168.1.1:53 mode=global
+15:06:28 INF [TCP] connected lAddr=127.0.0.1:52330 rAddr=client.wns.windows.com:443 mode=global
+15:06:57 INF [UDP] connected lAddr=198.18.0.1:41353 rAddr=192.168.1.1:53 mode=global
+15:07:02 INF [TCP] connected lAddr=198.18.0.1:43256 rAddr=116.203.91.91:80 mode=global
+15:07:30 INF [TCP] connected lAddr=127.0.0.1:35372 rAddr=client.wns.windows.com:443 mode=global
+15:07:59 INF [UDP] connected lAddr=198.18.0.1:55982 rAddr=192.168.1.1:53 mode=global
+15:08:00 INF [UDP] connected lAddr=198.18.0.1:55654 rAddr=192.168.1.1:53 mode=global
+15:08:31 INF [TCP] connected lAddr=127.0.0.1:35490 rAddr=client.wns.windows.com:443 mode=global
+15:09:32 INF [TCP] connected lAddr=127.0.0.1:49656 rAddr=client.wns.windows.com:443 mode=global
+15:09:35 INF [TCP] connected lAddr=127.0.0.1:49672 rAddr=self.events.data.microsoft.com:443 mode=global
+15:10:13 INF [UDP] connected lAddr=198.18.0.1:42404 rAddr=192.168.1.1:53 mode=global
+15:10:34 INF [TCP] connected lAddr=127.0.0.1:58516 rAddr=client.wns.windows.com:443 mode=global
+15:11:35 INF [TCP] connected lAddr=127.0.0.1:58262 rAddr=client.wns.windows.com:443 mode=global
+15:11:57 INF [UDP] connected lAddr=198.18.0.1:49976 rAddr=192.168.1.1:53 mode=global
+15:12:02 INF [TCP] connected lAddr=198.18.0.1:36596 rAddr=116.203.91.91:80 mode=global
+15:12:36 INF [TCP] connected lAddr=127.0.0.1:50912 rAddr=client.wns.windows.com:443 mode=global
+15:12:41 INF [TCP] connected lAddr=127.0.0.1:34784 rAddr=self.events.data.microsoft.com:443 mode=global
+15:12:46 INF [TCP] connected lAddr=127.0.0.1:34788 rAddr=self.events.data.microsoft.com:443 mode=global
+15:12:51 INF [TCP] connected lAddr=127.0.0.1:46428 rAddr=self.events.data.microsoft.com:443 mode=global
+15:12:59 INF [UDP] connected lAddr=198.18.0.1:37610 rAddr=192.168.1.1:53 mode=global
+15:13:01 INF [UDP] connected lAddr=198.18.0.1:55148 rAddr=192.168.1.1:53 mode=global
+15:13:37 INF [TCP] connected lAddr=127.0.0.1:50516 rAddr=client.wns.windows.com:443 mode=global
+15:14:39 INF [TCP] connected lAddr=127.0.0.1:41592 rAddr=client.wns.windows.com:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41068 rAddr=browser.events.data.msn.cn:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41072 rAddr=c.msn.cn:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41088 rAddr=sb.scorecardresearch.com:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41104 rAddr=assets.msn.cn:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41114 rAddr=assets.msn.cn:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41116 rAddr=c.msn.cn:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41122 rAddr=browser.events.data.msn.cn:443 mode=global
+15:15:07 INF [TCP] connected lAddr=127.0.0.1:41138 rAddr=browser.events.data.msn.cn:443 mode=global
+15:15:08 INF [TCP] connected lAddr=127.0.0.1:41154 rAddr=browser.events.data.msn.cn:443 mode=global
+15:15:08 INF [TCP] connected lAddr=127.0.0.1:41168 rAddr=www.bing.com:443 mode=global
+15:15:08 INF [TCP] connected lAddr=127.0.0.1:41170 rAddr=c.bing.com:443 mode=global
+15:15:08 INF [TCP] connected lAddr=127.0.0.1:41172 rAddr=www.bing.com:443 mode=global
+15:15:08 INF [TCP] connected lAddr=127.0.0.1:41182 rAddr=browser.events.data.msn.cn:443 mode=global
+15:15:09 INF [TCP] connected lAddr=127.0.0.1:41192 rAddr=www.bing.com:443 mode=global
+15:15:10 INF [TCP] connected lAddr=127.0.0.1:41208 rAddr=self.events.data.microsoft.com:443 mode=global
+15:15:13 INF [UDP] connected lAddr=198.18.0.1:49809 rAddr=192.168.1.1:53 mode=global
+15:15:14 INF [TCP] connected lAddr=127.0.0.1:41220 rAddr=self.events.data.microsoft.com:443 mode=global
+15:15:30 INF [TCP] connected lAddr=127.0.0.1:42306 rAddr=ntp.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42400 rAddr=sb.scorecardresearch.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42336 rAddr=c.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42366 rAddr=assets.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42378 rAddr=api.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42416 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42368 rAddr=assets.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42352 rAddr=c.bing.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42386 rAddr=th.bing.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42322 rAddr=www.bing.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42432 rAddr=assets.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42440 rAddr=assets.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42448 rAddr=www.bing.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42454 rAddr=assets.msn.com:443 mode=global
+15:15:34 INF [TCP] connected lAddr=127.0.0.1:42460 rAddr=assets.msn.com:443 mode=global
+15:15:40 INF [TCP] connected lAddr=127.0.0.1:49154 rAddr=client.wns.windows.com:443 mode=global
+15:15:40 INF [TCP] connected lAddr=127.0.0.1:49170 rAddr=client.wns.windows.com:443 mode=global
+15:15:46 INF [TCP] connected lAddr=127.0.0.1:49186 rAddr=self.events.data.microsoft.com:443 mode=global
+15:15:46 INF [TCP] connected lAddr=127.0.0.1:49196 rAddr=self.events.data.microsoft.com:443 mode=global
+15:15:46 INF [TCP] connected lAddr=127.0.0.1:49198 rAddr=self.events.data.microsoft.com:443 mode=global
+15:16:41 INF [TCP] connected lAddr=127.0.0.1:44758 rAddr=client.wns.windows.com:443 mode=global
+15:16:57 INF [UDP] connected lAddr=198.18.0.1:34151 rAddr=192.168.1.1:53 mode=global
+15:16:58 INF [TCP] connected lAddr=127.0.0.1:52074 rAddr=www.bing.com:443 mode=global
+15:16:58 INF [TCP] connected lAddr=127.0.0.1:52076 rAddr=www.bing.com:443 mode=global
+15:17:00 INF [TCP] connected lAddr=127.0.0.1:52084 rAddr=api.github.com:443 mode=global
+15:17:00 INF [TCP] connected lAddr=127.0.0.1:52098 rAddr=th.bing.com:443 mode=global
+15:17:00 INF [TCP] connected lAddr=127.0.0.1:52108 rAddr=th.bing.com:443 mode=global
+15:17:00 INF [TCP] connected lAddr=127.0.0.1:52120 rAddr=login.microsoftonline.com:443 mode=global
+15:17:01 INF [TCP] connected lAddr=127.0.0.1:52156 rAddr=th.bing.com:443 mode=global
+15:17:01 INF [TCP] connected lAddr=127.0.0.1:52150 rAddr=th.bing.com:443 mode=global
+15:17:01 INF [TCP] connected lAddr=127.0.0.1:52136 rAddr=th.bing.com:443 mode=global
+15:17:01 INF [TCP] connected lAddr=127.0.0.1:52162 rAddr=sydney.bing.com:443 mode=global
+15:17:02 INF [TCP] connected lAddr=198.18.0.1:40626 rAddr=116.203.91.91:80 mode=global
+15:17:03 INF [TCP] connected lAddr=127.0.0.1:52164 rAddr=www2.bing.com:443 mode=global
+15:17:03 INF [TCP] connected lAddr=127.0.0.1:52170 rAddr=self.events.data.microsoft.com:443 mode=global
+15:17:03 INF [TCP] connected lAddr=127.0.0.1:52180 rAddr=www2.bing.com:443 mode=global
+15:17:30 INF [TCP] connected lAddr=127.0.0.1:52408 rAddr=edge.microsoft.com:443 mode=global
+15:17:42 INF [TCP] connected lAddr=127.0.0.1:40900 rAddr=self.events.data.microsoft.com:443 mode=global
+15:17:43 INF [TCP] connected lAddr=127.0.0.1:40908 rAddr=client.wns.windows.com:443 mode=global
+15:17:59 INF [UDP] connected lAddr=198.18.0.1:51599 rAddr=192.168.1.1:53 mode=global
+15:18:01 INF [UDP] connected lAddr=198.18.0.1:43806 rAddr=192.168.1.1:53 mode=global
+15:18:02 INF [TCP] connected lAddr=127.0.0.1:56054 rAddr=www.bing.com:443 mode=global
+15:18:03 INF [TCP] connected lAddr=127.0.0.1:56066 rAddr=www.bing.com:443 mode=global
+15:18:03 INF [TCP] connected lAddr=127.0.0.1:56082 rAddr=www.bing.com:443 mode=global
+15:18:03 INF [TCP] connected lAddr=127.0.0.1:56096 rAddr=www.bing.com:443 mode=global
+15:18:05 INF [TCP] connected lAddr=127.0.0.1:56112 rAddr=www.bing.com:443 mode=global
+15:18:05 INF [TCP] connected lAddr=127.0.0.1:56118 rAddr=www.bing.com:443 mode=global
+15:18:06 INF [TCP] connected lAddr=127.0.0.1:56128 rAddr=github.com:443 mode=global
+15:18:06 INF [TCP] connected lAddr=127.0.0.1:56132 rAddr=github.githubassets.com:443 mode=global
+15:18:06 INF [TCP] connected lAddr=127.0.0.1:56146 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:18:07 INF [TCP] connected lAddr=127.0.0.1:41736 rAddr=github.githubassets.com:443 mode=global
+15:18:07 INF [TCP] connected lAddr=127.0.0.1:41750 rAddr=avatars.githubusercontent.com:443 mode=global
+15:18:07 INF [TCP] connected lAddr=127.0.0.1:41766 rAddr=github.githubassets.com:443 mode=global
+15:18:07 INF [TCP] connected lAddr=127.0.0.1:41760 rAddr=github.githubassets.com:443 mode=global
+15:18:07 INF [TCP] connected lAddr=127.0.0.1:41774 rAddr=github.githubassets.com:443 mode=global
+15:18:10 INF [TCP] connected lAddr=127.0.0.1:41776 rAddr=collector.github.com:443 mode=global
+15:18:10 INF [TCP] connected lAddr=127.0.0.1:41788 rAddr=api.github.com:443 mode=global
+15:18:33 INF [TCP] connected lAddr=127.0.0.1:45872 rAddr=edge.microsoft.com:443 mode=global
+15:18:44 INF [TCP] connected lAddr=127.0.0.1:54348 rAddr=client.wns.windows.com:443 mode=global
+15:18:44 INF [TCP] connected lAddr=127.0.0.1:54364 rAddr=client.wns.windows.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54174 rAddr=c.msn.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54188 rAddr=sb.scorecardresearch.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54166 rAddr=browser.events.data.msn.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54200 rAddr=assets.msn.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54196 rAddr=assets.msn.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54206 rAddr=assets.msn.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54216 rAddr=browser.events.data.msn.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54220 rAddr=browser.events.data.msn.com:443 mode=global
+15:18:48 INF [TCP] connected lAddr=127.0.0.1:54232 rAddr=assets.msn.com:443 mode=global
+15:18:49 INF [TCP] connected lAddr=127.0.0.1:54244 rAddr=browser.events.data.msn.com:443 mode=global
+15:18:49 INF [TCP] connected lAddr=127.0.0.1:54254 rAddr=c.bing.com:443 mode=global
+15:18:51 INF [TCP] connected lAddr=127.0.0.1:54262 rAddr=self.events.data.microsoft.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56928 rAddr=th.bing.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56932 rAddr=login.microsoftonline.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56956 rAddr=th.bing.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56944 rAddr=th.bing.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56978 rAddr=th.bing.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56968 rAddr=th.bing.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56970 rAddr=th.bing.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:56988 rAddr=login.microsoftonline.com:443 mode=global
+15:19:02 INF [TCP] connected lAddr=127.0.0.1:57002 rAddr=th.bing.com:443 mode=global
+15:19:03 INF [TCP] connected lAddr=127.0.0.1:57004 rAddr=ntp.msn.com:443 mode=global
+15:19:03 INF [TCP] connected lAddr=127.0.0.1:57014 rAddr=ntp.msn.com:443 mode=global
+15:19:04 INF [TCP] connected lAddr=127.0.0.1:57026 rAddr=www2.bing.com:443 mode=global
+15:19:04 INF [TCP] connected lAddr=127.0.0.1:57032 rAddr=www2.bing.com:443 mode=global
+15:19:07 INF [TCP] connected lAddr=127.0.0.1:56572 rAddr=www.bing.com:443 mode=global
+15:19:07 INF [TCP] connected lAddr=127.0.0.1:56584 rAddr=api.msn.com:443 mode=global
+15:19:07 INF [TCP] connected lAddr=127.0.0.1:56562 rAddr=th.bing.com:443 mode=global
+15:19:07 INF [TCP] connected lAddr=127.0.0.1:56566 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+15:19:09 INF [TCP] connected lAddr=127.0.0.1:56598 rAddr=github.com:443 mode=global
+15:19:09 INF [TCP] connected lAddr=127.0.0.1:56612 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:19:09 INF [TCP] connected lAddr=127.0.0.1:56606 rAddr=github.githubassets.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56630 rAddr=avatars.githubusercontent.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56628 rAddr=github.githubassets.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56636 rAddr=avatars.githubusercontent.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56650 rAddr=avatars.githubusercontent.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56646 rAddr=avatars.githubusercontent.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56656 rAddr=avatars.githubusercontent.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56666 rAddr=avatars.githubusercontent.com:443 mode=global
+15:19:11 INF [TCP] connected lAddr=127.0.0.1:56668 rAddr=collector.github.com:443 mode=global
+15:19:12 INF [TCP] connected lAddr=127.0.0.1:56672 rAddr=collector.github.com:443 mode=global
+15:19:12 INF [TCP] connected lAddr=127.0.0.1:56686 rAddr=collector.github.com:443 mode=global
+15:19:15 INF [TCP] connected lAddr=127.0.0.1:56694 rAddr=self.events.data.microsoft.com:443 mode=global
+15:19:15 INF [TCP] connected lAddr=127.0.0.1:56700 rAddr=self.events.data.microsoft.com:443 mode=global
+15:19:45 INF [TCP] connected lAddr=127.0.0.1:52466 rAddr=client.wns.windows.com:443 mode=global
+15:20:13 INF [UDP] connected lAddr=198.18.0.1:52562 rAddr=192.168.1.1:53 mode=global
+15:20:20 INF [TCP] connected lAddr=127.0.0.1:39586 rAddr=collector.github.com:443 mode=global
+15:20:20 INF [TCP] connected lAddr=127.0.0.1:39578 rAddr=api.github.com:443 mode=global
+15:20:20 INF [TCP] connected lAddr=127.0.0.1:39612 rAddr=sb.scorecardresearch.com:443 mode=global
+15:20:20 INF [TCP] connected lAddr=127.0.0.1:39594 rAddr=browser.events.data.msn.com:443 mode=global
+15:20:20 INF [TCP] connected lAddr=127.0.0.1:39610 rAddr=c.msn.com:443 mode=global
+15:20:20 INF [TCP] connected lAddr=127.0.0.1:39624 rAddr=assets.msn.com:443 mode=global
+15:20:20 INF [TCP] connected lAddr=127.0.0.1:39618 rAddr=assets.msn.com:443 mode=global
+15:20:21 INF [TCP] connected lAddr=127.0.0.1:39638 rAddr=collector.github.com:443 mode=global
+15:20:21 INF [TCP] connected lAddr=127.0.0.1:39666 rAddr=c.msn.com:443 mode=global
+15:20:21 INF [TCP] connected lAddr=127.0.0.1:39654 rAddr=api.github.com:443 mode=global
+15:20:21 INF [TCP] connected lAddr=127.0.0.1:39674 rAddr=sb.scorecardresearch.com:443 mode=global
+15:20:21 INF [TCP] connected lAddr=127.0.0.1:39690 rAddr=browser.events.data.msn.com:443 mode=global
+15:20:21 INF [TCP] connected lAddr=127.0.0.1:39680 rAddr=browser.events.data.msn.com:443 mode=global
+15:20:21 INF [TCP] connected lAddr=127.0.0.1:39702 rAddr=browser.events.data.msn.com:443 mode=global
+15:20:22 INF [TCP] connected lAddr=127.0.0.1:39708 rAddr=ntp.msn.com:443 mode=global
+15:20:22 INF [TCP] connected lAddr=127.0.0.1:39712 rAddr=www.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39714 rAddr=www.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39724 rAddr=www.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39740 rAddr=www.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39760 rAddr=c.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39792 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39766 rAddr=www.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39778 rAddr=th.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39754 rAddr=api.msn.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39800 rAddr=www.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39804 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39806 rAddr=www.bing.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39822 rAddr=self.events.data.microsoft.com:443 mode=global
+15:20:23 INF [TCP] connected lAddr=127.0.0.1:39826 rAddr=www.bing.com:443 mode=global
+15:20:24 INF [TCP] connected lAddr=127.0.0.1:39836 rAddr=self.events.data.microsoft.com:443 mode=global
+15:20:26 INF [TCP] connected lAddr=127.0.0.1:39842 rAddr=self.events.data.microsoft.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41544 rAddr=th.bing.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41538 rAddr=th.bing.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41546 rAddr=login.microsoftonline.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41606 rAddr=th.bing.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41578 rAddr=th.bing.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41560 rAddr=th.bing.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41572 rAddr=th.bing.com:443 mode=global
+15:20:34 INF [TCP] connected lAddr=127.0.0.1:41592 rAddr=th.bing.com:443 mode=global
+15:20:38 INF [TCP] connected lAddr=127.0.0.1:56058 rAddr=www2.bing.com:443 mode=global
+15:20:38 INF [TCP] connected lAddr=127.0.0.1:56074 rAddr=www2.bing.com:443 mode=global
+15:20:42 INF [TCP] connected lAddr=127.0.0.1:56090 rAddr=www2.bing.com:443 mode=global
+15:20:44 INF [TCP] connected lAddr=127.0.0.1:56100 rAddr=www.techpowerup.com:443 mode=global
+15:20:44 INF [TCP] connected lAddr=127.0.0.1:56108 rAddr=tpucdn.com:443 mode=global
+15:20:45 INF [TCP] connected lAddr=127.0.0.1:56118 rAddr=www2.bing.com:443 mode=global
+15:20:47 INF [TCP] connected lAddr=127.0.0.1:35054 rAddr=client.wns.windows.com:443 mode=global
+15:21:02 INF [TCP] connected lAddr=127.0.0.1:52970 rAddr=th.bing.com:443 mode=global
+15:21:04 INF [TCP] connected lAddr=127.0.0.1:52984 rAddr=edge.microsoft.com:443 mode=global
+15:21:05 INF [TCP] connected lAddr=127.0.0.1:53002 rAddr=www2.bing.com:443 mode=global
+15:21:05 INF [TCP] connected lAddr=127.0.0.1:53006 rAddr=www2.bing.com:443 mode=global
+15:21:13 INF [TCP] connected lAddr=127.0.0.1:45262 rAddr=edge.microsoft.com:443 mode=global
+15:21:41 INF [TCP] connected lAddr=127.0.0.1:60358 rAddr=www2.bing.com:443 mode=global
+15:21:41 INF [TCP] connected lAddr=127.0.0.1:60366 rAddr=www2.bing.com:443 mode=global
+15:21:48 INF [TCP] connected lAddr=127.0.0.1:57256 rAddr=client.wns.windows.com:443 mode=global
+15:21:57 INF [UDP] connected lAddr=198.18.0.1:40241 rAddr=192.168.1.1:53 mode=global
+15:22:02 INF [TCP] connected lAddr=198.18.0.1:42264 rAddr=116.203.91.91:80 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48026 rAddr=browser.events.data.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48054 rAddr=sb.scorecardresearch.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48042 rAddr=c.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48068 rAddr=assets.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48076 rAddr=assets.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48086 rAddr=browser.events.data.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48090 rAddr=assets.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48104 rAddr=browser.events.data.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48108 rAddr=browser.events.data.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:48116 rAddr=browser.events.data.msn.com:443 mode=global
+15:22:26 INF [TCP] connected lAddr=127.0.0.1:35936 rAddr=www.bing.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35940 rAddr=www.bing.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35944 rAddr=browser.events.data.msn.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35946 rAddr=www.bing.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35954 rAddr=www.bing.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35948 rAddr=www.bing.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35960 rAddr=browser.events.data.msn.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35974 rAddr=www.bing.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35978 rAddr=www.bing.com:443 mode=global
+15:22:27 INF [TCP] connected lAddr=127.0.0.1:35986 rAddr=www.bing.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:35994 rAddr=ntp.msn.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36010 rAddr=www.bing.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36012 rAddr=ntp.msn.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36016 rAddr=www.bing.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36056 rAddr=th.bing.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36042 rAddr=api.msn.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36062 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36020 rAddr=www.bing.com:443 mode=global
+15:22:29 INF [TCP] connected lAddr=127.0.0.1:36034 rAddr=c.bing.com:443 mode=global
+15:22:30 INF [TCP] connected lAddr=127.0.0.1:36064 rAddr=www.bing.com:443 mode=global
+15:22:31 INF [TCP] connected lAddr=127.0.0.1:36066 rAddr=self.events.data.microsoft.com:443 mode=global
+15:22:40 INF [TCP] connected lAddr=127.0.0.1:51700 rAddr=th.bing.com:443 mode=global
+15:22:40 INF [TCP] connected lAddr=127.0.0.1:51694 rAddr=th.bing.com:443 mode=global
+15:22:40 INF [TCP] connected lAddr=127.0.0.1:51704 rAddr=th.bing.com:443 mode=global
+15:22:42 INF [TCP] connected lAddr=127.0.0.1:51708 rAddr=login.microsoftonline.com:443 mode=global
+15:22:44 INF [TCP] connected lAddr=127.0.0.1:51722 rAddr=www.techpowerup.com:443 mode=global
+15:22:44 INF [TCP] connected lAddr=127.0.0.1:51736 rAddr=tpucdn.com:443 mode=global
+15:22:44 INF [TCP] connected lAddr=127.0.0.1:51738 rAddr=www.techpowerup.com:443 mode=global
+15:22:46 INF [TCP] connected lAddr=127.0.0.1:51740 rAddr=www2.bing.com:443 mode=global
+15:22:46 INF [TCP] connected lAddr=127.0.0.1:51748 rAddr=www2.bing.com:443 mode=global
+15:22:49 INF [TCP] connected lAddr=127.0.0.1:52214 rAddr=client.wns.windows.com:443 mode=global
+15:22:59 INF [UDP] connected lAddr=198.18.0.1:46839 rAddr=192.168.1.1:53 mode=global
+15:23:01 INF [UDP] connected lAddr=198.18.0.1:45010 rAddr=192.168.1.1:53 mode=global
+15:23:10 INF [TCP] connected lAddr=127.0.0.1:32918 rAddr=edge.microsoft.com:443 mode=global
+15:23:36 INF [UDP] connected lAddr=198.18.0.1:50043 rAddr=192.168.1.1:53 mode=global
+15:23:42 INF [TCP] connected lAddr=127.0.0.1:57582 rAddr=aur.archlinux.org:443 mode=global
+15:23:51 INF [TCP] connected lAddr=127.0.0.1:35466 rAddr=client.wns.windows.com:443 mode=global
+15:23:52 INF [TCP] connected lAddr=127.0.0.1:35468 rAddr=github.com:443 mode=global
+15:23:55 INF [TCP] connected lAddr=127.0.0.1:35478 rAddr=codeload.github.com:443 mode=global
+15:23:58 INF [TCP] connected lAddr=127.0.0.1:43080 rAddr=www.bing.com:443 mode=global
+15:24:10 INF [TCP] connected lAddr=127.0.0.1:52124 rAddr=github.com:443 mode=global
+15:24:12 INF [TCP] connected lAddr=127.0.0.1:52132 rAddr=codeload.github.com:443 mode=global
+15:24:34 INF [UDP] connected lAddr=198.18.0.1:58402 rAddr=192.168.1.1:53 mode=global
+15:24:34 INF [UDP] connected lAddr=198.18.0.1:37732 rAddr=192.168.1.1:53 mode=global
+15:24:34 INF [UDP] connected lAddr=198.18.0.1:56340 rAddr=192.168.1.1:53 mode=global
+15:24:34 INF [UDP] connected lAddr=198.18.0.1:49909 rAddr=192.168.1.1:53 mode=global
+15:24:45 INF [TCP] connected lAddr=127.0.0.1:43174 rAddr=github.com:443 mode=global
+15:24:48 INF [TCP] connected lAddr=127.0.0.1:37658 rAddr=codeload.github.com:443 mode=global
+15:24:52 INF [TCP] connected lAddr=127.0.0.1:37672 rAddr=client.wns.windows.com:443 mode=global
+15:24:57 INF [TCP] connected lAddr=127.0.0.1:50486 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:25:04 INF [UDP] connected lAddr=198.18.0.1:34815 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:25:09 INF [TCP] connected lAddr=127.0.0.1:59736 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+15:25:10 INF [TCP] connected lAddr=127.0.0.1:59742 rAddr=codeload.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+15:25:13 INF [UDP] connected lAddr=198.18.0.1:54896 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:25:31 INF [TCP] connected lAddr=127.0.0.1:57756 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+15:25:32 INF [TCP] connected lAddr=127.0.0.1:57762 rAddr=files.pythonhosted.org:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+15:25:35 INF [TCP] connected lAddr=127.0.0.1:57772 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+15:26:16 INF [TCP] connected lAddr=127.0.0.1:39096 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:26:41 INF [UDP] connected lAddr=198.18.0.1:44055 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:26:42 INF [TCP] connected lAddr=198.18.0.1:53196 rAddr=95.216.144.15:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+15:26:57 INF [UDP] connected lAddr=198.18.0.1:60271 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:26:57 INF [TCP] connected lAddr=198.18.0.1:54986 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:01 INF [TCP] connected lAddr=127.0.0.1:36528 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:11 INF [UDP] connected lAddr=198.18.0.1:60230 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:27:32 INF [TCP] connected lAddr=127.0.0.1:55004 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:34 INF [TCP] connected lAddr=127.0.0.1:55010 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54064 rAddr=c.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54078 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54052 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54082 rAddr=assets.msn.com:443 mode=rule rule=Domain(assets.msn.com) proxy=Copilot[香港WAP-优化]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54090 rAddr=assets.msn.com:443 mode=rule rule=Domain(assets.msn.com) proxy=Copilot[香港WAP-优化]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54102 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54112 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+15:27:47 INF [TCP] connected lAddr=127.0.0.1:54108 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+15:27:48 INF [TCP] connected lAddr=127.0.0.1:54124 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:27:48 INF [TCP] connected lAddr=127.0.0.1:54138 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:27:49 INF [TCP] connected lAddr=127.0.0.1:54152 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[香港WAP-优化]
+15:27:49 INF [TCP] connected lAddr=127.0.0.1:54168 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+15:27:50 INF [TCP] connected lAddr=127.0.0.1:54180 rAddr=sydney.bing.com:443 mode=rule rule=DomainSuffix(sydney.bing.com) proxy=Copilot[香港WAP-优化]
+15:27:50 INF [TCP] connected lAddr=127.0.0.1:54190 rAddr=sydney.bing.com:443 mode=rule rule=DomainSuffix(sydney.bing.com) proxy=Copilot[香港WAP-优化]
+15:27:51 INF [TCP] connected lAddr=127.0.0.1:54206 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:27:51 INF [TCP] connected lAddr=127.0.0.1:54222 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:27:52 INF [TCP] connected lAddr=127.0.0.1:54244 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:27:52 INF [TCP] connected lAddr=127.0.0.1:54228 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:52 INF [TCP] connected lAddr=127.0.0.1:54240 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:53 INF [TCP] connected lAddr=127.0.0.1:54250 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:54 INF [TCP] connected lAddr=127.0.0.1:54254 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:55 INF [TCP] connected lAddr=127.0.0.1:54260 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:56 INF [TCP] connected lAddr=127.0.0.1:54268 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:56 INF [TCP] connected lAddr=127.0.0.1:54278 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:56 INF [TCP] connected lAddr=127.0.0.1:54284 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:56 INF [TCP] connected lAddr=127.0.0.1:41880 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:56 INF [TCP] connected lAddr=127.0.0.1:41904 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:56 INF [TCP] connected lAddr=127.0.0.1:41892 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:56 INF [TCP] connected lAddr=127.0.0.1:41876 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:57 INF [TCP] connected lAddr=127.0.0.1:41918 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:58 INF [TCP] connected lAddr=127.0.0.1:41932 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:58 INF [TCP] connected lAddr=127.0.0.1:41936 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:27:58 INF [UDP] connected lAddr=198.18.0.1:47964 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:28:00 INF [UDP] connected lAddr=198.18.0.1:32915 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:28:02 INF [TCP] connected lAddr=127.0.0.1:41940 rAddr=services.bingapis.com:443 mode=rule rule=Domain(services.bingapis.com) proxy=Copilot[香港WAP-优化]
+15:28:04 INF [TCP] connected lAddr=127.0.0.1:41942 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+15:28:04 INF [TCP] connected lAddr=127.0.0.1:41950 rAddr=ntp.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:28:05 INF [TCP] connected lAddr=127.0.0.1:41980 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:28:05 INF [TCP] connected lAddr=127.0.0.1:41996 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:28:05 INF [TCP] connected lAddr=127.0.0.1:42022 rAddr=img-s-msn-com.akamaized.net:443 mode=rule rule=DomainSuffix(img-s-msn-com.akamaized.net) proxy=微软服务[DIRECT]
+15:28:05 INF [TCP] connected lAddr=127.0.0.1:41952 rAddr=c.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:28:05 INF [TCP] connected lAddr=127.0.0.1:41954 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:28:05 INF [TCP] connected lAddr=127.0.0.1:41964 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:28:05 INF [TCP] connected lAddr=127.0.0.1:42010 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:10 INF [TCP] connected lAddr=127.0.0.1:60260 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:10 INF [TCP] connected lAddr=127.0.0.1:60242 rAddr=stackoverflow.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:10 INF [TCP] connected lAddr=127.0.0.1:60244 rAddr=cdn.sstatic.net:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:11 INF [TCP] connected lAddr=127.0.0.1:60306 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:11 INF [TCP] connected lAddr=127.0.0.1:60290 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[香港WAP-优化]
+15:28:11 INF [TCP] connected lAddr=127.0.0.1:60300 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:11 INF [TCP] connected lAddr=127.0.0.1:60274 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:11 INF [TCP] connected lAddr=127.0.0.1:60304 rAddr=geolocation.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:11 INF [TCP] connected lAddr=127.0.0.1:60292 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:12 INF [TCP] connected lAddr=127.0.0.1:60314 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:12 INF [TCP] connected lAddr=127.0.0.1:60332 rAddr=stats.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[香港WAP-优化]
+15:28:12 INF [TCP] connected lAddr=127.0.0.1:60336 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:12 INF [TCP] connected lAddr=127.0.0.1:60328 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60352 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[香港WAP-优化]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60360 rAddr=0d75cfbcf2d8d3c6fedd2d4297528f9e.safeframe.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60386 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60376 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60400 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60404 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60420 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:13 INF [TCP] connected lAddr=127.0.0.1:60418 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:14 INF [TCP] connected lAddr=127.0.0.1:60432 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:14 INF [TCP] connected lAddr=127.0.0.1:60454 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:14 INF [TCP] connected lAddr=127.0.0.1:60448 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[香港WAP-优化]
+15:28:15 INF [TCP] connected lAddr=127.0.0.1:60478 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:15 INF [TCP] connected lAddr=127.0.0.1:60464 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:15 INF [TCP] connected lAddr=127.0.0.1:60480 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:16 INF [TCP] connected lAddr=127.0.0.1:60482 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:18 INF [TCP] connected lAddr=127.0.0.1:47370 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[香港WAP-优化]
+15:28:18 INF [TCP] connected lAddr=127.0.0.1:47378 rAddr=stackoverflow.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:28:18 INF [TCP] connected lAddr=127.0.0.1:47392 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:28:53 INF [TCP] connected lAddr=127.0.0.1:35954 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:28:59 INF [TCP] connected lAddr=127.0.0.1:42922 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+15:29:57 INF [TCP] connected lAddr=127.0.0.1:41490 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:29:58 INF [TCP] connected lAddr=127.0.0.1:41482 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[香港WAP-优化]
+15:30:11 INF [TCP] connected lAddr=127.0.0.1:60406 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:30:13 INF [UDP] connected lAddr=198.18.0.1:56632 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:30:31 INF [UDP] connected lAddr=198.18.0.1:52637 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:30:53 INF [TCP] connected lAddr=127.0.0.1:51392 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+15:31:30 INF [TCP] connected lAddr=127.0.0.1:49500 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:31:33 INF [TCP] connected lAddr=127.0.0.1:49504 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[香港WAP-优化]
+15:31:57 INF [UDP] connected lAddr=198.18.0.1:47314 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:31:57 INF [TCP] connected lAddr=198.18.0.1:56866 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:32:02 INF [UDP] connected lAddr=198.18.0.1:51420 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:32:24 INF [TCP] connected lAddr=127.0.0.1:60140 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:32:49 INF [TCP] connected lAddr=127.0.0.1:39606 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:32:58 INF [UDP] connected lAddr=198.18.0.1:46319 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:33:00 INF [UDP] connected lAddr=198.18.0.1:38340 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:34:08 INF [TCP] connected lAddr=127.0.0.1:58496 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:34:58 INF [UDP] connected lAddr=198.18.0.1:37511 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:35:13 INF [UDP] connected lAddr=198.18.0.1:47049 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:35:19 INF [TCP] connected lAddr=127.0.0.1:49826 rAddr=pypi.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:35:26 INF [TCP] connected lAddr=127.0.0.1:39998 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:35:39 INF [TCP] connected lAddr=127.0.0.1:53464 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53508 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53522 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53476 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53490 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53504 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53552 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53538 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:35:41 INF [TCP] connected lAddr=127.0.0.1:53558 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+15:35:42 INF [TCP] connected lAddr=127.0.0.1:53560 rAddr=sydney.bing.com:443 mode=rule rule=DomainSuffix(sydney.bing.com) proxy=Copilot[新加坡-优化]
+15:35:43 INF [TCP] connected lAddr=127.0.0.1:53572 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:35:43 INF [TCP] connected lAddr=127.0.0.1:53582 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:35:43 INF [TCP] connected lAddr=127.0.0.1:53596 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:35:51 INF [TCP] connected lAddr=127.0.0.1:48626 rAddr=services.bingapis.com:443 mode=rule rule=Domain(services.bingapis.com) proxy=Copilot[新加坡-优化]
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48638 rAddr=cdn-www.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48632 rAddr=assets.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48630 rAddr=www.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48644 rAddr=images.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48648 rAddr=images.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48674 rAddr=a1.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48664 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48680 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48704 rAddr=mathjax.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48734 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48718 rAddr=img2023.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48694 rAddr=analytics.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48730 rAddr=account.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48662 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48742 rAddr=analytics.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48754 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:35:53 INF [TCP] connected lAddr=127.0.0.1:48766 rAddr=pic.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:35:55 INF [TCP] connected lAddr=127.0.0.1:48780 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:36:08 INF [TCP] connected lAddr=127.0.0.1:44244 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:36:08 INF [TCP] connected lAddr=127.0.0.1:44270 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:36:08 INF [TCP] connected lAddr=127.0.0.1:44254 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:36:08 INF [TCP] connected lAddr=127.0.0.1:44282 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:36:11 INF [TCP] connected lAddr=127.0.0.1:44284 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:36:45 INF [TCP] connected lAddr=127.0.0.1:34874 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:36:57 INF [UDP] connected lAddr=198.18.0.1:33610 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:36:57 INF [TCP] connected lAddr=198.18.0.1:47548 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:36:59 INF [TCP] connected lAddr=127.0.0.1:46280 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:36:59 INF [TCP] connected lAddr=127.0.0.1:46296 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:37:39 INF [TCP] connected lAddr=127.0.0.1:56328 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:37:40 INF [TCP] connected lAddr=127.0.0.1:56342 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:37:41 INF [TCP] connected lAddr=127.0.0.1:56368 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:37:41 INF [TCP] connected lAddr=127.0.0.1:56374 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:37:41 INF [TCP] connected lAddr=127.0.0.1:56352 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:37:44 INF [TCP] connected lAddr=127.0.0.1:56378 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:37:44 INF [TCP] connected lAddr=127.0.0.1:56392 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:37:45 INF [TCP] connected lAddr=127.0.0.1:56406 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:37:45 INF [TCP] connected lAddr=127.0.0.1:56400 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:37:45 INF [TCP] connected lAddr=127.0.0.1:56396 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:56412 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:37:47 INF [TCP] connected lAddr=127.0.0.1:58346 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:37:49 INF [TCP] connected lAddr=127.0.0.1:58356 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:37:50 INF [TCP] connected lAddr=127.0.0.1:58362 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:37:50 INF [TCP] connected lAddr=127.0.0.1:58374 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:37:58 INF [UDP] connected lAddr=198.18.0.1:38172 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:38:00 INF [UDP] connected lAddr=198.18.0.1:50543 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:38:04 INF [TCP] connected lAddr=127.0.0.1:36702 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:38:08 INF [TCP] connected lAddr=127.0.0.1:43350 rAddr=rocblas.readthedocs.io:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:08 INF [TCP] connected lAddr=127.0.0.1:43366 rAddr=rocblas.readthedocs.io:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:08 INF [TCP] connected lAddr=127.0.0.1:43368 rAddr=rocblas.readthedocs.io:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:11 INF [TCP] connected lAddr=127.0.0.1:43378 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:11 INF [TCP] connected lAddr=127.0.0.1:43384 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:12 INF [TCP] connected lAddr=127.0.0.1:43404 rAddr=readthedocs.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:12 INF [TCP] connected lAddr=127.0.0.1:43390 rAddr=media.ethicalads.io:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:12 INF [TCP] connected lAddr=127.0.0.1:43418 rAddr=readthedocs.org:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43434 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43448 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43470 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43466 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43472 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43460 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43476 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43482 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43494 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43488 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43506 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43508 rAddr=server.ethicalads.io:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:43522 rAddr=server.ethicalads.io:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:14 INF [TCP] connected lAddr=127.0.0.1:43536 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:14 INF [TCP] connected lAddr=127.0.0.1:43542 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:14 INF [TCP] connected lAddr=127.0.0.1:43552 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:15 INF [TCP] connected lAddr=127.0.0.1:43568 rAddr=ethicalads.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=微软服务[DIRECT]
+15:38:15 INF [TCP] connected lAddr=127.0.0.1:43558 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:16 INF [TCP] connected lAddr=127.0.0.1:43604 rAddr=www.amd.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:38:16 INF [TCP] connected lAddr=127.0.0.1:43580 rAddr=rocm.docs.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:16 INF [TCP] connected lAddr=127.0.0.1:43588 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:16 INF [TCP] connected lAddr=127.0.0.1:50114 rAddr=rocm.docs.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:20 INF [TCP] connected lAddr=127.0.0.1:50120 rAddr=cdn.jsdelivr.net:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:20 INF [TCP] connected lAddr=127.0.0.1:50126 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:20 INF [TCP] connected lAddr=127.0.0.1:50130 rAddr=cdn.jsdelivr.net:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:20 INF [TCP] connected lAddr=127.0.0.1:50132 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:21 INF [TCP] connected lAddr=127.0.0.1:50142 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50152 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50170 rAddr=s.yimg.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50194 rAddr=px.ads.linkedin.com:443 mode=rule rule=DomainSuffix(linkedin.com) proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50188 rAddr=www.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50172 rAddr=q.quora.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50166 rAddr=a.quora.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50208 rAddr=px.ads.linkedin.com:443 mode=rule rule=DomainSuffix(linkedin.com) proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50220 rAddr=api.c99.ai:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50230 rAddr=connect.facebook.net:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50212 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50256 rAddr=www.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50272 rAddr=stats.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50266 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50290 rAddr=api.c99.ai:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50240 rAddr=s.yimg.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50298 rAddr=connect.facebook.net:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50278 rAddr=www.google.com.sg:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50328 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[新加坡-优化]
+15:38:23 INF [TCP] connected lAddr=127.0.0.1:50316 rAddr=px.ads.linkedin.com:443 mode=rule rule=DomainSuffix(linkedin.com) proxy=节点选择[新加坡-优化]
+15:38:24 INF [TCP] connected lAddr=127.0.0.1:50308 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[新加坡-优化]
+15:38:24 INF [TCP] connected lAddr=127.0.0.1:50310 rAddr=px.ads.linkedin.com:443 mode=rule rule=DomainSuffix(linkedin.com) proxy=节点选择[新加坡-优化]
+15:38:24 INF [TCP] connected lAddr=127.0.0.1:50340 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:24 INF [TCP] connected lAddr=127.0.0.1:50356 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:24 INF [TCP] connected lAddr=127.0.0.1:50344 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:24 INF [TCP] connected lAddr=127.0.0.1:50364 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:24 INF [TCP] connected lAddr=127.0.0.1:50368 rAddr=s.yimg.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:25 INF [TCP] connected lAddr=127.0.0.1:50372 rAddr=sp.analytics.yahoo.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:25 INF [TCP] connected lAddr=127.0.0.1:50380 rAddr=sp.analytics.yahoo.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:27 INF [TCP] connected lAddr=127.0.0.1:45598 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:27 INF [TCP] connected lAddr=127.0.0.1:45604 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[新加坡-优化]
+15:38:30 INF [TCP] connected lAddr=127.0.0.1:45616 rAddr=rocm.docs.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:30 INF [TCP] connected lAddr=127.0.0.1:45618 rAddr=download.amd.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:35 INF [TCP] connected lAddr=127.0.0.1:45654 rAddr=connect.facebook.net:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:35 INF [TCP] connected lAddr=127.0.0.1:45634 rAddr=www.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:35 INF [TCP] connected lAddr=127.0.0.1:45650 rAddr=api.c99.ai:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:35 INF [TCP] connected lAddr=127.0.0.1:45670 rAddr=sp.analytics.yahoo.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:36 INF [TCP] connected lAddr=127.0.0.1:45676 rAddr=www.youtube.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:36 INF [TCP] connected lAddr=127.0.0.1:45684 rAddr=www.youtube.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:36 INF [TCP] connected lAddr=127.0.0.1:45692 rAddr=www.facebook.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:36 INF [TCP] connected lAddr=127.0.0.1:45702 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:36 INF [TCP] connected lAddr=127.0.0.1:59498 rAddr=www.facebook.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:39 INF [TCP] connected lAddr=127.0.0.1:59502 rAddr=c.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:39 INF [TCP] connected lAddr=127.0.0.1:59512 rAddr=c.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:38:46 INF [TCP] connected lAddr=127.0.0.1:59524 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:38:48 INF [TCP] connected lAddr=127.0.0.1:53612 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:48 INF [TCP] connected lAddr=127.0.0.1:53620 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:38:59 INF [TCP] connected lAddr=127.0.0.1:45590 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:38:59 INF [TCP] connected lAddr=127.0.0.1:45596 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:39:04 INF [TCP] connected lAddr=127.0.0.1:45598 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:20 INF [TCP] connected lAddr=127.0.0.1:35936 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:20 INF [TCP] connected lAddr=127.0.0.1:35940 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:21 INF [TCP] connected lAddr=127.0.0.1:35952 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:39:29 INF [TCP] connected lAddr=127.0.0.1:33090 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:37 INF [TCP] connected lAddr=127.0.0.1:56232 rAddr=s.clarity.ms:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:46 INF [TCP] connected lAddr=127.0.0.1:56238 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:47 INF [TCP] connected lAddr=127.0.0.1:51638 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:47 INF [TCP] connected lAddr=127.0.0.1:51648 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:39:47 INF [TCP] connected lAddr=127.0.0.1:51654 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:39:47 INF [TCP] connected lAddr=127.0.0.1:51660 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:39:50 INF [TCP] connected lAddr=127.0.0.1:51676 rAddr=www.techpowerup.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:51 INF [TCP] connected lAddr=127.0.0.1:51686 rAddr=www.techpowerup.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+15:39:51 INF [TCP] connected lAddr=127.0.0.1:51696 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[新加坡-优化]
+15:39:56 INF [TCP] connected lAddr=127.0.0.1:48708 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:39:56 INF [TCP] connected lAddr=127.0.0.1:48706 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:39:57 INF [TCP] connected lAddr=127.0.0.1:48714 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+15:39:59 INF [TCP] connected lAddr=127.0.0.1:48724 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:39:59 INF [TCP] connected lAddr=127.0.0.1:48728 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:40:11 INF [TCP] connected lAddr=127.0.0.1:33992 rAddr=s1.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+15:40:11 INF [TCP] connected lAddr=127.0.0.1:33978 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:40:11 INF [TCP] connected lAddr=127.0.0.1:34008 rAddr=article.biliimg.com:443 mode=rule rule=DomainSuffix(biliimg.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34022 rAddr=s1.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34020 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34026 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34042 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34048 rAddr=i0.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34058 rAddr=s1.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34060 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34070 rAddr=i2.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+15:40:12 INF [TCP] connected lAddr=127.0.0.1:34086 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:40:13 INF [UDP] connected lAddr=198.18.0.1:46143 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:40:14 INF [TCP] connected lAddr=127.0.0.1:34094 rAddr=message.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:40:39 INF [TCP] connected lAddr=127.0.0.1:55146 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:40:59 INF [TCP] connected lAddr=127.0.0.1:47018 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[新加坡-优化]
+15:41:57 INF [UDP] connected lAddr=198.18.0.1:59345 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:41:58 INF [TCP] connected lAddr=198.18.0.1:49486 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:41:58 INF [TCP] connected lAddr=127.0.0.1:38986 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:41:58 INF [UDP] connected lAddr=198.18.0.1:32930 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:41:58 INF [TCP] connected lAddr=198.18.0.1:49492 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:41:59 INF [TCP] connected lAddr=127.0.0.1:38990 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:42:00 INF [TCP] connected lAddr=127.0.0.1:39002 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:42:00 INF [UDP] connected lAddr=198.18.0.1:39598 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:42:01 INF [TCP] connected lAddr=198.18.0.1:49498 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:42:04 INF [UDP] connected lAddr=198.18.0.1:58927 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:42:04 INF [TCP] connected lAddr=198.18.0.1:49512 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:42:12 INF [UDP] connected lAddr=198.18.0.1:38822 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:42:12 INF [TCP] connected lAddr=198.18.0.1:36432 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:42:28 INF [UDP] connected lAddr=198.18.0.1:46961 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:42:28 INF [TCP] connected lAddr=198.18.0.1:33526 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:42:58 INF [UDP] connected lAddr=198.18.0.1:37433 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:43:00 INF [UDP] connected lAddr=198.18.0.1:43197 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:43:00 INF [UDP] connected lAddr=198.18.0.1:34915 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:43:01 INF [TCP] connected lAddr=198.18.0.1:45408 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:43:12 INF [TCP] connected lAddr=127.0.0.1:57472 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:43:14 INF [TCP] connected lAddr=127.0.0.1:57478 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:43:17 INF [TCP] connected lAddr=127.0.0.1:58412 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:44:04 INF [UDP] connected lAddr=198.18.0.1:52597 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:44:04 INF [TCP] connected lAddr=198.18.0.1:32930 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:44:35 INF [TCP] connected lAddr=127.0.0.1:57600 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:45:12 INF [TCP] connected lAddr=127.0.0.1:44232 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:45:12 INF [TCP] connected lAddr=127.0.0.1:44244 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:45:13 INF [UDP] connected lAddr=198.18.0.1:58421 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:45:49 INF [TCP] connected lAddr=127.0.0.1:47904 rAddr=c.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:45:49 INF [TCP] connected lAddr=127.0.0.1:47934 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:45:49 INF [TCP] connected lAddr=127.0.0.1:47918 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:45:49 INF [TCP] connected lAddr=127.0.0.1:47894 rAddr=browser.events.data.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:45:50 INF [TCP] connected lAddr=127.0.0.1:47944 rAddr=c.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:45:50 INF [TCP] connected lAddr=127.0.0.1:47906 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:45:50 INF [TCP] connected lAddr=127.0.0.1:47952 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:50 INF [TCP] connected lAddr=127.0.0.1:47954 rAddr=browser.events.data.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:45:50 INF [TCP] connected lAddr=127.0.0.1:47956 rAddr=browser.events.data.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:45:50 INF [TCP] connected lAddr=127.0.0.1:47970 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:45:50 INF [TCP] connected lAddr=127.0.0.1:47972 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:51 INF [TCP] connected lAddr=127.0.0.1:47994 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:51 INF [TCP] connected lAddr=127.0.0.1:47984 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:47996 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48008 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48002 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48010 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48020 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48024 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48050 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48040 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48076 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:52 INF [TCP] connected lAddr=127.0.0.1:48062 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[日本-优化]
+15:45:54 INF [TCP] connected lAddr=127.0.0.1:48088 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+15:45:57 INF [TCP] connected lAddr=127.0.0.1:50276 rAddr=prod.rewardsplatform.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:45:58 INF [TCP] connected lAddr=127.0.0.1:50288 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:45:58 INF [TCP] connected lAddr=127.0.0.1:50302 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:45:59 INF [TCP] connected lAddr=127.0.0.1:50308 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[日本-优化]
+15:45:59 INF [TCP] connected lAddr=127.0.0.1:50310 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+15:46:00 INF [TCP] connected lAddr=127.0.0.1:50314 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:46:00 INF [TCP] connected lAddr=127.0.0.1:50324 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:46:07 INF [TCP] connected lAddr=127.0.0.1:60644 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:07 INF [TCP] connected lAddr=127.0.0.1:60634 rAddr=cdn.sstatic.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:07 INF [TCP] connected lAddr=127.0.0.1:60618 rAddr=stackoverflow.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:07 INF [TCP] connected lAddr=127.0.0.1:60652 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:07 INF [TCP] connected lAddr=127.0.0.1:60664 rAddr=stackoverflow.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:07 INF [TCP] connected lAddr=127.0.0.1:60662 rAddr=cdn.sstatic.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:08 INF [TCP] connected lAddr=127.0.0.1:60672 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:46:08 INF [TCP] connected lAddr=127.0.0.1:60686 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:46:09 INF [TCP] connected lAddr=127.0.0.1:60710 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:09 INF [TCP] connected lAddr=127.0.0.1:60702 rAddr=cdn.sstatic.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:09 INF [TCP] connected lAddr=127.0.0.1:60696 rAddr=stackoverflow.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60718 rAddr=i.sstatic.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60722 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60738 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60724 rAddr=i.sstatic.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60742 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60748 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60750 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60756 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60778 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:10 INF [TCP] connected lAddr=127.0.0.1:60772 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:11 INF [TCP] connected lAddr=127.0.0.1:60786 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:11 INF [TCP] connected lAddr=127.0.0.1:60802 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:11 INF [TCP] connected lAddr=127.0.0.1:60816 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:11 INF [TCP] connected lAddr=127.0.0.1:60830 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60840 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60842 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60866 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60844 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60858 rAddr=5fbc68da8afbbb8537c77d24f57ec7f4.safeframe.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60902 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60896 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60912 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60880 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60922 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60850 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60886 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60936 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60946 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60962 rAddr=5fbc68da8afbbb8537c77d24f57ec7f4.safeframe.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60970 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60974 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60980 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:12 INF [UDP] connected lAddr=198.18.0.1:55170 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+15:46:12 INF [TCP] connected lAddr=127.0.0.1:60984 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:12 INF [TCP] connected lAddr=198.18.0.1:59508 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:13 INF [TCP] connected lAddr=127.0.0.1:32780 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+15:46:13 INF [TCP] connected lAddr=127.0.0.1:60990 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:13 INF [TCP] connected lAddr=127.0.0.1:32768 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:13 INF [TCP] connected lAddr=127.0.0.1:32796 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:13 INF [TCP] connected lAddr=127.0.0.1:32804 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:14 INF [TCP] connected lAddr=127.0.0.1:32818 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:14 INF [TCP] connected lAddr=127.0.0.1:32832 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:14 INF [TCP] connected lAddr=127.0.0.1:32848 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:14 INF [TCP] connected lAddr=127.0.0.1:32850 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:14 INF [TCP] connected lAddr=127.0.0.1:32856 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:15 INF [TCP] connected lAddr=127.0.0.1:32868 rAddr=5fbc68da8afbbb8537c77d24f57ec7f4.safeframe.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:15 INF [TCP] connected lAddr=127.0.0.1:32880 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:15 INF [TCP] connected lAddr=127.0.0.1:32886 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:15 INF [TCP] connected lAddr=127.0.0.1:32876 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:16 INF [TCP] connected lAddr=127.0.0.1:32900 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:16 INF [TCP] connected lAddr=127.0.0.1:32914 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:16 INF [TCP] connected lAddr=127.0.0.1:32920 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:16 INF [TCP] connected lAddr=127.0.0.1:32928 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:16 INF [TCP] connected lAddr=127.0.0.1:59982 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:17 INF [TCP] connected lAddr=127.0.0.1:59992 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:17 INF [TCP] connected lAddr=127.0.0.1:32926 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:18 INF [TCP] connected lAddr=127.0.0.1:59998 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:28 INF [TCP] connected lAddr=127.0.0.1:51616 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+15:46:29 INF [TCP] connected lAddr=127.0.0.1:51644 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:29 INF [TCP] connected lAddr=127.0.0.1:51648 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:29 INF [TCP] connected lAddr=127.0.0.1:51628 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:29 INF [TCP] connected lAddr=127.0.0.1:51652 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:29 INF [TCP] connected lAddr=127.0.0.1:51678 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:29 INF [TCP] connected lAddr=127.0.0.1:51662 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:30 INF [TCP] connected lAddr=127.0.0.1:51682 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:30 INF [TCP] connected lAddr=127.0.0.1:51686 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[日本-优化]
+15:46:31 INF [TCP] connected lAddr=127.0.0.1:51692 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[DIRECT]
+15:46:32 INF [TCP] connected lAddr=127.0.0.1:51698 rAddr=ntp.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:46:32 INF [TCP] connected lAddr=127.0.0.1:51702 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+15:46:32 INF [TCP] connected lAddr=127.0.0.1:51704 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:46:32 INF [TCP] connected lAddr=127.0.0.1:51724 rAddr=img-s-msn-com.akamaized.net:443 mode=rule rule=DomainSuffix(img-s-msn-com.akamaized.net) proxy=微软服务[DIRECT]
+15:46:32 INF [TCP] connected lAddr=127.0.0.1:51718 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:33 INF [TCP] connected lAddr=127.0.0.1:51734 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:53 INF [TCP] connected lAddr=127.0.0.1:48000 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:46:53 INF [TCP] connected lAddr=127.0.0.1:48010 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+15:46:55 INF [TCP] connected lAddr=127.0.0.1:48018 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:56 INF [TCP] connected lAddr=127.0.0.1:48026 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:56 INF [TCP] connected lAddr=127.0.0.1:48030 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:56 INF [TCP] connected lAddr=127.0.0.1:48048 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:56 INF [TCP] connected lAddr=127.0.0.1:48064 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:56 INF [TCP] connected lAddr=127.0.0.1:48034 rAddr=www.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:46:56 INF [TCP] connected lAddr=127.0.0.1:48070 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:57 INF [TCP] connected lAddr=127.0.0.1:33994 rAddr=0f1a97931a17ea5a7eb0e3915251d3cb.safeframe.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:57 INF [TCP] connected lAddr=127.0.0.1:34010 rAddr=0f1a97931a17ea5a7eb0e3915251d3cb.safeframe.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:57 INF [TCP] connected lAddr=127.0.0.1:34020 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:57 INF [TCP] connected lAddr=127.0.0.1:34024 rAddr=www.google.co.jp:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:57 INF [TCP] connected lAddr=127.0.0.1:34036 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:58 INF [TCP] connected lAddr=127.0.0.1:34042 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:59 INF [TCP] connected lAddr=127.0.0.1:34056 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:59 INF [TCP] connected lAddr=127.0.0.1:34062 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:59 INF [TCP] connected lAddr=127.0.0.1:34068 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:59 INF [TCP] connected lAddr=127.0.0.1:34084 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:46:59 INF [TCP] connected lAddr=127.0.0.1:34090 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化]
+15:47:07 INF [TCP] connected lAddr=127.0.0.1:40162 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:47:07 INF [TCP] connected lAddr=127.0.0.1:40168 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+15:47:12 INF [TCP] connected lAddr=127.0.0.1:40178 rAddr=client.wns.windows.com:443 mode=global
+15:47:13 INF [TCP] connected lAddr=127.0.0.1:40194 rAddr=chat.openai.com:443 mode=global
+15:47:13 INF [TCP] connected lAddr=127.0.0.1:40202 rAddr=chatgpt.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40218 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40214 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40228 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40254 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40266 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40242 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40240 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40296 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40304 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:14 INF [TCP] connected lAddr=127.0.0.1:40280 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40308 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40360 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40324 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40330 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40344 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40374 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40384 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40394 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40406 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40412 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40416 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:15 INF [TCP] connected lAddr=127.0.0.1:40430 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40444 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40456 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40450 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40466 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40478 rAddr=client.wns.windows.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40498 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40502 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40490 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40528 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40514 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40534 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40538 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:40544 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:39688 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:16 INF [TCP] connected lAddr=127.0.0.1:39692 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39722 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39716 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39706 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39732 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39744 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39750 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39762 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39776 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39786 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39798 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39814 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39826 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39840 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39838 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:17 INF [TCP] connected lAddr=127.0.0.1:39844 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39860 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39874 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39876 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39880 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39884 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39912 rAddr=googleads.g.doubleclick.net:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39888 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39904 rAddr=googleads.g.doubleclick.net:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39918 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39932 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39940 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39952 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39958 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:18 INF [TCP] connected lAddr=127.0.0.1:39954 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:39968 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:39980 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:39990 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40020 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40004 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40010 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40028 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40074 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40040 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40050 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40060 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40082 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40086 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:19 INF [TCP] connected lAddr=127.0.0.1:40090 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:20 INF [TCP] connected lAddr=127.0.0.1:40106 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:20 INF [TCP] connected lAddr=127.0.0.1:40120 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:20 INF [TCP] connected lAddr=127.0.0.1:40136 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:20 INF [TCP] connected lAddr=127.0.0.1:40138 rAddr=chatgpt.com:443 mode=global
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:40610 rAddr=edge.microsoft.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40622 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40636 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40648 rAddr=chatgpt.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40642 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40690 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40680 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40662 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40670 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:40682 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40692 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40694 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40706 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40710 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40724 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40732 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40744 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40746 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40754 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40780 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40768 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:30 INF [TCP] connected lAddr=127.0.0.1:40794 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40814 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40802 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40820 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40822 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40836 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40844 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40850 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40866 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40876 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40888 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40894 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40908 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40920 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40936 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:40956 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:40940 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:40950 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:40984 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:40968 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:40998 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41006 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41012 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41028 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41054 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41058 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41040 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41066 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41074 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41084 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:32 INF [TCP] connected lAddr=127.0.0.1:41088 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41102 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41128 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41108 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41116 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41124 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41132 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41134 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41146 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41150 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41164 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41160 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41168 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:33 INF [TCP] connected lAddr=127.0.0.1:41180 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41190 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41206 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41218 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41224 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41248 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41234 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41264 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41286 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41278 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41292 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41304 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41312 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41306 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:34 INF [TCP] connected lAddr=127.0.0.1:41324 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:35 INF [TCP] connected lAddr=127.0.0.1:41332 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:35 INF [TCP] connected lAddr=127.0.0.1:41342 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:35 INF [TCP] connected lAddr=127.0.0.1:41350 rAddr=ntp.msn.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:41364 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:41378 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:41384 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:41390 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52530 rAddr=assets.msn.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52532 rAddr=assets.msn.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52492 rAddr=api.msn.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52502 rAddr=www.bing.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52520 rAddr=c.bing.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52548 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52480 rAddr=th.bing.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52472 rAddr=sb.scorecardresearch.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52512 rAddr=c.msn.com:443 mode=global
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:52558 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:52632 rAddr=c.msn.com:443 mode=global
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:52588 rAddr=api.msn.com:443 mode=global
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:52574 rAddr=cdn.oaistatic.com:443 mode=global
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:52590 rAddr=www.bing.com:443 mode=global
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:52608 rAddr=th.bing.com:443 mode=global
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:52592 rAddr=c.bing.com:443 mode=global
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:52618 rAddr=sb.scorecardresearch.com:443 mode=global
+15:47:40 INF [TCP] connected lAddr=127.0.0.1:52640 rAddr=client.wns.windows.com:443 mode=global
+15:47:40 INF [TCP] connected lAddr=127.0.0.1:52648 rAddr=client.wns.windows.com:443 mode=global
+15:47:44 INF [TCP] connected lAddr=127.0.0.1:52662 rAddr=api.vc.bilibili.com:443 mode=global
+15:47:58 INF [UDP] connected lAddr=198.18.0.1:50360 rAddr=192.168.1.1:53 mode=global
+15:47:59 INF [TCP] connected lAddr=127.0.0.1:34202 rAddr=edge.microsoft.com:443 mode=global
+15:48:00 INF [TCP] connected lAddr=127.0.0.1:34208 rAddr=www.bing.com:443 mode=global
+15:48:01 INF [UDP] connected lAddr=198.18.0.1:40760 rAddr=192.168.1.1:53 mode=global
+15:48:05 INF [TCP] connected lAddr=127.0.0.1:34212 rAddr=client.wns.windows.com:443 mode=global
+15:48:05 INF [TCP] connected lAddr=127.0.0.1:34214 rAddr=client.wns.windows.com:443 mode=global
+15:48:54 INF [TCP] connected lAddr=127.0.0.1:60444 rAddr=client.wns.windows.com:443 mode=global
+15:48:55 INF [TCP] connected lAddr=127.0.0.1:60452 rAddr=client.wns.windows.com:443 mode=global
+15:49:00 INF [TCP] connected lAddr=127.0.0.1:50956 rAddr=www.bing.com:443 mode=global
+15:49:00 INF [TCP] connected lAddr=127.0.0.1:50972 rAddr=www.bing.com:443 mode=global
+15:49:20 INF [TCP] connected lAddr=127.0.0.1:33930 rAddr=client.wns.windows.com:443 mode=global
+15:49:20 INF [TCP] connected lAddr=127.0.0.1:33934 rAddr=client.wns.windows.com:443 mode=global
+15:49:42 INF [TCP] connected lAddr=127.0.0.1:50342 rAddr=client.wns.windows.com:443 mode=global
+15:49:42 INF [TCP] connected lAddr=127.0.0.1:50356 rAddr=client.wns.windows.com:443 mode=global
+15:49:44 INF [TCP] connected lAddr=127.0.0.1:50364 rAddr=api.vc.bilibili.com:443 mode=global
+15:49:44 INF [TCP] connected lAddr=127.0.0.1:50370 rAddr=api.vc.bilibili.com:443 mode=global
+15:49:44 INF [TCP] connected lAddr=127.0.0.1:50384 rAddr=pypi.org:443 mode=global
+15:49:44 INF [TCP] connected lAddr=127.0.0.1:50398 rAddr=pypi.org:443 mode=global
+15:49:47 INF [TCP] connected lAddr=127.0.0.1:36146 rAddr=self.events.data.microsoft.com:443 mode=global
+15:49:47 INF [TCP] connected lAddr=127.0.0.1:36150 rAddr=self.events.data.microsoft.com:443 mode=global
+15:50:08 INF [TCP] connected lAddr=127.0.0.1:37806 rAddr=client.wns.windows.com:443 mode=global
+15:50:08 INF [TCP] connected lAddr=127.0.0.1:37818 rAddr=client.wns.windows.com:443 mode=global
+15:50:13 INF [UDP] connected lAddr=198.18.0.1:48839 rAddr=192.168.1.1:53 mode=global
+15:50:28 INF [UDP] connected lAddr=198.18.0.1:55548 rAddr=192.168.1.1:53 mode=global
+15:50:34 INF [TCP] connected lAddr=198.18.0.1:60456 rAddr=116.203.91.91:80 mode=global
+15:50:34 INF [TCP] connected lAddr=127.0.0.1:36758 rAddr=client.wns.windows.com:443 mode=global
+15:50:55 INF [TCP] connected lAddr=127.0.0.1:57466 rAddr=www.bing.com:443 mode=global
+15:50:56 INF [TCP] connected lAddr=127.0.0.1:57476 rAddr=www.bing.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42112 rAddr=www.bing.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42114 rAddr=client.wns.windows.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42130 rAddr=client.wns.windows.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42136 rAddr=th.bing.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42152 rAddr=th.bing.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42158 rAddr=th.bing.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42160 rAddr=th.bing.com:443 mode=global
+15:50:57 INF [TCP] connected lAddr=127.0.0.1:42176 rAddr=th.bing.com:443 mode=global
+15:50:58 INF [TCP] connected lAddr=127.0.0.1:42184 rAddr=login.microsoftonline.com:443 mode=global
+15:50:58 INF [TCP] connected lAddr=127.0.0.1:42190 rAddr=sydney.bing.com:443 mode=global
+15:50:59 INF [TCP] connected lAddr=127.0.0.1:42196 rAddr=sydney.bing.com:443 mode=global
+15:50:59 INF [TCP] connected lAddr=127.0.0.1:42200 rAddr=self.events.data.microsoft.com:443 mode=global
+15:50:59 INF [TCP] connected lAddr=127.0.0.1:42216 rAddr=self.events.data.microsoft.com:443 mode=global
+15:50:59 INF [TCP] connected lAddr=127.0.0.1:42218 rAddr=www2.bing.com:443 mode=global
+15:50:59 INF [TCP] connected lAddr=127.0.0.1:42220 rAddr=www2.bing.com:443 mode=global
+15:51:00 INF [TCP] connected lAddr=127.0.0.1:42224 rAddr=github.com:443 mode=global
+15:51:00 INF [TCP] connected lAddr=127.0.0.1:42236 rAddr=github.githubassets.com:443 mode=global
+15:51:00 INF [TCP] connected lAddr=127.0.0.1:42252 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:51:01 INF [TCP] connected lAddr=127.0.0.1:42264 rAddr=github.githubassets.com:443 mode=global
+15:51:01 INF [TCP] connected lAddr=127.0.0.1:42272 rAddr=github.githubassets.com:443 mode=global
+15:51:01 INF [TCP] connected lAddr=127.0.0.1:42274 rAddr=avatars.githubusercontent.com:443 mode=global
+15:51:01 INF [TCP] connected lAddr=127.0.0.1:42276 rAddr=avatars.githubusercontent.com:443 mode=global
+15:51:02 INF [TCP] connected lAddr=127.0.0.1:42300 rAddr=avatars.githubusercontent.com:443 mode=global
+15:51:02 INF [TCP] connected lAddr=127.0.0.1:42284 rAddr=avatars.githubusercontent.com:443 mode=global
+15:51:02 INF [TCP] connected lAddr=127.0.0.1:42304 rAddr=avatars.githubusercontent.com:443 mode=global
+15:51:02 INF [TCP] connected lAddr=127.0.0.1:42288 rAddr=avatars.githubusercontent.com:443 mode=global
+15:51:02 INF [TCP] connected lAddr=127.0.0.1:42308 rAddr=collector.github.com:443 mode=global
+15:51:02 INF [TCP] connected lAddr=127.0.0.1:42310 rAddr=api.github.com:443 mode=global
+15:51:02 INF [TCP] connected lAddr=127.0.0.1:42314 rAddr=api.github.com:443 mode=global
+15:51:06 INF [TCP] connected lAddr=127.0.0.1:42326 rAddr=self.events.data.microsoft.com:443 mode=global
+15:51:12 INF [TCP] connected lAddr=127.0.0.1:45390 rAddr=th.bing.com:443 mode=global
+15:51:13 INF [TCP] connected lAddr=127.0.0.1:45396 rAddr=sydney.bing.com:443 mode=global
+15:51:13 INF [TCP] connected lAddr=127.0.0.1:45398 rAddr=sydney.bing.com:443 mode=global
+15:51:14 INF [TCP] connected lAddr=127.0.0.1:45400 rAddr=www2.bing.com:443 mode=global
+15:51:14 INF [TCP] connected lAddr=127.0.0.1:45402 rAddr=www2.bing.com:443 mode=global
+15:51:16 INF [TCP] connected lAddr=127.0.0.1:33766 rAddr=github.githubassets.com:443 mode=global
+15:51:19 INF [TCP] connected lAddr=127.0.0.1:33768 rAddr=client.wns.windows.com:443 mode=global
+15:51:20 INF [TCP] connected lAddr=127.0.0.1:33778 rAddr=client.wns.windows.com:443 mode=global
+15:51:27 INF [TCP] connected lAddr=127.0.0.1:49208 rAddr=edge.microsoft.com:443 mode=global
+15:51:27 INF [TCP] connected lAddr=127.0.0.1:49220 rAddr=edge.microsoft.com:443 mode=global
+15:51:29 INF [TCP] connected lAddr=127.0.0.1:49230 rAddr=services.bingapis.com:443 mode=global
+15:51:31 INF [TCP] connected lAddr=127.0.0.1:49232 rAddr=self.events.data.microsoft.com:443 mode=global
+15:51:32 INF [TCP] connected lAddr=127.0.0.1:49242 rAddr=self.events.data.microsoft.com:443 mode=global
+15:51:38 INF [TCP] connected lAddr=127.0.0.1:36788 rAddr=assets.cnblogs.com:443 mode=global
+15:51:38 INF [TCP] connected lAddr=127.0.0.1:36772 rAddr=www.cnblogs.com:443 mode=global
+15:51:38 INF [TCP] connected lAddr=127.0.0.1:36792 rAddr=cdn-www.cnblogs.com:443 mode=global
+15:51:38 INF [TCP] connected lAddr=127.0.0.1:36796 rAddr=assets.cnblogs.com:443 mode=global
+15:51:39 INF [TCP] connected lAddr=127.0.0.1:36800 rAddr=www.cnblogs.com:443 mode=global
+15:51:40 INF [TCP] connected lAddr=127.0.0.1:36804 rAddr=www.cnblogs.com:443 mode=global
+15:51:41 INF [TCP] connected lAddr=127.0.0.1:36808 rAddr=www.cnblogs.com:443 mode=global
+15:51:42 INF [TCP] connected lAddr=127.0.0.1:36814 rAddr=client.wns.windows.com:443 mode=global
+15:51:42 INF [TCP] connected lAddr=127.0.0.1:36816 rAddr=client.wns.windows.com:443 mode=global
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:36828 rAddr=cdn-www.cnblogs.com:443 mode=global
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:36840 rAddr=www.cnblogs.com:443 mode=global
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:36846 rAddr=assets.cnblogs.com:443 mode=global
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:36852 rAddr=cdn-www.cnblogs.com:443 mode=global
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:36856 rAddr=www.cnblogs.com:443 mode=global
+15:51:44 INF [TCP] connected lAddr=127.0.0.1:36858 rAddr=api.vc.bilibili.com:443 mode=global
+15:51:46 INF [TCP] connected lAddr=127.0.0.1:46494 rAddr=cdn-www.cnblogs.com:443 mode=global
+15:51:47 INF [TCP] connected lAddr=127.0.0.1:46482 rAddr=assets.cnblogs.com:443 mode=global
+15:52:08 INF [TCP] connected lAddr=127.0.0.1:54564 rAddr=edge.microsoft.com:443 mode=global
+15:52:09 INF [TCP] connected lAddr=127.0.0.1:54572 rAddr=client.wns.windows.com:443 mode=global
+15:52:10 INF [TCP] connected lAddr=127.0.0.1:54584 rAddr=client.wns.windows.com:443 mode=global
+15:52:12 INF [TCP] connected lAddr=127.0.0.1:54598 rAddr=self.events.data.microsoft.com:443 mode=global
+15:52:32 INF [TCP] connected lAddr=127.0.0.1:46888 rAddr=client.wns.windows.com:443 mode=global
+15:52:55 INF [TCP] connected lAddr=127.0.0.1:48554 rAddr=client.wns.windows.com:443 mode=global
+15:52:58 INF [TCP] connected lAddr=127.0.0.1:34962 rAddr=self.events.data.microsoft.com:443 mode=global
+15:52:59 INF [UDP] connected lAddr=198.18.0.1:49662 rAddr=192.168.1.1:53 mode=global
+15:53:00 INF [TCP] connected lAddr=127.0.0.1:34974 rAddr=www.bing.com:443 mode=global
+15:53:00 INF [UDP] connected lAddr=198.18.0.1:46733 rAddr=192.168.1.1:53 mode=global
+15:53:19 INF [TCP] connected lAddr=127.0.0.1:60816 rAddr=client.wns.windows.com:443 mode=global
+15:53:42 INF [TCP] connected lAddr=127.0.0.1:38750 rAddr=client.wns.windows.com:443 mode=global
+15:53:43 INF [TCP] connected lAddr=127.0.0.1:38752 rAddr=client.wns.windows.com:443 mode=global
+15:53:44 INF [TCP] connected lAddr=127.0.0.1:38764 rAddr=api.vc.bilibili.com:443 mode=global
+15:53:44 INF [TCP] connected lAddr=127.0.0.1:38772 rAddr=api.vc.bilibili.com:443 mode=global
+15:54:09 INF [TCP] connected lAddr=127.0.0.1:56238 rAddr=client.wns.windows.com:443 mode=global
+15:54:32 INF [TCP] connected lAddr=127.0.0.1:53274 rAddr=client.wns.windows.com:443 mode=global
+15:54:44 INF [TCP] connected lAddr=127.0.0.1:40534 rAddr=api.vc.bilibili.com:443 mode=global
+15:54:44 INF [TCP] connected lAddr=127.0.0.1:40546 rAddr=api.vc.bilibili.com:443 mode=global
+15:55:14 INF [UDP] connected lAddr=198.18.0.1:52647 rAddr=192.168.1.1:53 mode=global
+15:55:24 INF [UDP] connected lAddr=198.18.0.1:44139 rAddr=192.168.1.1:53 mode=global
+15:55:28 INF [UDP] connected lAddr=198.18.0.1:46569 rAddr=192.168.1.1:53 mode=global
+15:55:29 INF [TCP] connected lAddr=198.18.0.1:51482 rAddr=95.216.144.15:443 mode=global
+15:55:30 INF [TCP] connected lAddr=127.0.0.1:50850 rAddr=www.bing.com:443 mode=global
+15:55:33 INF [TCP] connected lAddr=198.18.0.1:51964 rAddr=116.203.91.91:80 mode=global
+15:55:43 INF [TCP] connected lAddr=127.0.0.1:40890 rAddr=th.bing.com:443 mode=global
+15:55:43 INF [TCP] connected lAddr=127.0.0.1:40898 rAddr=th.bing.com:443 mode=global
+15:55:44 INF [TCP] connected lAddr=127.0.0.1:40906 rAddr=api.vc.bilibili.com:443 mode=global
+15:55:44 INF [TCP] connected lAddr=127.0.0.1:40914 rAddr=login.microsoftonline.com:443 mode=global
+15:55:45 INF [TCP] connected lAddr=127.0.0.1:40922 rAddr=www2.bing.com:443 mode=global
+15:55:45 INF [TCP] connected lAddr=127.0.0.1:40930 rAddr=www2.bing.com:443 mode=global
+15:55:50 INF [TCP] connected lAddr=127.0.0.1:58666 rAddr=github.com:443 mode=global
+15:55:50 INF [TCP] connected lAddr=127.0.0.1:58680 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:55:50 INF [TCP] connected lAddr=127.0.0.1:58672 rAddr=github.githubassets.com:443 mode=global
+15:55:52 INF [TCP] connected lAddr=127.0.0.1:58688 rAddr=github.githubassets.com:443 mode=global
+15:55:52 INF [TCP] connected lAddr=127.0.0.1:58712 rAddr=avatars.githubusercontent.com:443 mode=global
+15:55:52 INF [TCP] connected lAddr=127.0.0.1:58744 rAddr=avatars.githubusercontent.com:443 mode=global
+15:55:52 INF [TCP] connected lAddr=127.0.0.1:58714 rAddr=avatars.githubusercontent.com:443 mode=global
+15:55:52 INF [TCP] connected lAddr=127.0.0.1:58732 rAddr=avatars.githubusercontent.com:443 mode=global
+15:55:52 INF [TCP] connected lAddr=127.0.0.1:58760 rAddr=self.events.data.microsoft.com:443 mode=global
+15:55:53 INF [TCP] connected lAddr=127.0.0.1:58786 rAddr=api.github.com:443 mode=global
+15:55:53 INF [TCP] connected lAddr=127.0.0.1:58776 rAddr=collector.github.com:443 mode=global
+15:55:54 INF [TCP] connected lAddr=127.0.0.1:58788 rAddr=collector.github.com:443 mode=global
+15:55:57 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.2.201.123:443: i/o timeout proxy=GLOBAL lAddr=127.0.0.1:58698 rAddr=avatars.githubusercontent.com:443
+15:55:57 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.2.201.123:443: i/o timeout proxy=GLOBAL lAddr=127.0.0.1:58724 rAddr=avatars.githubusercontent.com:443
+15:56:13 INF [TCP] connected lAddr=127.0.0.1:48164 rAddr=edge.microsoft.com:443 mode=global
+15:56:14 INF [TCP] connected lAddr=127.0.0.1:48166 rAddr=edge.microsoft.com:443 mode=global
+15:56:20 INF [TCP] connected lAddr=127.0.0.1:51988 rAddr=edge.microsoft.com:443 mode=global
+15:56:20 INF [TCP] connected lAddr=127.0.0.1:52004 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+15:56:23 INF [TCP] connected lAddr=127.0.0.1:52006 rAddr=self.events.data.microsoft.com:443 mode=global
+15:56:25 INF [TCP] connected lAddr=127.0.0.1:52010 rAddr=api.github.com:443 mode=global
+15:56:53 INF [TCP] connected lAddr=127.0.0.1:53626 rAddr=edge.microsoft.com:443 mode=global
+15:56:55 INF [TCP] connected lAddr=127.0.0.1:53648 rAddr=collector.github.com:443 mode=global
+15:56:55 INF [TCP] connected lAddr=127.0.0.1:53634 rAddr=api.github.com:443 mode=global
+15:56:56 INF [TCP] connected lAddr=127.0.0.1:53660 rAddr=www.bing.com:443 mode=global
+15:56:56 INF [TCP] connected lAddr=127.0.0.1:53664 rAddr=www.bing.com:443 mode=global
+15:56:58 INF [TCP] connected lAddr=127.0.0.1:44918 rAddr=aur.archlinux.org:443 mode=global
+15:56:58 INF [TCP] connected lAddr=127.0.0.1:44934 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:56:58 INF [TCP] connected lAddr=127.0.0.1:44950 rAddr=aur.archlinux.org:443 mode=global
+15:56:59 INF [TCP] connected lAddr=127.0.0.1:44964 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:57:25 INF [TCP] connected lAddr=127.0.0.1:34410 rAddr=edge.microsoft.com:443 mode=global
+15:57:25 INF [TCP] connected lAddr=127.0.0.1:34412 rAddr=edge.microsoft.com:443 mode=global
+15:57:44 INF [TCP] connected lAddr=127.0.0.1:59996 rAddr=api.vc.bilibili.com:443 mode=global
+15:57:58 INF [UDP] connected lAddr=198.18.0.1:56678 rAddr=192.168.1.1:53 mode=global
+15:58:00 INF [TCP] connected lAddr=127.0.0.1:46352 rAddr=www.bing.com:443 mode=global
+15:58:00 INF [UDP] connected lAddr=198.18.0.1:51358 rAddr=192.168.1.1:53 mode=global
+15:58:04 INF [TCP] connected lAddr=127.0.0.1:46368 rAddr=www.bing.com:443 mode=global
+15:58:30 INF [TCP] connected lAddr=127.0.0.1:37280 rAddr=aur.archlinux.org:443 mode=global
+15:58:38 INF [TCP] connected lAddr=127.0.0.1:60480 rAddr=www.bing.com:443 mode=global
+15:58:38 INF [TCP] connected lAddr=127.0.0.1:60482 rAddr=www.bing.com:443 mode=global
+15:58:40 INF [TCP] connected lAddr=127.0.0.1:60486 rAddr=self.events.data.microsoft.com:443 mode=global
+15:58:43 INF [TCP] connected lAddr=127.0.0.1:60494 rAddr=th.bing.com:443 mode=global
+15:58:43 INF [TCP] connected lAddr=127.0.0.1:60498 rAddr=th.bing.com:443 mode=global
+15:58:45 INF [TCP] connected lAddr=127.0.0.1:60502 rAddr=login.microsoftonline.com:443 mode=global
+15:58:45 INF [TCP] connected lAddr=127.0.0.1:60504 rAddr=login.microsoftonline.com:443 mode=global
+15:58:46 INF [TCP] connected lAddr=127.0.0.1:60532 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:58:46 INF [TCP] connected lAddr=127.0.0.1:60518 rAddr=github.githubassets.com:443 mode=global
+15:58:46 INF [TCP] connected lAddr=127.0.0.1:60508 rAddr=github.com:443 mode=global
+15:58:47 INF [TCP] connected lAddr=127.0.0.1:44640 rAddr=github.githubassets.com:443 mode=global
+15:58:47 INF [TCP] connected lAddr=127.0.0.1:44632 rAddr=avatars.githubusercontent.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44652 rAddr=avatars.githubusercontent.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44670 rAddr=avatars.githubusercontent.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44658 rAddr=avatars.githubusercontent.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44650 rAddr=avatars.githubusercontent.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44662 rAddr=avatars.githubusercontent.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44684 rAddr=www2.bing.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44706 rAddr=api.github.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44698 rAddr=collector.github.com:443 mode=global
+15:58:48 INF [TCP] connected lAddr=127.0.0.1:44710 rAddr=www2.bing.com:443 mode=global
+15:58:49 INF [TCP] connected lAddr=127.0.0.1:44724 rAddr=collector.github.com:443 mode=global
+15:58:49 INF [TCP] connected lAddr=127.0.0.1:44738 rAddr=collector.github.com:443 mode=global
+15:58:52 INF [TCP] connected lAddr=127.0.0.1:44746 rAddr=edge.microsoft.com:443 mode=global
+15:58:52 INF [TCP] connected lAddr=127.0.0.1:44758 rAddr=edge.microsoft.com:443 mode=global
+15:58:53 INF [TCP] connected lAddr=127.0.0.1:44770 rAddr=edge.microsoft.com:443 mode=global
+15:58:54 INF [TCP] connected lAddr=127.0.0.1:44786 rAddr=copilot.microsoft.com:443 mode=global
+15:58:55 INF [TCP] connected lAddr=127.0.0.1:44788 rAddr=copilot.microsoft.com:443 mode=global
+15:59:00 INF [TCP] connected lAddr=127.0.0.1:55518 rAddr=edge.microsoft.com:443 mode=global
+15:59:00 INF [TCP] connected lAddr=127.0.0.1:55520 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+15:59:01 INF [TCP] connected lAddr=127.0.0.1:55528 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+15:59:08 INF [TCP] connected lAddr=127.0.0.1:45952 rAddr=edge.microsoft.com:443 mode=global
+15:59:29 INF [TCP] connected lAddr=127.0.0.1:35142 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+15:59:31 INF [TCP] connected lAddr=127.0.0.1:35154 rAddr=github.com:443 mode=global
+15:59:32 INF [TCP] connected lAddr=127.0.0.1:35158 rAddr=github.com:443 mode=global
+15:59:33 INF [TCP] connected lAddr=127.0.0.1:35170 rAddr=api.github.com:443 mode=global
+15:59:33 INF [TCP] connected lAddr=127.0.0.1:35176 rAddr=collector.github.com:443 mode=global
+15:59:35 INF [TCP] connected lAddr=127.0.0.1:35180 rAddr=www.bing.com:443 mode=global
+15:59:35 INF [TCP] connected lAddr=127.0.0.1:35186 rAddr=www.bing.com:443 mode=global
+15:59:35 INF [TCP] connected lAddr=127.0.0.1:35190 rAddr=avatars.githubusercontent.com:443 mode=global
+15:59:36 INF [TCP] connected lAddr=127.0.0.1:34556 rAddr=th.bing.com:443 mode=global
+15:59:36 INF [TCP] connected lAddr=127.0.0.1:34544 rAddr=th.bing.com:443 mode=global
+15:59:37 INF [TCP] connected lAddr=127.0.0.1:34570 rAddr=login.microsoftonline.com:443 mode=global
+15:59:38 INF [TCP] connected lAddr=127.0.0.1:34580 rAddr=pytorch.org:443 mode=global
+15:59:39 INF [TCP] connected lAddr=127.0.0.1:34596 rAddr=www2.bing.com:443 mode=global
+15:59:39 INF [TCP] connected lAddr=127.0.0.1:34602 rAddr=analytics.twitter.com:443 mode=global
+15:59:39 INF [TCP] connected lAddr=127.0.0.1:34632 rAddr=www.googleadservices.com:443 mode=global
+15:59:39 INF [TCP] connected lAddr=127.0.0.1:34610 rAddr=www.googletagmanager.com:443 mode=global
+15:59:39 INF [TCP] connected lAddr=127.0.0.1:34624 rAddr=platform.twitter.com:443 mode=global
+15:59:39 INF [TCP] connected lAddr=127.0.0.1:34634 rAddr=connect.facebook.net:443 mode=global
+15:59:39 INF [TCP] connected lAddr=127.0.0.1:34604 rAddr=t.co:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34646 rAddr=www2.bing.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34658 rAddr=googleads.g.doubleclick.net:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34688 rAddr=www.google-analytics.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34672 rAddr=js.hs-scripts.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34670 rAddr=tag.demandbase.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34702 rAddr=platform.twitter.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34716 rAddr=syndication.twitter.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34740 rAddr=stats.g.doubleclick.net:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34770 rAddr=platform.twitter.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34726 rAddr=analytics.google.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34754 rAddr=www.google.co.jp:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34774 rAddr=www.google-analytics.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34804 rAddr=www.google.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34788 rAddr=www.facebook.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34818 rAddr=analytics.google.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34794 rAddr=stats.g.doubleclick.net:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34822 rAddr=self.events.data.microsoft.com:443 mode=global
+15:59:40 INF [TCP] connected lAddr=127.0.0.1:34846 rAddr=www.facebook.com:443 mode=global
+15:59:41 INF [TCP] connected lAddr=127.0.0.1:34826 rAddr=syndication.twitter.com:443 mode=global
+15:59:41 INF [TCP] connected lAddr=127.0.0.1:34852 rAddr=www.google-analytics.com:443 mode=global
+15:59:41 INF [TCP] connected lAddr=127.0.0.1:34832 rAddr=www.facebook.com:443 mode=global
+15:59:41 INF [TCP] connected lAddr=127.0.0.1:34868 rAddr=www.google.co.jp:443 mode=global
+15:59:42 INF [TCP] connected lAddr=127.0.0.1:34890 rAddr=api.company-target.com:443 mode=global
+15:59:42 INF [TCP] connected lAddr=127.0.0.1:34882 rAddr=id.rlcdn.com:443 mode=global
+15:59:42 INF [TCP] connected lAddr=127.0.0.1:34870 rAddr=s.company-target.com:443 mode=global
+15:59:43 INF [TCP] connected lAddr=127.0.0.1:34898 rAddr=client.wns.windows.com:443 mode=global
+15:59:43 INF [TCP] connected lAddr=127.0.0.1:34930 rAddr=pixel.rubiconproject.com:443 mode=global
+15:59:43 INF [TCP] connected lAddr=127.0.0.1:34942 rAddr=segments.company-target.com:443 mode=global
+15:59:43 INF [TCP] connected lAddr=127.0.0.1:34922 rAddr=partners.tremorhub.com:443 mode=global
+15:59:43 INF [TCP] connected lAddr=127.0.0.1:34912 rAddr=dsum-sec.casalemedia.com:443 mode=global
+15:59:43 INF [TCP] connected lAddr=127.0.0.1:34956 rAddr=js.hs-scripts.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35026 rAddr=js.usemessages.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:34970 rAddr=api.vc.bilibili.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35008 rAddr=js.hscollectedforms.net:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:34982 rAddr=js.hs-banner.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:34980 rAddr=js.hs-analytics.net:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35012 rAddr=js.hsleadflows.net:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35020 rAddr=js.hubspot.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:34992 rAddr=js.hsadspixel.net:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35028 rAddr=api.vc.bilibili.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35050 rAddr=js.hubspot.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35034 rAddr=api.hubspot.com:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35066 rAddr=forms.hscollectedforms.net:443 mode=global
+15:59:44 INF [TCP] connected lAddr=127.0.0.1:35042 rAddr=js.hs-analytics.net:443 mode=global
+15:59:45 INF [TCP] connected lAddr=127.0.0.1:35080 rAddr=js.hs-banner.com:443 mode=global
+15:59:45 INF [TCP] connected lAddr=127.0.0.1:35082 rAddr=analytics.google.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:35090 rAddr=api.hubapi.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:35092 rAddr=api.hubapi.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60630 rAddr=track.hubspot.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60636 rAddr=forms.hubspot.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60640 rAddr=pytorch.org:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60656 rAddr=www.facebook.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60678 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60662 rAddr=cdn.mathjax.org:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60692 rAddr=track.hubspot.com:443 mode=global
+15:59:46 INF [TCP] connected lAddr=127.0.0.1:60654 rAddr=forms.hubspot.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60694 rAddr=track.hubspot.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60716 rAddr=t.co:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60702 rAddr=www.google-analytics.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60710 rAddr=analytics.twitter.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60730 rAddr=www.googleadservices.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60744 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60758 rAddr=s.company-target.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60774 rAddr=id.rlcdn.com:443 mode=global
+15:59:47 INF [TCP] connected lAddr=127.0.0.1:60776 rAddr=js.hubspot.com:443 mode=global
+15:59:48 INF [TCP] connected lAddr=127.0.0.1:60792 rAddr=googleads.g.doubleclick.net:443 mode=global
+15:59:48 INF [TCP] connected lAddr=127.0.0.1:60802 rAddr=googleads.g.doubleclick.net:443 mode=global
+15:59:48 INF [TCP] connected lAddr=127.0.0.1:60810 rAddr=www.googletagmanager.com:443 mode=global
+15:59:48 INF [TCP] connected lAddr=127.0.0.1:60812 rAddr=px.ads.linkedin.com:443 mode=global
+15:59:48 INF [TCP] connected lAddr=127.0.0.1:60824 rAddr=px.ads.linkedin.com:443 mode=global
+15:59:49 INF [TCP] connected lAddr=127.0.0.1:60846 rAddr=www.googletagmanager.com:443 mode=global
+15:59:49 INF [TCP] connected lAddr=127.0.0.1:60830 rAddr=www.googletagmanager.com:443 mode=global
+15:59:49 INF [TCP] connected lAddr=127.0.0.1:60848 rAddr=px.ads.linkedin.com:443 mode=global
+15:59:49 INF [TCP] connected lAddr=127.0.0.1:60864 rAddr=www.googletagmanager.com:443 mode=global
+15:59:50 INF [TCP] connected lAddr=127.0.0.1:60866 rAddr=googleads.g.doubleclick.net:443 mode=global
+15:59:50 INF [TCP] connected lAddr=127.0.0.1:60880 rAddr=cta-service-cms2.hubspot.com:443 mode=global
+15:59:50 INF [TCP] connected lAddr=127.0.0.1:60888 rAddr=googleads.g.doubleclick.net:443 mode=global
+15:59:50 INF [TCP] connected lAddr=127.0.0.1:60902 rAddr=connect.facebook.net:443 mode=global
+15:59:50 INF [TCP] connected lAddr=127.0.0.1:60918 rAddr=perf-na1.hsforms.com:443 mode=global
+15:59:51 INF [TCP] connected lAddr=127.0.0.1:60928 rAddr=perf-na1.hsforms.com:443 mode=global
+15:59:57 INF [TCP] connected lAddr=127.0.0.1:35218 rAddr=functional.events.data.microsoft.com:443 mode=global
+16:00:00 INF [TCP] connected lAddr=127.0.0.1:35224 rAddr=www.bing.com:443 mode=global
+16:00:03 INF [TCP] connected lAddr=127.0.0.1:35228 rAddr=edge.microsoft.com:443 mode=global
+16:00:06 INF [TCP] connected lAddr=127.0.0.1:35236 rAddr=client.wns.windows.com:443 mode=global
+16:00:13 INF [UDP] connected lAddr=198.18.0.1:34407 rAddr=192.168.1.1:53 mode=global
+16:00:14 INF [TCP] connected lAddr=127.0.0.1:37824 rAddr=www.bing.com:443 mode=global
+16:00:14 INF [TCP] connected lAddr=127.0.0.1:37840 rAddr=www.bing.com:443 mode=global
+16:00:14 INF [TCP] connected lAddr=127.0.0.1:37850 rAddr=www.bing.com:443 mode=global
+16:00:14 INF [TCP] connected lAddr=127.0.0.1:37828 rAddr=www.bing.com:443 mode=global
+16:00:20 INF [TCP] connected lAddr=127.0.0.1:38796 rAddr=github.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38806 rAddr=github.githubassets.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38814 rAddr=collector.github.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38800 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38816 rAddr=github.githubassets.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38832 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38842 rAddr=collector.github.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38876 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38894 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38868 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38884 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38854 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38906 rAddr=github.githubassets.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38908 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:38916 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:26 INF [TCP] connected lAddr=127.0.0.1:38928 rAddr=api.github.com:443 mode=global
+16:00:28 INF [UDP] connected lAddr=198.18.0.1:52537 rAddr=192.168.1.1:53 mode=global
+16:00:29 INF [TCP] connected lAddr=127.0.0.1:48420 rAddr=client.wns.windows.com:443 mode=global
+16:00:33 INF [TCP] connected lAddr=198.18.0.1:47956 rAddr=116.203.91.91:80 mode=global
+16:00:43 INF [TCP] connected lAddr=127.0.0.1:54360 rAddr=github.com:443 mode=global
+16:00:44 INF [TCP] connected lAddr=127.0.0.1:54374 rAddr=avatars.githubusercontent.com:443 mode=global
+16:00:44 INF [TCP] connected lAddr=127.0.0.1:54380 rAddr=edge.microsoft.com:443 mode=global
+16:00:45 INF [TCP] connected lAddr=127.0.0.1:54386 rAddr=github.githubassets.com:443 mode=global
+16:00:50 INF [TCP] connected lAddr=127.0.0.1:39460 rAddr=edge.microsoft.com:443 mode=global
+16:00:50 INF [TCP] connected lAddr=127.0.0.1:39470 rAddr=api.github.com:443 mode=global
+16:00:51 INF [TCP] connected lAddr=127.0.0.1:39480 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:00:52 INF [TCP] connected lAddr=127.0.0.1:39492 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:00:53 INF [TCP] connected lAddr=127.0.0.1:39494 rAddr=client.wns.windows.com:443 mode=global
+16:00:53 INF [TCP] connected lAddr=127.0.0.1:39506 rAddr=client.wns.windows.com:443 mode=global
+16:01:00 INF [TCP] connected lAddr=127.0.0.1:45938 rAddr=www.bing.com:443 mode=global
+16:01:15 INF [TCP] connected lAddr=127.0.0.1:39538 rAddr=edge.microsoft.com:443 mode=global
+16:01:16 INF [TCP] connected lAddr=127.0.0.1:39546 rAddr=client.wns.windows.com:443 mode=global
+16:01:25 INF [TCP] connected lAddr=127.0.0.1:60512 rAddr=www.bing.com:443 mode=global
+16:01:25 INF [TCP] connected lAddr=127.0.0.1:60520 rAddr=api.github.com:443 mode=global
+16:01:26 INF [TCP] connected lAddr=127.0.0.1:60524 rAddr=collector.github.com:443 mode=global
+16:01:26 INF [TCP] connected lAddr=127.0.0.1:60542 rAddr=th.bing.com:443 mode=global
+16:01:26 INF [TCP] connected lAddr=127.0.0.1:60540 rAddr=th.bing.com:443 mode=global
+16:01:27 INF [TCP] connected lAddr=127.0.0.1:41788 rAddr=login.microsoftonline.com:443 mode=global
+16:01:27 INF [TCP] connected lAddr=127.0.0.1:41800 rAddr=login.microsoftonline.com:443 mode=global
+16:01:28 INF [TCP] connected lAddr=127.0.0.1:41802 rAddr=www2.bing.com:443 mode=global
+16:01:28 INF [TCP] connected lAddr=127.0.0.1:41812 rAddr=www2.bing.com:443 mode=global
+16:01:39 INF [TCP] connected lAddr=127.0.0.1:56438 rAddr=client.wns.windows.com:443 mode=global
+16:01:42 INF [TCP] connected lAddr=127.0.0.1:56444 rAddr=client.wns.windows.com:443 mode=global
+16:01:44 INF [TCP] connected lAddr=127.0.0.1:56456 rAddr=api.vc.bilibili.com:443 mode=global
+16:01:46 INF [TCP] connected lAddr=127.0.0.1:56458 rAddr=edge.microsoft.com:443 mode=global
+16:01:47 INF [TCP] connected lAddr=127.0.0.1:57484 rAddr=edge.microsoft.com:443 mode=global
+16:02:00 INF [TCP] connected lAddr=127.0.0.1:49340 rAddr=www.bing.com:443 mode=global
+16:02:10 INF [TCP] connected lAddr=127.0.0.1:33154 rAddr=client.wns.windows.com:443 mode=global
+16:02:27 INF [TCP] connected lAddr=127.0.0.1:44556 rAddr=github.githubassets.com:443 mode=global
+16:02:27 INF [TCP] connected lAddr=127.0.0.1:44548 rAddr=github.com:443 mode=global
+16:02:27 INF [TCP] connected lAddr=127.0.0.1:44560 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=global
+16:02:28 INF [TCP] connected lAddr=127.0.0.1:44600 rAddr=avatars.githubusercontent.com:443 mode=global
+16:02:28 INF [TCP] connected lAddr=127.0.0.1:44576 rAddr=api.github.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44588 rAddr=github.githubassets.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44604 rAddr=avatars.githubusercontent.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44628 rAddr=avatars.githubusercontent.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44608 rAddr=avatars.githubusercontent.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44644 rAddr=collector.github.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44632 rAddr=avatars.githubusercontent.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44618 rAddr=avatars.githubusercontent.com:443 mode=global
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:44660 rAddr=collector.github.com:443 mode=global
+16:02:33 INF [TCP] connected lAddr=127.0.0.1:44672 rAddr=client.wns.windows.com:443 mode=global
+16:02:33 INF [TCP] connected lAddr=127.0.0.1:44678 rAddr=www.bing.com:443 mode=global
+16:02:54 INF [TCP] connected lAddr=127.0.0.1:33258 rAddr=collector.github.com:443 mode=global
+16:02:55 INF [TCP] connected lAddr=127.0.0.1:33260 rAddr=collector.github.com:443 mode=global
+16:02:56 INF [TCP] connected lAddr=127.0.0.1:33266 rAddr=client.wns.windows.com:443 mode=global
+16:02:56 INF [TCP] connected lAddr=127.0.0.1:60870 rAddr=client.wns.windows.com:443 mode=global
+16:02:59 INF [UDP] connected lAddr=198.18.0.1:34405 rAddr=192.168.1.1:53 mode=global
+16:03:00 INF [TCP] connected lAddr=127.0.0.1:60878 rAddr=www.bing.com:443 mode=global
+16:03:00 INF [UDP] connected lAddr=198.18.0.1:37074 rAddr=192.168.1.1:53 mode=global
+16:03:00 INF [TCP] connected lAddr=127.0.0.1:60894 rAddr=www.bing.com:443 mode=global
+16:03:02 INF [TCP] connected lAddr=127.0.0.1:60902 rAddr=edge.microsoft.com:443 mode=global
+16:03:02 INF [TCP] connected lAddr=127.0.0.1:60906 rAddr=edge.microsoft.com:443 mode=global
+16:03:22 INF [TCP] connected lAddr=127.0.0.1:42002 rAddr=client.wns.windows.com:443 mode=global
+16:03:44 INF [TCP] connected lAddr=127.0.0.1:52806 rAddr=api.vc.bilibili.com:443 mode=global
+16:03:44 INF [TCP] connected lAddr=127.0.0.1:52808 rAddr=api.vc.bilibili.com:443 mode=global
+16:03:45 INF [TCP] connected lAddr=127.0.0.1:52824 rAddr=client.wns.windows.com:443 mode=global
+16:03:45 INF [TCP] connected lAddr=127.0.0.1:52840 rAddr=client.wns.windows.com:443 mode=global
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:35186 rAddr=edge.microsoft.com:443 mode=global
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:35188 rAddr=api.github.com:443 mode=global
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:35194 rAddr=edge.microsoft.com:443 mode=global
+16:03:55 INF [TCP] connected lAddr=127.0.0.1:35206 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:03:56 INF [TCP] connected lAddr=127.0.0.1:35220 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:03:56 INF [TCP] connected lAddr=127.0.0.1:35230 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:03:56 INF [TCP] connected lAddr=127.0.0.1:41254 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:03:59 INF [TCP] connected lAddr=127.0.0.1:41260 rAddr=self.events.data.microsoft.com:443 mode=global
+16:03:59 INF [TCP] connected lAddr=127.0.0.1:41262 rAddr=github.com:443 mode=global
+16:04:00 INF [TCP] connected lAddr=127.0.0.1:41274 rAddr=avatars.githubusercontent.com:443 mode=global
+16:04:00 INF [TCP] connected lAddr=127.0.0.1:41278 rAddr=avatars.githubusercontent.com:443 mode=global
+16:04:00 INF [TCP] connected lAddr=127.0.0.1:41294 rAddr=www.bing.com:443 mode=global
+16:04:08 INF [TCP] connected lAddr=127.0.0.1:38162 rAddr=client.wns.windows.com:443 mode=global
+16:04:08 INF [TCP] connected lAddr=127.0.0.1:38168 rAddr=client.wns.windows.com:443 mode=global
+16:04:36 INF [TCP] connected lAddr=127.0.0.1:38016 rAddr=client.wns.windows.com:443 mode=global
+16:05:00 INF [TCP] connected lAddr=127.0.0.1:58762 rAddr=client.wns.windows.com:443 mode=global
+16:05:13 INF [UDP] connected lAddr=198.18.0.1:43273 rAddr=192.168.1.1:53 mode=global
+16:05:16 INF [TCP] connected lAddr=127.0.0.1:47314 rAddr=github.com:443 mode=global
+16:05:16 INF [TCP] connected lAddr=127.0.0.1:42144 rAddr=github.com:443 mode=global
+16:05:17 INF [TCP] connected lAddr=127.0.0.1:42152 rAddr=avatars.githubusercontent.com:443 mode=global
+16:05:17 INF [TCP] connected lAddr=127.0.0.1:42154 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:05:18 INF [TCP] connected lAddr=127.0.0.1:42162 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=global
+16:05:19 INF [TCP] connected lAddr=127.0.0.1:42170 rAddr=collector.github.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42172 rAddr=github.githubassets.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42174 rAddr=github.githubassets.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42218 rAddr=github.githubassets.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42188 rAddr=github.githubassets.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42206 rAddr=github.githubassets.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42202 rAddr=github.githubassets.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42230 rAddr=github.githubassets.com:443 mode=global
+16:05:20 INF [TCP] connected lAddr=127.0.0.1:42222 rAddr=github.githubassets.com:443 mode=global
+16:05:21 INF [TCP] connected lAddr=127.0.0.1:42244 rAddr=edge.microsoft.com:443 mode=global
+16:05:23 INF [TCP] connected lAddr=127.0.0.1:42258 rAddr=client.wns.windows.com:443 mode=global
+16:05:26 INF [TCP] connected lAddr=127.0.0.1:42264 rAddr=api.github.com:443 mode=global
+16:05:26 INF [TCP] connected lAddr=127.0.0.1:53314 rAddr=api.github.com:443 mode=global
+16:05:28 INF [UDP] connected lAddr=198.18.0.1:42141 rAddr=192.168.1.1:53 mode=global
+16:05:29 INF [TCP] connected lAddr=127.0.0.1:53318 rAddr=camo.githubusercontent.com:443 mode=global
+16:05:29 INF [TCP] connected lAddr=127.0.0.1:53334 rAddr=camo.githubusercontent.com:443 mode=global
+16:05:29 INF [TCP] connected lAddr=127.0.0.1:53354 rAddr=camo.githubusercontent.com:443 mode=global
+16:05:30 INF [TCP] connected lAddr=127.0.0.1:53336 rAddr=camo.githubusercontent.com:443 mode=global
+16:05:30 INF [TCP] connected lAddr=127.0.0.1:53324 rAddr=camo.githubusercontent.com:443 mode=global
+16:05:30 INF [TCP] connected lAddr=127.0.0.1:53346 rAddr=camo.githubusercontent.com:443 mode=global
+16:05:32 INF [TCP] connected lAddr=127.0.0.1:53356 rAddr=self.events.data.microsoft.com:443 mode=global
+16:05:32 INF [TCP] connected lAddr=127.0.0.1:53358 rAddr=self.events.data.microsoft.com:443 mode=global
+16:05:33 INF [TCP] connected lAddr=198.18.0.1:45878 rAddr=116.203.91.91:80 mode=global
+16:05:35 INF [TCP] connected lAddr=127.0.0.1:53370 rAddr=api.github.com:443 mode=global
+16:05:36 INF [TCP] connected lAddr=127.0.0.1:56364 rAddr=api.github.com:443 mode=global
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:56376 rAddr=self.events.data.microsoft.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56402 rAddr=analytics.google.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56380 rAddr=data.bilibili.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56394 rAddr=www.bing.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56396 rAddr=www.google-analytics.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56410 rAddr=www.google.co.jp:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56418 rAddr=pagead2.googlesyndication.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56430 rAddr=www.bing.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56446 rAddr=www.bing.com:443 mode=global
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:56460 rAddr=www.bing.com:443 mode=global
+16:05:55 INF [TCP] connected lAddr=127.0.0.1:41514 rAddr=business.bing.com:443 mode=global
+16:05:55 INF [TCP] connected lAddr=127.0.0.1:41526 rAddr=www.bing.com:443 mode=global
+16:05:55 INF [TCP] connected lAddr=127.0.0.1:41518 rAddr=prod.rewardsplatform.microsoft.com:443 mode=global
+16:05:55 INF [TCP] connected lAddr=127.0.0.1:41508 rAddr=login.microsoftonline.com:443 mode=global
+16:05:55 INF [TCP] connected lAddr=127.0.0.1:41502 rAddr=edge.microsoft.com:443 mode=global
+16:05:55 INF [TCP] connected lAddr=127.0.0.1:41496 rAddr=ntp.msn.com:443 mode=global
+16:05:55 INF [TCP] connected lAddr=127.0.0.1:41522 rAddr=edge.microsoft.com:443 mode=global
+16:05:56 INF [TCP] connected lAddr=127.0.0.1:41542 rAddr=business.bing.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33864 rAddr=www.bing.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33948 rAddr=sb.scorecardresearch.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33872 rAddr=c.msn.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33916 rAddr=assets.msn.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33902 rAddr=assets.msn.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33964 rAddr=browser.events.data.msn.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33860 rAddr=img-s-msn-com.akamaized.net:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33850 rAddr=substrate.office.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33932 rAddr=th.bing.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33920 rAddr=api.msn.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33972 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33980 rAddr=edge.microsoft.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33886 rAddr=c.bing.com:443 mode=global
+16:05:57 INF [TCP] connected lAddr=127.0.0.1:33994 rAddr=copilot.microsoft.com:443 mode=global

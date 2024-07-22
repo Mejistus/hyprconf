@@ -1,0 +1,15 @@
+2024/07/22-17:05:42.587 707a Reusing MANIFEST /home/mejistus/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2024/07/22-17:05:42.587 707a Recovering log #29
+2024/07/22-17:05:42.587 707a Reusing old log /home/mejistus/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000029.log 
+2024/07/22-17:05:54.151 706d Level-0 table #33: started
+2024/07/22-17:05:54.158 706d Level-0 table #33: 854914 bytes OK
+2024/07/22-17:05:54.163 706d Delete type=0 #29
+2024/07/22-17:05:54.163 706d Compacting 4@0 + 1@1 files
+2024/07/22-17:05:54.166 706d Generated table #34@0: 4 keys, 854775 bytes
+2024/07/22-17:05:54.166 706d Compacted 4@0 + 1@1 files => 854775 bytes
+2024/07/22-17:05:54.170 706d compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/07/22-17:05:54.170 706d Delete type=2 #27
+2024/07/22-17:05:54.170 706d Delete type=2 #21
+2024/07/22-17:05:54.170 706d Delete type=2 #30
+2024/07/22-17:05:54.170 706d Delete type=2 #24
+2024/07/22-17:05:54.170 706d Delete type=2 #33

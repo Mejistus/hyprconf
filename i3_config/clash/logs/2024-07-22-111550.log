@@ -1,0 +1,39 @@
+11:15:50 INF inbound create success inbound=mixed addr=:7890 network=tcp
+11:15:50 INF inbound create success inbound=mixed addr=:7890 network=udp
+11:15:50 INF [API] listening addr=127.0.0.1:42947
+11:15:50 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:37426 rAddr=raw.githubusercontent.com:443
+11:15:50 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:37434 rAddr=raw.githubusercontent.com:443
+11:15:50 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:37430 rAddr=api.github.com:443 proxy=DIRECT
+11:15:51 INF [Config] initial compatible provider name=磁力下载
+11:15:51 INF [Config] initial compatible provider name=Netflix
+11:15:51 INF [Config] initial compatible provider name=故障转移
+11:15:51 INF [Config] initial compatible provider name=谷歌服务
+11:15:51 INF [Config] initial compatible provider name=Copilot
+11:15:51 INF [Config] initial compatible provider name=TikTok
+11:15:51 INF [Config] initial compatible provider name=境内使用
+11:15:51 INF [Config] initial compatible provider name=ChatGPT
+11:15:51 INF [Config] initial compatible provider name=Telegram
+11:15:51 INF [Config] initial compatible provider name=哔哩哔哩
+11:15:51 INF [Config] initial compatible provider name=海外使用
+11:15:51 INF [Config] initial compatible provider name=节点选择
+11:15:51 INF [Config] initial compatible provider name=Steam
+11:15:51 INF [Config] initial compatible provider name=微软服务
+11:15:51 INF [Config] initial compatible provider name=Twitter
+11:15:51 INF [Config] initial compatible provider name=自动选择
+11:15:51 INF [Config] initial compatible provider name=苹果服务
+11:15:51 ERR [Inbound] start failed error=no such device type=TUN stackType=gvisor inet=198.18.0.1/16
+11:15:53 INF [TCP] connected lAddr=127.0.0.1:37450 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+11:15:54 INF [TCP] connected lAddr=127.0.0.1:37462 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+11:15:58 INF [TCP] connected lAddr=127.0.0.1:37466 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+11:16:07 INF [TCP] connected lAddr=127.0.0.1:52888 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:19:58 INF [TCP] connected lAddr=127.0.0.1:38892 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:20:04 INF [TCP] connected lAddr=127.0.0.1:39292 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:20:10 INF [TCP] connected lAddr=127.0.0.1:54376 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:20:25 INF [TCP] connected lAddr=127.0.0.1:52504 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:20:49 INF [TCP] connected lAddr=127.0.0.1:41398 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:20:59 INF [TCP] connected lAddr=127.0.0.1:34536 rAddr=updatecdn.meeting.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:24:10 INF [TCP] connected lAddr=127.0.0.1:58430 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:24:10 INF [TCP] connected lAddr=127.0.0.1:58446 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:24:41 INF [TCP] connected lAddr=127.0.0.1:51458 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:24:42 INF [TCP] connected lAddr=127.0.0.1:51464 rAddr=codeload.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+11:26:34 INF [TCP] connected lAddr=127.0.0.1:58804 rAddr=software-static.download.prss.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]

@@ -1,0 +1,173 @@
+12:15:19 INF inbound create success inbound=mixed addr=:7890 network=tcp
+12:15:19 INF inbound create success inbound=mixed addr=:7890 network=udp
+12:15:19 INF [API] listening addr=127.0.0.1:41569
+12:15:19 INF [Config] initial compatible provider name=哔哩哔哩
+12:15:19 INF [Config] initial compatible provider name=磁力下载
+12:15:19 INF [Config] initial compatible provider name=Twitter
+12:15:19 INF [Config] initial compatible provider name=Netflix
+12:15:19 INF [Config] initial compatible provider name=ChatGPT
+12:15:19 INF [Config] initial compatible provider name=谷歌服务
+12:15:19 INF [Config] initial compatible provider name=Telegram
+12:15:19 INF [Config] initial compatible provider name=境内使用
+12:15:19 INF [Config] initial compatible provider name=TikTok
+12:15:19 INF [Config] initial compatible provider name=Steam
+12:15:19 INF [Config] initial compatible provider name=苹果服务
+12:15:19 INF [Config] initial compatible provider name=海外使用
+12:15:19 INF [Config] initial compatible provider name=故障转移
+12:15:19 INF [Config] initial compatible provider name=微软服务
+12:15:19 INF [Config] initial compatible provider name=Copilot
+12:15:19 INF [Config] initial compatible provider name=自动选择
+12:15:19 INF [Config] initial compatible provider name=节点选择
+12:15:19 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+12:15:19 INF [UDP] connected lAddr=198.18.0.1:52043 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:19 INF [UDP] connected lAddr=198.18.0.1:49012 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:20 INF [TCP] connected lAddr=198.18.0.1:55966 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+12:15:21 INF [TCP] connected lAddr=127.0.0.1:58940 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+12:15:21 INF [UDP] connected lAddr=198.18.0.1:57921 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:21 INF [UDP] connected lAddr=198.18.0.1:45986 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:22 INF [TCP] connected lAddr=198.18.0.1:55970 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+12:15:25 INF [UDP] connected lAddr=198.18.0.1:45441 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:25 INF [UDP] connected lAddr=198.18.0.1:49862 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:25 INF [UDP] connected lAddr=198.18.0.1:58671 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:26 INF [TCP] connected lAddr=198.18.0.1:55984 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+12:15:29 INF [TCP] connected lAddr=127.0.0.1:48806 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化]
+12:15:32 INF [TCP] connected lAddr=127.0.0.1:48808 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:33 INF [UDP] connected lAddr=198.18.0.1:45782 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:33 INF [UDP] connected lAddr=198.18.0.1:43804 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:34 INF [TCP] connected lAddr=198.18.0.1:44336 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:36 INF [TCP] connected lAddr=127.0.0.1:52356 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:38 INF [UDP] connected lAddr=198.18.0.1:45278 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:38 INF [UDP] connected lAddr=198.18.0.1:42206 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:44 INF [TCP] connected lAddr=127.0.0.1:52366 rAddr=www.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:45 INF [TCP] connected lAddr=127.0.0.1:52368 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:46 INF [TCP] connected lAddr=127.0.0.1:52370 rAddr=codeload.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:49 INF [UDP] connected lAddr=198.18.0.1:60198 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:15:51 INF [TCP] connected lAddr=127.0.0.1:33630 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:56 INF [TCP] connected lAddr=127.0.0.1:33646 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:15:58 INF [TCP] connected lAddr=127.0.0.1:35378 rAddr=codeload.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:16:21 INF [UDP] connected lAddr=198.18.0.1:47745 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:03 INF [UDP] connected lAddr=198.18.0.1:38872 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:05 INF [UDP] connected lAddr=198.18.0.1:60333 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:05 INF [UDP] connected lAddr=198.18.0.1:35248 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:05 INF [UDP] connected lAddr=198.18.0.1:52850 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:05 INF [UDP] connected lAddr=198.18.0.1:33585 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:09 INF [TCP] connected lAddr=127.0.0.1:39784 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:22 INF [TCP] connected lAddr=127.0.0.1:44100 rAddr=nodejs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:23 INF [TCP] connected lAddr=127.0.0.1:44104 rAddr=iojs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:24 INF [TCP] connected lAddr=127.0.0.1:44108 rAddr=nodejs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:25 INF [TCP] connected lAddr=127.0.0.1:44112 rAddr=nodejs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:25 INF [UDP] connected lAddr=198.18.0.1:48409 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:26 INF [UDP] connected lAddr=198.18.0.1:54623 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:26 INF [UDP] connected lAddr=198.18.0.1:39881 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:27 INF [TCP] connected lAddr=198.18.0.1:43360 rAddr=142.251.43.17:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:34 INF [TCP] connected lAddr=127.0.0.1:37196 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:54 INF [TCP] connected lAddr=127.0.0.1:39442 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:55 INF [TCP] connected lAddr=127.0.0.1:39454 rAddr=codeload.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:57 INF [TCP] connected lAddr=127.0.0.1:55894 rAddr=nodejs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:58 INF [TCP] connected lAddr=127.0.0.1:55910 rAddr=iojs.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:17:58 INF [UDP] connected lAddr=198.18.0.1:48758 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:17:59 INF [TCP] connected lAddr=127.0.0.1:55916 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:00 INF [UDP] connected lAddr=198.18.0.1:55175 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:18:15 INF [UDP] connected lAddr=198.18.0.1:47183 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:18:15 INF [UDP] connected lAddr=198.18.0.1:45354 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:18:18 INF [TCP] connected lAddr=127.0.0.1:36598 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:19 INF [TCP] connected lAddr=127.0.0.1:36606 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:37 INF [TCP] connected lAddr=198.18.0.1:38598 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:37 INF [TCP] connected lAddr=198.18.0.1:38578 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:37 INF [TCP] connected lAddr=198.18.0.1:38564 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:37 INF [TCP] connected lAddr=198.18.0.1:38592 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:37 INF [TCP] connected lAddr=198.18.0.1:38540 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:37 INF [TCP] connected lAddr=198.18.0.1:38550 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55078 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55130 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55112 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55142 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55102 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55106 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55092 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:18:59 INF [TCP] connected lAddr=198.18.0.1:55122 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:00 INF [TCP] connected lAddr=198.18.0.1:55156 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:00 INF [TCP] connected lAddr=198.18.0.1:55172 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:19 INF [TCP] connected lAddr=198.18.0.1:51438 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:22 INF [TCP] connected lAddr=198.18.0.1:51448 rAddr=104.16.3.35:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:32 INF [UDP] connected lAddr=198.18.0.1:42720 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:19:33 INF [TCP] connected lAddr=127.0.0.1:33058 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:33 INF [TCP] connected lAddr=127.0.0.1:33056 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:33 INF [TCP] connected lAddr=127.0.0.1:33074 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:33 INF [UDP] connected lAddr=198.18.0.1:58053 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:19:38 INF [UDP] connected lAddr=198.18.0.1:41835 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:19:39 INF [TCP] connected lAddr=127.0.0.1:47278 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:44 INF [TCP] connected lAddr=127.0.0.1:47288 rAddr=dldir1.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:19:50 INF [TCP] connected lAddr=127.0.0.1:59056 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:52 INF [TCP] connected lAddr=127.0.0.1:59064 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:52 INF [TCP] connected lAddr=127.0.0.1:59070 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:19:53 INF [TCP] connected lAddr=127.0.0.1:59078 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:20:01 INF [TCP] connected lAddr=127.0.0.1:56080 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:20:02 INF [TCP] connected lAddr=127.0.0.1:56094 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:20:12 INF [TCP] connected lAddr=127.0.0.1:39458 rAddr=dldir1.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:20:20 INF [UDP] connected lAddr=198.18.0.1:53432 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:20:20 INF [UDP] connected lAddr=198.18.0.1:56809 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:20:20 INF [UDP] connected lAddr=198.18.0.1:45703 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:20:20 INF [UDP] connected lAddr=198.18.0.1:42046 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:20:33 INF [UDP] connected lAddr=198.18.0.1:41067 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:20:34 INF [TCP] connected lAddr=198.18.0.1:35306 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:22:43 INF [UDP] connected lAddr=198.18.0.1:34834 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:22:44 INF [TCP] connected lAddr=127.0.0.1:55678 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:22:58 INF [UDP] connected lAddr=198.18.0.1:51749 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:23:00 INF [UDP] connected lAddr=198.18.0.1:37881 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:23:14 INF [TCP] connected lAddr=127.0.0.1:48930 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:23:15 INF [TCP] connected lAddr=127.0.0.1:48942 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:23:16 INF [TCP] connected lAddr=127.0.0.1:48952 rAddr=objects.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:23:48 INF [UDP] connected lAddr=198.18.0.1:55797 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:23:49 INF [TCP] connected lAddr=127.0.0.1:33538 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:23:49 INF [UDP] connected lAddr=198.18.0.1:56704 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:23:55 INF [TCP] connected lAddr=127.0.0.1:33546 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:24:00 INF [TCP] connected lAddr=127.0.0.1:49046 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:24:27 INF [TCP] connected lAddr=127.0.0.1:33942 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:24:49 INF [UDP] connected lAddr=198.18.0.1:42767 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:25:33 INF [UDP] connected lAddr=198.18.0.1:40924 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:25:34 INF [TCP] connected lAddr=198.18.0.1:46132 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:27:58 INF [UDP] connected lAddr=198.18.0.1:59062 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:28:00 INF [UDP] connected lAddr=198.18.0.1:35674 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:28:49 INF [UDP] connected lAddr=198.18.0.1:33941 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:30:28 INF [UDP] connected lAddr=198.18.0.1:37458 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:30:28 INF [UDP] connected lAddr=198.18.0.1:46881 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:30:33 INF [UDP] connected lAddr=198.18.0.1:43966 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:30:34 INF [TCP] connected lAddr=198.18.0.1:51692 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:32:58 INF [UDP] connected lAddr=198.18.0.1:58734 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:33:00 INF [UDP] connected lAddr=198.18.0.1:52594 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:33:49 INF [UDP] connected lAddr=198.18.0.1:42904 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:35:33 INF [UDP] connected lAddr=198.18.0.1:59221 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:35:34 INF [TCP] connected lAddr=198.18.0.1:34392 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:37:58 INF [UDP] connected lAddr=198.18.0.1:40325 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:38:00 INF [UDP] connected lAddr=198.18.0.1:44298 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:38:49 INF [UDP] connected lAddr=198.18.0.1:37301 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:39:17 INF [UDP] connected lAddr=198.18.0.1:57504 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:39:17 INF [UDP] connected lAddr=198.18.0.1:49891 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:39:17 INF [UDP] connected lAddr=198.18.0.1:37493 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:40:33 INF [UDP] connected lAddr=198.18.0.1:59863 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:40:34 INF [TCP] connected lAddr=198.18.0.1:39572 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:42:58 INF [UDP] connected lAddr=198.18.0.1:46323 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:43:00 INF [UDP] connected lAddr=198.18.0.1:50799 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:43:49 INF [UDP] connected lAddr=198.18.0.1:45919 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:44:45 INF [UDP] connected lAddr=198.18.0.1:48080 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:47108 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:44:53 INF [TCP] connected lAddr=127.0.0.1:47110 rAddr=codeberg.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:45:05 INF [UDP] connected lAddr=198.18.0.1:50719 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:05 INF [UDP] connected lAddr=198.18.0.1:52776 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:05 INF [UDP] connected lAddr=198.18.0.1:45507 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:05 INF [UDP] connected lAddr=198.18.0.1:36118 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:10 INF [TCP] connected lAddr=127.0.0.1:58834 rAddr=codeberg.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+12:45:33 INF [UDP] connected lAddr=198.18.0.1:40688 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:34 INF [TCP] connected lAddr=198.18.0.1:45220 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本JP-T]
+12:45:56 INF [UDP] connected lAddr=198.18.0.1:36630 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:56 INF [UDP] connected lAddr=198.18.0.1:41472 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:46:07 INF [UDP] connected lAddr=198.18.0.1:55504 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:46:09 INF [UDP] connected lAddr=198.18.0.1:43755 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:46:09 INF [UDP] connected lAddr=198.18.0.1:53460 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:46:09 INF [TCP] connected lAddr=198.18.0.1:60606 rAddr=120.92.105.245:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:46:26 INF [UDP] connected lAddr=198.18.0.1:43054 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:46:36 INF [UDP] connected lAddr=198.18.0.1:59937 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:47:58 INF [UDP] connected lAddr=198.18.0.1:34590 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:48:00 INF [UDP] connected lAddr=198.18.0.1:40632 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:48:49 INF [UDP] connected lAddr=198.18.0.1:39916 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT

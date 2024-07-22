@@ -1,0 +1,20 @@
+[2024-07-22 17:01:01.130] [info]  [hot update] 
+
+------------ app 启动分界线 ------------
+
+[2024-07-22 17:01:01.150] [info]  [hot update] hotUpdateApi checkHasMultipleQQ:  false
+[2024-07-22 17:01:01.150] [info]  [hot update] hotUpdateApi clearOldVersions start
+[2024-07-22 17:01:01.151] [info]  [hot update] {
+  "baseVersion": "3.2.10-25765",
+  "curVersion": "3.2.10-25765",
+  "prevVersion": "",
+  "onErrorVersions": [],
+  "buildId": "25765",
+  "unzipRetryCount": 0
+}
+[2024-07-22 17:01:01.157] [info]  [hot update] start update check
+[2024-07-22 17:01:01.184] [info]  [hot update] ----- startUpdate -----
+[2024-07-22 17:01:01.189] [info]  [hot update] hotUpdateApi checkHasMultipleQQ:  false
+[2024-07-22 17:01:01.190] [info]  [hot update] hotUpdateApi start check  3.2.10-25493  IsOnErrorVersion
+[2024-07-22 17:01:01.191] [info]  [hot update] hotUpdateApi checkIsOnErrorVersion result: false
+[2024-07-22 17:01:01.191] [info]  [hot update] [startUpdate] 无需更新

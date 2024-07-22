@@ -1,0 +1,49 @@
+files:
+  - url: ""
+    time: 1721616744321.yml
+    name: config.yaml
+    selected: []
+  - time: 1721616785235.yml
+    name: 魔戒.net
+    url: https://mojie0201.xn--8stx8olrwkucjq3b.com/api/v1/client/subscribe?token=1861d8d6b48cca2e256a0826aa327c08
+    selected:
+      - name: ChatGPT
+        now: 节点选择
+      - name: Copilot
+        now: 节点选择
+      - name: GLOBAL
+        now: 香港WAP-优化
+      - name: Netflix
+        now: 节点选择
+      - name: Steam
+        now: 节点选择
+      - name: Telegram
+        now: 节点选择
+      - name: TikTok
+        now: 日本-优化
+      - name: Twitter
+        now: 节点选择
+      - name: 哔哩哔哩
+        now: DIRECT
+      - name: 境内使用
+        now: 日本-优化
+      - name: 微软服务
+        now: DIRECT
+      - name: 海外使用
+        now: 日本JP-T
+      - name: 磁力下载
+        now: DIRECT
+      - name: 节点选择
+        now: 自动选择
+      - name: 苹果服务
+        now: DIRECT
+      - name: 谷歌服务
+        now: 节点选择
+    interval: 24
+    subInfo:
+      upload: 3991445532
+      download: 630847083644
+      total: 805306368000
+    homeWeb: https://mojie.live
+    mode: rule
+index: 1
