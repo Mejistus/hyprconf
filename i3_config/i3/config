@@ -273,6 +273,6 @@ exec_always --no-startup-id blueman-applet
 exec --no-startup-id dunst
 exec --no-startup-id ~/Public/Clash/cfw
 exec --no-startup-id sh ~/.config/i3/mon.sh
-exec --no-startup-id copyq
+exec --no-startup-id clipit
 # exec --no-startup-id bash ~/.config/i3/gummy.sh
 # exec --no-startup-id gummy start
