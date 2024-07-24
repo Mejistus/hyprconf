@@ -1,0 +1,218 @@
+17:35:52.356: Using EGL/X11
+17:35:52.356: CPU Name: Genuine Intel(R) 0000
+17:35:52.356: CPU Speed: 800.000MHz
+17:35:52.356: Physical Cores: 16, Logical Cores: 24
+17:35:52.356: Physical Memory: 31393MB Total, 25170MB Free
+17:35:52.356: Kernel Version: Linux 6.9.9-1-MANJARO
+17:35:52.356: Distribution: "Manjaro Linux" Unknown
+17:35:52.356: Desktop Environment: i3 (i3)
+17:35:52.356: Session Type: x11
+17:35:52.356: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:35:52.357: Qt Version: 6.7.2 (runtime), 6.7.1 (compiled)
+17:35:52.357: Portable mode: false
+17:35:52.404: OBS 30.1.2-2 (linux)
+17:35:52.404: ---------------------------------
+17:35:52.404: ---------------------------------
+17:35:52.404: audio settings reset:
+17:35:52.404: 	samples per sec: 48000
+17:35:52.404: 	speakers:        2
+17:35:52.404: 	max buffering:   960 milliseconds
+17:35:52.404: 	buffering type:  dynamically increasing
+17:35:52.405: ---------------------------------
+17:35:52.405: Initializing OpenGL...
+17:35:52.490: Loading up OpenGL on adapter AMD AMD Radeon RX 5700 XT (radeonsi, navi10, LLVM 18.1.8, DRM 3.57, 6.9.9-1-MANJARO)
+17:35:52.490: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.1.3-manjaro1.1, shading language 4.60
+17:35:52.509: ---------------------------------
+17:35:52.509: video settings reset:
+17:35:52.509: 	base resolution:   1920x1080
+17:35:52.509: 	output resolution: 1920x1080
+17:35:52.509: 	downscale filter:  Bicubic
+17:35:52.509: 	fps:               60/1
+17:35:52.509: 	format:            NV12
+17:35:52.509: 	YUV mode:          Rec. 709/Partial
+17:35:52.510: NV12 texture support enabled
+17:35:52.510: P010 texture support not available
+17:35:52.513: Audio monitoring device:
+17:35:52.513: 	name: Default
+17:35:52.513: 	id: default
+17:35:52.513: ---------------------------------
+17:35:52.518: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:35:52.523: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:35:52.527: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:35:52.527: Failed to initialize module 'decklink.so'
+17:35:52.627: [pipewire] No captures available
+17:35:52.640: v4l2loopback not installed, virtual camera disabled
+17:35:52.670: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+17:35:52.670: FFmpeg VAAPI H264 encoding not supported
+17:35:52.671: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+17:35:52.671: FFmpeg VAAPI AV1 encoding not supported
+17:35:52.671: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+17:35:52.671: FFmpeg VAAPI HEVC encoding not supported
+17:35:52.795: ---------------------------------
+17:35:52.795:   Loaded Modules:
+17:35:52.795:     text-freetype2.so
+17:35:52.795:     rtmp-services.so
+17:35:52.795:     obs-x264.so
+17:35:52.795:     obs-webrtc.so
+17:35:52.795:     obs-vst.so
+17:35:52.795:     obs-transitions.so
+17:35:52.795:     obs-qsv11.so
+17:35:52.795:     obs-outputs.so
+17:35:52.795:     obs-libfdk.so
+17:35:52.795:     obs-filters.so
+17:35:52.795:     obs-ffmpeg.so
+17:35:52.795:     linux-v4l2.so
+17:35:52.795:     linux-pulseaudio.so
+17:35:52.795:     linux-pipewire.so
+17:35:52.795:     linux-jack.so
+17:35:52.795:     linux-capture.so
+17:35:52.795:     linux-alsa.so
+17:35:52.795:     image-source.so
+17:35:52.795:     frontend-tools.so
+17:35:52.795:     decklink-output-ui.so
+17:35:52.795:     decklink-captions.so
+17:35:52.795: ---------------------------------
+17:35:52.795: ==== Startup complete ===============================================
+17:35:52.832: All scene data cleared
+17:35:52.832: ------------------------------------------------
+17:35:52.839: pulse-input: Server name: 'pulseaudio 17.0'
+17:35:52.840: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:35:52.840: pulse-input: Started recording from 'bluez_sink.28_FA_19_BA_3B_15.a2dp_sink.monitor' (default)
+17:35:52.840: [Loaded global audio device]: 'Desktop Audio'
+17:35:52.920: pulse-input: Server name: 'pulseaudio 17.0'
+17:35:52.920: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+17:35:52.921: pulse-input: Started recording from 'alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Sound_Device-00.analog-mono' (default)
+17:35:52.921: [Loaded global audio device]: 'Mic/Aux'
+17:35:52.923: xshm-input: Geometry 1920x1080 @ 0,0
+17:35:52.929: Switched to scene 'Scene'
+17:35:52.929: ------------------------------------------------
+17:35:52.929: Loaded scenes:
+17:35:52.929: - scene 'Scene':
+17:35:52.929:     - source: '屏幕采集 (XSHM)' (xshm_input)
+17:35:52.929: ------------------------------------------------
+17:35:53.471: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+17:35:53.471: 
+17:36:05.383: Starting recording due to hotkey
+17:36:05.387: ---------------------------------
+17:36:05.387: [x264 encoder: 'simple_video_recording'] preset: veryfast
+17:36:05.387: [x264 encoder: 'simple_video_recording'] profile: high
+17:36:05.387: [x264 encoder: 'simple_video_recording'] settings:
+17:36:05.387: 	rate_control: CRF
+17:36:05.387: 	bitrate:      0
+17:36:05.387: 	buffer size:  0
+17:36:05.387: 	crf:          23
+17:36:05.387: 	fps_num:      60
+17:36:05.387: 	fps_den:      1
+17:36:05.387: 	width:        1920
+17:36:05.387: 	height:       1080
+17:36:05.387: 	keyint:       250
+17:36:05.387: 
+17:36:05.427: libfdk_aac encoder created
+17:36:05.427: libfdk_aac bitrate: 192, channels: 2
+17:36:05.427: libfdk_aac encoder created
+17:36:05.427: libfdk_aac bitrate: 192, channels: 2
+17:36:05.427: libfdk_aac encoder created
+17:36:05.427: libfdk_aac bitrate: 192, channels: 2
+17:36:05.427: libfdk_aac encoder created
+17:36:05.427: libfdk_aac bitrate: 192, channels: 2
+17:36:05.428: ==== Recording Start ===============================================
+17:36:05.428: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/mejistus/Videos/OBS/2024-07-23_17-36-05.mkv'...
+17:36:05.431: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.freedesktop.portal.Inhibit 的对象上没有“/org/freedesktop/portal/desktop”接口
+17:36:42.401: Stopping recording due to hotkey
+17:36:43.271: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/mejistus/Videos/OBS/2024-07-23_17-36-05.mkv' stopped
+17:36:43.271: Output 'simple_file_output': stopping
+17:36:43.271: Output 'simple_file_output': Total frames output: 2220
+17:36:43.271: Output 'simple_file_output': Total drawn frames: 2271
+17:36:43.272: ==== Recording Stop ================================================
+17:36:43.305: libfdk_aac encoder destroyed
+17:36:43.305: libfdk_aac encoder destroyed
+17:36:43.305: libfdk_aac encoder destroyed
+17:36:43.305: libfdk_aac encoder destroyed
+17:39:19.033: Starting recording due to hotkey
+17:39:19.037: ---------------------------------
+17:39:19.037: [x264 encoder: 'simple_video_recording'] preset: veryfast
+17:39:19.037: [x264 encoder: 'simple_video_recording'] profile: high
+17:39:19.037: [x264 encoder: 'simple_video_recording'] settings:
+17:39:19.037: 	rate_control: CRF
+17:39:19.037: 	bitrate:      0
+17:39:19.037: 	buffer size:  0
+17:39:19.037: 	crf:          23
+17:39:19.037: 	fps_num:      60
+17:39:19.037: 	fps_den:      1
+17:39:19.037: 	width:        1920
+17:39:19.037: 	height:       1080
+17:39:19.037: 	keyint:       250
+17:39:19.037: 
+17:39:19.068: libfdk_aac encoder created
+17:39:19.068: libfdk_aac bitrate: 192, channels: 2
+17:39:19.069: libfdk_aac encoder created
+17:39:19.069: libfdk_aac bitrate: 192, channels: 2
+17:39:19.069: libfdk_aac encoder created
+17:39:19.069: libfdk_aac bitrate: 192, channels: 2
+17:39:19.069: libfdk_aac encoder created
+17:39:19.069: libfdk_aac bitrate: 192, channels: 2
+17:39:19.070: ==== Recording Start ===============================================
+17:39:19.070: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/mejistus/Videos/OBS/2024-07-23_17-39-19.mkv'...
+17:39:19.072: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.freedesktop.portal.Inhibit 的对象上没有“/org/freedesktop/portal/desktop”接口
+17:40:19.054: Stopping recording due to hotkey
+17:40:19.911: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/mejistus/Videos/OBS/2024-07-23_17-39-19.mkv' stopped
+17:40:19.911: Output 'simple_file_output': stopping
+17:40:19.911: Output 'simple_file_output': Total frames output: 3600
+17:40:19.911: Output 'simple_file_output': Total drawn frames: 3650
+17:40:19.912: ==== Recording Stop ================================================
+17:40:19.938: libfdk_aac encoder destroyed
+17:40:19.938: libfdk_aac encoder destroyed
+17:40:19.938: libfdk_aac encoder destroyed
+17:40:19.938: libfdk_aac encoder destroyed
+17:40:51.721:   OpenType support missing for "Open Sans", script 11
+17:40:51.724:   OpenType support missing for "Arial", script 11
+17:40:51.724:   OpenType support missing for "Droid Sans", script 11
+17:40:51.760:   OpenType support missing for "Open Sans", script 12
+17:40:51.763:   OpenType support missing for "Arial", script 12
+17:40:51.766:   OpenType support missing for "Open Sans", script 16
+17:40:51.769:   OpenType support missing for "Arial", script 16
+17:40:51.769:   OpenType support missing for "Droid Sans", script 16
+17:40:51.769:   OpenType support missing for "Noto Sans", script 16
+17:40:51.769:   OpenType support missing for "DejaVu Sans", script 16
+17:40:51.769:   OpenType support missing for "Verdana", script 16
+17:40:51.770:   OpenType support missing for "Nimbus Sans", script 16
+17:40:51.770:   OpenType support missing for "Lucida Sans Unicode", script 16
+17:40:51.770:   OpenType support missing for "Tahoma", script 16
+17:40:51.770:   OpenType support missing for "Mukti Narrow", script 16
+17:40:51.770:   OpenType support missing for "malayalam", script 16
+17:40:51.770:   OpenType support missing for "Sampige", script 16
+17:40:51.771:   OpenType support missing for "padmaa", script 16
+17:40:51.771:   OpenType support missing for "MS Gothic", script 16
+17:40:51.771:   OpenType support missing for "Microsoft YaHei", script 16
+17:40:51.771:   OpenType support missing for "Microsoft JhengHei", script 16
+17:40:51.774:   OpenType support missing for "Open Sans", script 20
+17:40:51.777:   OpenType support missing for "Arial", script 20
+17:41:11.018: Settings changed (outputs)
+17:41:11.018: ------------------------------------------------
+17:41:19.074: Starting recording due to hotkey
+17:41:19.079: ---------------------------------
+17:41:19.079: [x264 encoder: 'simple_video_recording'] preset: veryfast
+17:41:19.079: [x264 encoder: 'simple_video_recording'] profile: high
+17:41:19.079: [x264 encoder: 'simple_video_recording'] settings:
+17:41:19.079: 	rate_control: CRF
+17:41:19.079: 	bitrate:      0
+17:41:19.079: 	buffer size:  0
+17:41:19.079: 	crf:          23
+17:41:19.079: 	fps_num:      60
+17:41:19.079: 	fps_den:      1
+17:41:19.079: 	width:        1920
+17:41:19.079: 	height:       1080
+17:41:19.079: 	keyint:       250
+17:41:19.079: 
+17:41:19.113: libfdk_aac encoder created
+17:41:19.113: libfdk_aac bitrate: 192, channels: 2
+17:41:19.115: ==== Recording Start ===============================================
+17:41:19.115: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/mejistus/Videos/OBS/2024-07-23_17-41-19.mkv'...
+17:41:19.117: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.freedesktop.portal.Inhibit 的对象上没有“/org/freedesktop/portal/desktop”接口
+17:44:19.733: Stopping recording due to hotkey
+17:44:20.577: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/mejistus/Videos/OBS/2024-07-23_17-41-19.mkv' stopped
+17:44:20.577: Output 'simple_file_output': stopping
+17:44:20.577: Output 'simple_file_output': Total frames output: 10838
+17:44:20.577: Output 'simple_file_output': Total drawn frames: 10887
+17:44:20.577: ==== Recording Stop ================================================
+17:44:20.605: libfdk_aac encoder destroyed

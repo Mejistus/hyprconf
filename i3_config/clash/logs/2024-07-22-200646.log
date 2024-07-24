@@ -1,0 +1,28 @@
+20:06:46 INF [API] listening addr=127.0.0.1:38815
+20:06:46 INF inbound create success inbound=mixed addr=:7890 network=tcp
+20:06:46 INF inbound create success inbound=mixed addr=:7890 network=udp
+20:06:46 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:46356 rAddr=api.github.com:443 proxy=DIRECT
+20:06:46 INF [Config] initial compatible provider name=微软服务
+20:06:46 INF [Config] initial compatible provider name=Twitter
+20:06:46 INF [Config] initial compatible provider name=故障转移
+20:06:46 INF [Config] initial compatible provider name=节点选择
+20:06:46 INF [Config] initial compatible provider name=苹果服务
+20:06:46 INF [Config] initial compatible provider name=谷歌服务
+20:06:46 INF [Config] initial compatible provider name=磁力下载
+20:06:46 INF [Config] initial compatible provider name=Netflix
+20:06:46 INF [Config] initial compatible provider name=ChatGPT
+20:06:46 INF [Config] initial compatible provider name=TikTok
+20:06:46 INF [Config] initial compatible provider name=哔哩哔哩
+20:06:46 INF [Config] initial compatible provider name=Steam
+20:06:46 INF [Config] initial compatible provider name=Copilot
+20:06:46 INF [Config] initial compatible provider name=Telegram
+20:06:46 INF [Config] initial compatible provider name=海外使用
+20:06:46 INF [Config] initial compatible provider name=境内使用
+20:06:46 INF [Config] initial compatible provider name=自动选择
+20:06:46 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+20:06:47 INF [UDP] connected lAddr=198.18.0.1:44557 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:06:47 INF [UDP] connected lAddr=198.18.0.1:46924 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:06:47 INF [TCP] connected lAddr=198.18.0.1:48250 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+20:06:48 INF [UDP] connected lAddr=198.18.0.1:35557 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:06:48 INF [UDP] connected lAddr=198.18.0.1:53633 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:06:49 INF [TCP] connected lAddr=198.18.0.1:48264 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]

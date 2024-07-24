@@ -1,0 +1,45 @@
+00:17:09 INF [API] listening addr=127.0.0.1:46727
+00:17:09 INF inbound create success inbound=mixed addr=:7890 network=tcp
+00:17:09 INF inbound create success inbound=mixed addr=:7890 network=udp
+00:17:09 WRN [TCP] dial failed error=dial tcp4 20.205.243.168:443: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:49618 rAddr=api.github.com:443
+00:17:09 WRN [TCP] dial failed error=dial tcp4 20.205.243.168:443: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:49630 rAddr=api.github.com:443
+00:17:10 INF [Config] initial compatible provider name=自动选择
+00:17:10 INF [Config] initial compatible provider name=谷歌服务
+00:17:10 INF [Config] initial compatible provider name=Telegram
+00:17:10 INF [Config] initial compatible provider name=Twitter
+00:17:10 INF [Config] initial compatible provider name=微软服务
+00:17:10 INF [Config] initial compatible provider name=TikTok
+00:17:10 INF [Config] initial compatible provider name=海外使用
+00:17:10 INF [Config] initial compatible provider name=故障转移
+00:17:10 INF [Config] initial compatible provider name=节点选择
+00:17:10 INF [Config] initial compatible provider name=境内使用
+00:17:10 INF [Config] initial compatible provider name=苹果服务
+00:17:10 INF [Config] initial compatible provider name=ChatGPT
+00:17:10 INF [Config] initial compatible provider name=磁力下载
+00:17:10 INF [Config] initial compatible provider name=哔哩哔哩
+00:17:10 INF [Config] initial compatible provider name=Steam
+00:17:10 INF [Config] initial compatible provider name=Netflix
+00:17:10 INF [Config] initial compatible provider name=Copilot
+00:17:10 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+00:17:10 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 223.5.5.5:53: netlink receive: network is unreachable proxy=节点选择 lAddr=198.18.0.1:36078 rAddr=116.203.91.91:80 rule=Match rulePayload=
+00:17:10 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 223.5.5.5:53: netlink receive: network is unreachable proxy=节点选择 lAddr=198.18.0.1:36074 rAddr=116.203.91.91:80 rule=Match rulePayload=
+00:17:10 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 223.5.5.5:53: netlink receive: network is unreachable proxy=节点选择 lAddr=198.18.0.1:36058 rAddr=116.203.91.91:80 rule=Match rulePayload=
+00:17:12 INF [UDP] connected lAddr=198.18.0.1:34166 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:12 INF [UDP] connected lAddr=198.18.0.1:37462 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:14 INF [UDP] connected lAddr=198.18.0.1:54589 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:14 INF [TCP] connected lAddr=198.18.0.1:36092 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+00:17:16 INF [UDP] connected lAddr=198.18.0.1:47411 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:22 INF [UDP] connected lAddr=198.18.0.1:39345 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:22 INF [TCP] connected lAddr=198.18.0.1:56634 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+00:17:24 INF [UDP] connected lAddr=198.18.0.1:53964 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:33 INF [UDP] connected lAddr=198.18.0.1:37025 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:38 INF [UDP] connected lAddr=198.18.0.1:33895 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:17:38 INF [TCP] connected lAddr=198.18.0.1:50728 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+00:17:40 INF [UDP] connected lAddr=198.18.0.1:44867 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:18:12 INF [UDP] connected lAddr=198.18.0.1:45500 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:19:16 INF [UDP] connected lAddr=198.18.0.1:42864 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:21:24 INF [UDP] connected lAddr=198.18.0.1:45802 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:22:10 INF [UDP] connected lAddr=198.18.0.1:47025 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:22:12 INF [UDP] connected lAddr=198.18.0.1:35865 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:22:38 INF [UDP] connected lAddr=198.18.0.1:40935 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:22:38 INF [TCP] connected lAddr=198.18.0.1:56346 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]

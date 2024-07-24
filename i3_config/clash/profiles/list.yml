@@ -12,7 +12,7 @@ files:
       - name: Copilot
         now: 节点选择
       - name: GLOBAL
-        now: 香港WAP-优化
+        now: 日本-优化2
       - name: Netflix
         now: 节点选择
       - name: Steam
@@ -41,8 +41,8 @@ files:
         now: 节点选择
     interval: 24
     subInfo:
-      upload: 3991445532
-      download: 630847083644
+      upload: 4377659593
+      download: 636452166357
       total: 805306368000
     homeWeb: https://mojie.live
     mode: rule

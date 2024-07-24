@@ -1,9 +1,9 @@
 [Default Applications]
-x-scheme-handler/http=userapp-Pale Moon.desktop
-x-scheme-handler/https=userapp-Pale Moon.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
 x-scheme-handler/ftp=userapp-Pale Moon.desktop
 x-scheme-handler/chrome=userapp-Pale Moon.desktop
-text/html=userapp-Pale Moon.desktop
+text/html=google-chrome.desktop
 application/x-extension-htm=userapp-Pale Moon.desktop
 application/x-extension-html=userapp-Pale Moon.desktop
 application/x-extension-shtml=userapp-Pale Moon.desktop
@@ -18,6 +18,8 @@ message/rfc822=userapp-Thunderbird.desktop
 application/pdf=mupdf.desktop
 application/x-bittorrent=deluge.desktop
 x-scheme-handler/bilipc=bilibili.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Pale Moon.desktop;

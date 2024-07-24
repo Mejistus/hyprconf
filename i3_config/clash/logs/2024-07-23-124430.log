@@ -1,0 +1,213 @@
+12:44:30 INF inbound create success inbound=mixed addr=:7890 network=tcp
+12:44:30 INF inbound create success inbound=mixed addr=:7890 network=udp
+12:44:30 INF [API] listening addr=127.0.0.1:42055
+12:44:30 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:47408 rAddr=raw.githubusercontent.com:443
+12:44:30 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:47426 rAddr=raw.githubusercontent.com:443
+12:44:30 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:47414 rAddr=api.github.com:443 proxy=DIRECT
+12:44:30 INF [Config] initial compatible provider name=Telegram
+12:44:30 INF [Config] initial compatible provider name=节点选择
+12:44:30 INF [Config] initial compatible provider name=故障转移
+12:44:30 INF [Config] initial compatible provider name=Netflix
+12:44:30 INF [Config] initial compatible provider name=谷歌服务
+12:44:30 INF [Config] initial compatible provider name=苹果服务
+12:44:30 INF [Config] initial compatible provider name=海外使用
+12:44:30 INF [Config] initial compatible provider name=哔哩哔哩
+12:44:30 INF [Config] initial compatible provider name=Twitter
+12:44:30 INF [Config] initial compatible provider name=TikTok
+12:44:30 INF [Config] initial compatible provider name=自动选择
+12:44:30 INF [Config] initial compatible provider name=ChatGPT
+12:44:30 INF [Config] initial compatible provider name=Steam
+12:44:30 INF [Config] initial compatible provider name=微软服务
+12:44:30 INF [Config] initial compatible provider name=磁力下载
+12:44:30 INF [Config] initial compatible provider name=Copilot
+12:44:30 INF [Config] initial compatible provider name=境内使用
+12:44:31 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+12:44:31 INF [UDP] connected lAddr=198.18.0.1:33301 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:44:33 INF [UDP] connected lAddr=198.18.0.1:45707 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:44:33 INF [UDP] connected lAddr=198.18.0.1:37519 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:44:33 INF [TCP] connected lAddr=198.18.0.1:49000 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+12:44:37 INF [UDP] connected lAddr=198.18.0.1:54697 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:44:44 INF [TCP] connected lAddr=127.0.0.1:51626 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:44 INF [TCP] connected lAddr=127.0.0.1:51632 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:44 INF [TCP] connected lAddr=127.0.0.1:51648 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:44 INF [TCP] connected lAddr=127.0.0.1:51664 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:44 INF [TCP] connected lAddr=127.0.0.1:51636 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:44 INF [TCP] connected lAddr=127.0.0.1:51680 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:44 INF [TCP] connected lAddr=127.0.0.1:51696 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:45 INF [UDP] connected lAddr=198.18.0.1:36381 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51702 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51712 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51724 rAddr=unix.stackexchange.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51726 rAddr=geolocation.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51740 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51736 rAddr=qa.sockets.stackexchange.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51742 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:45 INF [TCP] connected lAddr=127.0.0.1:51746 rAddr=807ecadba12c06a3a6d11b57b5d9ddcc.safeframe.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51778 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51758 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51766 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51752 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51796 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51784 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51808 rAddr=www.googletagservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51814 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51816 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:46 INF [TCP] connected lAddr=127.0.0.1:51798 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:47 INF [TCP] connected lAddr=127.0.0.1:51828 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:47 INF [TCP] connected lAddr=127.0.0.1:51824 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51836 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51844 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51846 rAddr=dunst-project.org:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51850 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51902 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51870 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51856 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51878 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51926 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51892 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51910 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51932 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51942 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:48 INF [TCP] connected lAddr=127.0.0.1:51954 rAddr=dunst-project.org:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:49 INF [TCP] connected lAddr=127.0.0.1:51958 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:49 INF [TCP] connected lAddr=127.0.0.1:51974 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:49 INF [TCP] connected lAddr=127.0.0.1:51978 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:49 INF [TCP] connected lAddr=127.0.0.1:51992 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:49 INF [TCP] connected lAddr=127.0.0.1:52004 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52018 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52012 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52020 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52032 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52046 rAddr=camo.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52054 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52084 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:51980 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52098 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52068 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:44:50 INF [TCP] connected lAddr=127.0.0.1:52118 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:51 INF [TCP] connected lAddr=127.0.0.1:51356 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:51 INF [TCP] connected lAddr=127.0.0.1:52112 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:51 INF [TCP] connected lAddr=127.0.0.1:51364 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:52 INF [TCP] connected lAddr=127.0.0.1:51378 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:52 INF [TCP] connected lAddr=127.0.0.1:51382 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:44:52 INF [TCP] connected lAddr=127.0.0.1:51388 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:52 INF [TCP] connected lAddr=127.0.0.1:51390 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=谷歌服务[台湾-优化2]
+12:44:52 INF [TCP] connected lAddr=127.0.0.1:51398 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:53 INF [TCP] connected lAddr=127.0.0.1:51412 rAddr=www.youtube.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:54 INF [TCP] connected lAddr=127.0.0.1:51422 rAddr=unix.stackexchange.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:56 INF [TCP] connected lAddr=127.0.0.1:51438 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:56 INF [TCP] connected lAddr=127.0.0.1:51448 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:57 INF [TCP] connected lAddr=127.0.0.1:51458 rAddr=www.youtube.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:44:59 INF [TCP] connected lAddr=127.0.0.1:51462 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:00 INF [TCP] connected lAddr=127.0.0.1:51466 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:00 INF [TCP] connected lAddr=127.0.0.1:51474 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:00 INF [TCP] connected lAddr=127.0.0.1:51488 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:00 INF [TCP] connected lAddr=127.0.0.1:51500 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:01 INF [UDP] connected lAddr=198.18.0.1:57968 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:01 INF [TCP] connected lAddr=127.0.0.1:38076 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:45:01 INF [TCP] connected lAddr=127.0.0.1:38054 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=谷歌服务[台湾-优化2]
+12:45:01 INF [TCP] connected lAddr=127.0.0.1:38062 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=谷歌服务[台湾-优化2]
+12:45:01 INF [TCP] connected lAddr=127.0.0.1:38082 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:01 INF [TCP] connected lAddr=127.0.0.1:38084 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:02 INF [TCP] connected lAddr=127.0.0.1:38116 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:02 INF [TCP] connected lAddr=127.0.0.1:38100 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:02 INF [TCP] connected lAddr=127.0.0.1:38124 rAddr=encrypted-vtbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:03 INF [TCP] connected lAddr=127.0.0.1:38134 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:03 INF [TCP] connected lAddr=127.0.0.1:38146 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:03 INF [TCP] connected lAddr=127.0.0.1:38164 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:03 INF [TCP] connected lAddr=127.0.0.1:38152 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:03 INF [TCP] connected lAddr=127.0.0.1:38176 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:03 INF [TCP] connected lAddr=127.0.0.1:38178 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:04 INF [TCP] connected lAddr=127.0.0.1:38186 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:05 INF [TCP] connected lAddr=127.0.0.1:38190 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:05 INF [TCP] connected lAddr=127.0.0.1:38202 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:05 INF [TCP] connected lAddr=127.0.0.1:38206 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:06 INF [TCP] connected lAddr=127.0.0.1:38216 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:07 INF [TCP] connected lAddr=127.0.0.1:38232 rAddr=www.youtube.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:14 INF [TCP] connected lAddr=127.0.0.1:38246 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=谷歌服务[台湾-优化2]
+12:45:16 INF [TCP] connected lAddr=127.0.0.1:38250 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:16 INF [TCP] connected lAddr=127.0.0.1:55100 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:18 INF [TCP] connected lAddr=127.0.0.1:55106 rAddr=www.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:18 INF [TCP] connected lAddr=127.0.0.1:55104 rAddr=www.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:20 INF [TCP] connected lAddr=127.0.0.1:55108 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:21 INF [TCP] connected lAddr=127.0.0.1:40050 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:24 INF [TCP] connected lAddr=127.0.0.1:40054 rAddr=www.opendesktop.org:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:26 INF [TCP] connected lAddr=127.0.0.1:40068 rAddr=pik.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:26 INF [TCP] connected lAddr=127.0.0.1:40072 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:26 INF [TCP] connected lAddr=127.0.0.1:40078 rAddr=ipify4.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:28 INF [TCP] connected lAddr=127.0.0.1:40080 rAddr=ipify6.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:28 INF [TCP] connected lAddr=127.0.0.1:40092 rAddr=pik.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:29 INF [UDP] connected lAddr=198.18.0.1:45363 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:29 INF [TCP] connected lAddr=198.18.0.1:42510 rAddr=117.185.137.230:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:45:29 INF [TCP] connected lAddr=127.0.0.1:40106 rAddr=u.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:29 INF [TCP] connected lAddr=127.0.0.1:40098 rAddr=pingfore.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40120 rAddr=i.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40126 rAddr=36.150.72.110:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40158 rAddr=36.150.72.101:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40174 rAddr=36.150.72.227:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40142 rAddr=isure.stream.qqmusic.qq.com:80 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40230 rAddr=isure.stream.qqmusic.qq.com:80 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40144 rAddr=ws.stream.qqmusic.qq.com:80 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40212 rAddr=36.150.211.128:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40198 rAddr=36.150.211.202:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40218 rAddr=36.150.211.63:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:40190 rAddr=sjy.stream.qqmusic.qq.com:80 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:54468 rAddr=y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:54476 rAddr=y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:30 INF [TCP] connected lAddr=127.0.0.1:54488 rAddr=g.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:32 INF [TCP] connected lAddr=127.0.0.1:54500 rAddr=c6.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:32 INF [TCP] connected lAddr=127.0.0.1:54504 rAddr=stat.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:32 INF [TCP] connected lAddr=127.0.0.1:54516 rAddr=stat6.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:32 INF [TCP] connected lAddr=127.0.0.1:54532 rAddr=stat6.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:32 INF [TCP] connected lAddr=127.0.0.1:54518 rAddr=tmead.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:33 INF [UDP] connected lAddr=198.18.0.1:53281 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:45:33 INF [TCP] connected lAddr=127.0.0.1:54546 rAddr=h.trace.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:33 INF [TCP] connected lAddr=127.0.0.1:54562 rAddr=qpic.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:45:34 INF [TCP] connected lAddr=127.0.0.1:54578 rAddr=www.opendesktop.org:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:34 INF [TCP] connected lAddr=127.0.0.1:54592 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:35 INF [TCP] connected lAddr=127.0.0.1:54602 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:38 INF [TCP] connected lAddr=127.0.0.1:54608 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:39 INF [TCP] connected lAddr=127.0.0.1:54610 rAddr=ipify6.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:40 INF [TCP] connected lAddr=127.0.0.1:54626 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:43 INF [TCP] connected lAddr=127.0.0.1:46794 rAddr=www.opendesktop.org:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:43 INF [TCP] connected lAddr=127.0.0.1:46806 rAddr=www.opendesktop.org:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:44 INF [TCP] connected lAddr=127.0.0.1:46812 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:44 INF [TCP] connected lAddr=127.0.0.1:46828 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:44 INF [TCP] connected lAddr=127.0.0.1:46824 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:45 INF [TCP] connected lAddr=127.0.0.1:46844 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=谷歌服务[台湾-优化2]
+12:45:47 INF [TCP] connected lAddr=127.0.0.1:46860 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=谷歌服务[台湾-优化2]
+12:45:48 INF [TCP] connected lAddr=127.0.0.1:46872 rAddr=e2c42.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=谷歌服务[台湾-优化2]
+12:45:49 INF [TCP] connected lAddr=127.0.0.1:46884 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:52 INF [TCP] connected lAddr=127.0.0.1:54640 rAddr=www.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:52 INF [TCP] connected lAddr=127.0.0.1:54636 rAddr=www.opendesktop.org:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:53 INF [TCP] connected lAddr=127.0.0.1:54654 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:45:53 INF [TCP] connected lAddr=127.0.0.1:54644 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=谷歌服务[台湾-优化2]
+12:45:53 INF [TCP] connected lAddr=127.0.0.1:54664 rAddr=beacons.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=谷歌服务[台湾-优化2]
+12:45:55 INF [TCP] connected lAddr=127.0.0.1:54674 rAddr=pik.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:57 INF [TCP] connected lAddr=127.0.0.1:54688 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:58 INF [TCP] connected lAddr=127.0.0.1:54694 rAddr=ipify6.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:58 INF [TCP] connected lAddr=127.0.0.1:54712 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:58 INF [TCP] connected lAddr=127.0.0.1:54708 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:58 INF [TCP] connected lAddr=127.0.0.1:54740 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:58 INF [TCP] connected lAddr=127.0.0.1:54726 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:45:58 INF [TCP] connected lAddr=127.0.0.1:54690 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:01 INF [TCP] connected lAddr=127.0.0.1:45062 rAddr=stat6.y.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:46:04 INF [TCP] connected lAddr=127.0.0.1:45078 rAddr=ipify6.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:05 INF [TCP] connected lAddr=127.0.0.1:45074 rAddr=www.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:08 INF [TCP] connected lAddr=127.0.0.1:45086 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾-优化2]
+12:46:08 INF [TCP] connected lAddr=127.0.0.1:45090 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=谷歌服务[台湾-优化2]
+12:46:09 INF [TCP] connected lAddr=127.0.0.1:45102 rAddr=www.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:22 INF [TCP] connected lAddr=127.0.0.1:34620 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:22 INF [TCP] connected lAddr=127.0.0.1:34588 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:22 INF [TCP] connected lAddr=127.0.0.1:34572 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:23 INF [TCP] connected lAddr=127.0.0.1:34610 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:23 INF [TCP] connected lAddr=127.0.0.1:34608 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:23 INF [TCP] connected lAddr=127.0.0.1:34600 rAddr=images.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:24 INF [TCP] connected lAddr=127.0.0.1:34632 rAddr=www.pling.com:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:24 INF [TCP] connected lAddr=127.0.0.1:34636 rAddr=netroid.net:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:37 INF [UDP] connected lAddr=198.18.0.1:57993 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:46:39 INF [UDP] connected lAddr=198.18.0.1:41896 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:46:41 INF [TCP] connected lAddr=198.18.0.1:33942 rAddr=138.68.105.159:443 mode=rule rule=Match() proxy=节点选择[台湾-优化2]
+12:46:43 INF [UDP] connected lAddr=198.18.0.1:58534 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:47:10 INF [UDP] connected lAddr=198.18.0.1:45067 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+12:47:12 INF [UDP] connected lAddr=198.18.0.1:59190 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT

@@ -1,0 +1,9 @@
+[MainWindow]
+1920x1080 screen: Height=1042
+1920x1080 screen: Width=1908
+1920x1080 screen: XPosition=6
+1920x1080 screen: YPosition=32
+HDMI-1=HDMI-1
+MainSplitter=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xc0\x00\x00\x04\x08\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00
+State=AAAA/wAAAAD9AAAAAAAAB3QAAAPmAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled

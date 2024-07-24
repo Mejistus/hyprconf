@@ -1,0 +1,229 @@
+18:00:47 INF inbound create success inbound=mixed addr=:7890 network=tcp
+18:00:47 INF inbound create success inbound=mixed addr=:7890 network=udp
+18:00:47 INF [API] listening addr=127.0.0.1:39973
+18:00:47 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:39834 rAddr=raw.githubusercontent.com:443
+18:00:47 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:39850 rAddr=raw.githubusercontent.com:443
+18:00:47 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:39836 rAddr=api.github.com:443 proxy=DIRECT
+18:00:48 INF [Config] initial compatible provider name=节点选择
+18:00:48 INF [Config] initial compatible provider name=Netflix
+18:00:48 INF [Config] initial compatible provider name=谷歌服务
+18:00:48 INF [Config] initial compatible provider name=苹果服务
+18:00:48 INF [Config] initial compatible provider name=故障转移
+18:00:48 INF [Config] initial compatible provider name=哔哩哔哩
+18:00:48 INF [Config] initial compatible provider name=TikTok
+18:00:48 INF [Config] initial compatible provider name=微软服务
+18:00:48 INF [Config] initial compatible provider name=Telegram
+18:00:48 INF [Config] initial compatible provider name=境内使用
+18:00:48 INF [Config] initial compatible provider name=自动选择
+18:00:48 INF [Config] initial compatible provider name=磁力下载
+18:00:48 INF [Config] initial compatible provider name=Twitter
+18:00:48 INF [Config] initial compatible provider name=海外使用
+18:00:48 INF [Config] initial compatible provider name=ChatGPT
+18:00:48 INF [Config] initial compatible provider name=Steam
+18:00:48 INF [Config] initial compatible provider name=Copilot
+18:00:48 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+18:00:48 INF [UDP] connected lAddr=198.18.0.1:38030 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:00:48 INF [UDP] connected lAddr=198.18.0.1:56022 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:00:48 INF [TCP] connected lAddr=198.18.0.1:35790 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+18:00:50 INF [UDP] connected lAddr=198.18.0.1:39942 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:00:50 INF [UDP] connected lAddr=198.18.0.1:49698 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:00:50 INF [TCP] connected lAddr=198.18.0.1:35794 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+18:00:54 INF [UDP] connected lAddr=198.18.0.1:35373 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:00:54 INF [UDP] connected lAddr=198.18.0.1:38993 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:00:54 INF [TCP] connected lAddr=198.18.0.1:35800 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+18:01:02 INF [UDP] connected lAddr=198.18.0.1:42948 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:01:02 INF [UDP] connected lAddr=198.18.0.1:47275 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:01:03 INF [TCP] connected lAddr=198.18.0.1:57490 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+18:01:18 INF [UDP] connected lAddr=198.18.0.1:45558 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:01:50 INF [UDP] connected lAddr=198.18.0.1:49916 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:01:59 INF [UDP] connected lAddr=198.18.0.1:50397 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:01:59 INF [UDP] connected lAddr=198.18.0.1:42053 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [UDP] connected lAddr=198.18.0.1:40121 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [UDP] connected lAddr=198.18.0.1:44463 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:42052 rAddr=223.111.250.55:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:42040 rAddr=223.111.250.55:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:60346 rAddr=112.13.92.202:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:57410 rAddr=112.13.92.199:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [UDP] connected lAddr=198.18.0.1:56018 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [UDP] connected lAddr=198.18.0.1:48063 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [UDP] connected lAddr=198.18.0.1:52964 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [UDP] connected lAddr=198.18.0.1:48723 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:52670 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:52666 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:52658 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:58034 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=127.0.0.1:54192 rAddr=s1.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+18:02:00 INF [UDP] connected lAddr=198.18.0.1:58018 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:00 INF [TCP] connected lAddr=198.18.0.1:58044 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54206 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:40266 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52676 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54222 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54234 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54250 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54236 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:37610 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:58048 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:48115 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52678 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54252 rAddr=message.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54264 rAddr=i2.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:33085 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54274 rAddr=i0.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:38850 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:34618 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=127.0.0.1:54290 rAddr=i1.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:38946 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:50239 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:46142 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:55034 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:34541 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:60303 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52696 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52694 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52712 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52704 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:45467 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:58062 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:58076 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:58056 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:37745 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:58092 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:39249 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:41026 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:58984 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [UDP] connected lAddr=198.18.0.1:59790 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52736 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52748 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:52724 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:01 INF [TCP] connected lAddr=198.18.0.1:58104 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=198.18.0.1:58126 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=198.18.0.1:58120 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=198.18.0.1:58132 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [UDP] connected lAddr=198.18.0.1:49672 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:02 INF [UDP] connected lAddr=198.18.0.1:33750 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:02 INF [UDP] connected lAddr=198.18.0.1:36201 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:02 INF [UDP] connected lAddr=198.18.0.1:47114 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=198.18.0.1:42064 rAddr=223.111.250.55:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=198.18.0.1:52752 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=198.18.0.1:58138 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=198.18.0.1:34242 rAddr=111.48.57.46:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:02 INF [TCP] connected lAddr=127.0.0.1:54308 rAddr=upos-sz-mirror08c.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=哔哩哔哩[DIRECT]
+18:02:03 INF [TCP] connected lAddr=127.0.0.1:54314 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=DomainSuffix(biliapi.net) proxy=哔哩哔哩[DIRECT]
+18:02:03 INF [UDP] connected lAddr=198.18.0.1:44956 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:03 INF [UDP] connected lAddr=198.18.0.1:53682 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:04 INF [TCP] connected lAddr=127.0.0.1:54324 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=哔哩哔哩[DIRECT]
+18:02:04 INF [TCP] connected lAddr=127.0.0.1:54294 rAddr=greasyfork.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+18:02:04 INF [UDP] connected lAddr=198.18.0.1:51456 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:04 INF [UDP] connected lAddr=198.18.0.1:46987 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:05 INF [UDP] connected lAddr=198.18.0.1:53887 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:05 INF [UDP] connected lAddr=198.18.0.1:49035 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:05 INF [TCP] connected lAddr=198.18.0.1:52754 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:05 INF [UDP] connected lAddr=198.18.0.1:59135 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:06 INF [UDP] connected lAddr=198.18.0.1:54897 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:06 INF [UDP] connected lAddr=198.18.0.1:45450 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:06 INF [TCP] connected lAddr=198.18.0.1:58154 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:06 INF [TCP] connected lAddr=198.18.0.1:41192 rAddr=223.111.250.56:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:11 INF [TCP] connected lAddr=127.0.0.1:50316 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:12 INF [UDP] connected lAddr=198.18.0.1:59158 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:12 INF [TCP] connected lAddr=198.18.0.1:37446 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:12 INF [UDP] connected lAddr=198.18.0.1:37594 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:12 INF [TCP] connected lAddr=198.18.0.1:43364 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:12 INF [TCP] connected lAddr=127.0.0.1:50318 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:02:12 INF [TCP] connected lAddr=127.0.0.1:50330 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=DomainSuffix(biliapi.net) proxy=哔哩哔哩[DIRECT]
+18:02:12 INF [TCP] connected lAddr=127.0.0.1:50338 rAddr=bvc.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=哔哩哔哩[DIRECT]
+18:02:13 INF [UDP] connected lAddr=198.18.0.1:40302 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:13 INF [UDP] connected lAddr=198.18.0.1:35684 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:13 INF [TCP] connected lAddr=198.18.0.1:37448 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:13 INF [TCP] connected lAddr=198.18.0.1:43372 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:14 INF [UDP] connected lAddr=198.18.0.1:39922 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:14 INF [UDP] connected lAddr=198.18.0.1:48251 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:14 INF [UDP] connected lAddr=198.18.0.1:41220 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:14 INF [TCP] connected lAddr=198.18.0.1:37452 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:14 INF [TCP] connected lAddr=198.18.0.1:37462 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:14 INF [TCP] connected lAddr=198.18.0.1:43384 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:15 INF [UDP] connected lAddr=198.18.0.1:37416 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:15 INF [UDP] connected lAddr=198.18.0.1:33075 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:15 INF [UDP] connected lAddr=198.18.0.1:43403 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:15 INF [TCP] connected lAddr=198.18.0.1:37464 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:15 INF [TCP] connected lAddr=198.18.0.1:43402 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:15 INF [TCP] connected lAddr=198.18.0.1:43390 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:16 INF [UDP] connected lAddr=198.18.0.1:41492 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:16 INF [TCP] connected lAddr=198.18.0.1:48748 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:43501 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:53412 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:34838 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:42958 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:48756 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:53428 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:55246 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:52060 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:42154 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:50600 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [UDP] connected lAddr=198.18.0.1:43729 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:48764 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:48766 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:48772 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:53434 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:17 INF [TCP] connected lAddr=198.18.0.1:53440 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:18 INF [UDP] connected lAddr=198.18.0.1:34147 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:02:18 INF [TCP] connected lAddr=198.18.0.1:53442 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:02:19 INF [TCP] connected lAddr=127.0.0.1:47980 rAddr=bimp.hdslb.com:443 mode=rule rule=DomainSuffix(hdslb.com) proxy=哔哩哔哩[DIRECT]
+18:02:54 INF [UDP] connected lAddr=198.18.0.1:57716 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:08 INF [UDP] connected lAddr=198.18.0.1:58855 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:08 INF [UDP] connected lAddr=198.18.0.1:42387 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:11 INF [UDP] connected lAddr=198.18.0.1:39939 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:13 INF [UDP] connected lAddr=198.18.0.1:56929 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:15 INF [UDP] connected lAddr=198.18.0.1:41502 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:16 INF [UDP] connected lAddr=198.18.0.1:36941 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:16 INF [TCP] connected lAddr=198.18.0.1:35042 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:16 INF [UDP] connected lAddr=198.18.0.1:59064 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:16 INF [TCP] connected lAddr=198.18.0.1:38466 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:17 INF [UDP] connected lAddr=198.18.0.1:35520 rAddr=36.150.57.248:3478 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:20 INF [UDP] connected lAddr=198.18.0.1:45796 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:20 INF [TCP] connected lAddr=198.18.0.1:35050 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:51 INF [UDP] connected lAddr=198.18.0.1:54886 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:51 INF [TCP] connected lAddr=198.18.0.1:41758 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:51 INF [UDP] connected lAddr=198.18.0.1:55565 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:51 INF [TCP] connected lAddr=198.18.0.1:56086 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:03:53 INF [UDP] connected lAddr=198.18.0.1:59487 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:03:53 INF [TCP] connected lAddr=198.18.0.1:41768 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:05 INF [UDP] connected lAddr=198.18.0.1:52396 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:05 INF [TCP] connected lAddr=198.18.0.1:37314 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:05 INF [UDP] connected lAddr=198.18.0.1:45014 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:05 INF [TCP] connected lAddr=198.18.0.1:57912 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:25 INF [UDP] connected lAddr=198.18.0.1:51436 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:25 INF [TCP] connected lAddr=198.18.0.1:33142 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:26 INF [TCP] connected lAddr=127.0.0.1:38892 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+18:04:28 INF [UDP] connected lAddr=198.18.0.1:36422 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:30 INF [UDP] connected lAddr=198.18.0.1:54459 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:31 INF [UDP] connected lAddr=198.18.0.1:52749 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:31 INF [TCP] connected lAddr=198.18.0.1:50254 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:31 INF [UDP] connected lAddr=198.18.0.1:56974 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:31 INF [TCP] connected lAddr=198.18.0.1:42338 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:36 INF [UDP] connected lAddr=198.18.0.1:51852 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:36 INF [TCP] connected lAddr=198.18.0.1:43818 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:44 INF [UDP] connected lAddr=198.18.0.1:42612 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:44 INF [TCP] connected lAddr=198.18.0.1:36198 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:45 INF [UDP] connected lAddr=198.18.0.1:39816 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:45 INF [TCP] connected lAddr=198.18.0.1:43834 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:04:52 INF [TCP] connected lAddr=127.0.0.1:37532 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=哔哩哔哩[DIRECT]
+18:04:59 INF [UDP] connected lAddr=198.18.0.1:44944 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:04:59 INF [TCP] connected lAddr=198.18.0.1:34620 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:02 INF [UDP] connected lAddr=198.18.0.1:38780 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:06 INF [UDP] connected lAddr=198.18.0.1:45584 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:06 INF [TCP] connected lAddr=198.18.0.1:52002 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:06 INF [UDP] connected lAddr=198.18.0.1:49788 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:06 INF [TCP] connected lAddr=198.18.0.1:46498 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:09 INF [UDP] connected lAddr=198.18.0.1:35903 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:09 INF [TCP] connected lAddr=198.18.0.1:52016 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:33 INF [UDP] connected lAddr=198.18.0.1:38488 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:33 INF [TCP] connected lAddr=198.18.0.1:42634 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:33 INF [UDP] connected lAddr=198.18.0.1:40443 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:33 INF [TCP] connected lAddr=198.18.0.1:39818 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:41 INF [UDP] connected lAddr=198.18.0.1:35583 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:41 INF [TCP] connected lAddr=198.18.0.1:44050 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:44 INF [UDP] connected lAddr=198.18.0.1:55442 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:44 INF [TCP] connected lAddr=198.18.0.1:52996 rAddr=112.13.92.248:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+18:05:45 INF [UDP] connected lAddr=198.18.0.1:47775 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+18:05:45 INF [TCP] connected lAddr=198.18.0.1:44052 rAddr=223.111.252.75:443 mode=rule rule=GeoIP(CN) proxy=DIRECT

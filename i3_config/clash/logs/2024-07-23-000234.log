@@ -1,0 +1,33 @@
+00:02:35 INF inbound create success inbound=mixed addr=:7890 network=tcp
+00:02:35 INF inbound create success inbound=mixed addr=:7890 network=udp
+00:02:35 INF [API] listening addr=127.0.0.1:36903
+00:02:35 INF [Config] initial compatible provider name=Steam
+00:02:35 INF [Config] initial compatible provider name=Netflix
+00:02:35 INF [Config] initial compatible provider name=苹果服务
+00:02:35 INF [Config] initial compatible provider name=节点选择
+00:02:35 INF [Config] initial compatible provider name=ChatGPT
+00:02:35 INF [Config] initial compatible provider name=自动选择
+00:02:35 INF [Config] initial compatible provider name=微软服务
+00:02:35 INF [Config] initial compatible provider name=Copilot
+00:02:35 INF [Config] initial compatible provider name=磁力下载
+00:02:35 INF [Config] initial compatible provider name=Twitter
+00:02:35 INF [Config] initial compatible provider name=海外使用
+00:02:35 INF [Config] initial compatible provider name=境内使用
+00:02:35 INF [Config] initial compatible provider name=故障转移
+00:02:35 INF [Config] initial compatible provider name=TikTok
+00:02:35 INF [Config] initial compatible provider name=谷歌服务
+00:02:35 INF [Config] initial compatible provider name=哔哩哔哩
+00:02:35 INF [Config] initial compatible provider name=Telegram
+00:02:35 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+00:02:35 INF [UDP] connected lAddr=198.18.0.1:57501 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:02:35 INF [UDP] connected lAddr=198.18.0.1:55099 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:02:36 INF [TCP] connected lAddr=198.18.0.1:51904 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+00:02:37 INF [UDP] connected lAddr=198.18.0.1:33742 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:02:37 INF [UDP] connected lAddr=198.18.0.1:36804 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:02:37 INF [TCP] connected lAddr=198.18.0.1:42972 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+00:02:41 INF [UDP] connected lAddr=198.18.0.1:52780 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:02:41 INF [UDP] connected lAddr=198.18.0.1:42311 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:02:41 INF [TCP] connected lAddr=198.18.0.1:42984 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+00:02:49 INF [UDP] connected lAddr=198.18.0.1:58682 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:03:05 INF [UDP] connected lAddr=198.18.0.1:60945 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+00:03:37 INF [UDP] connected lAddr=198.18.0.1:42403 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT

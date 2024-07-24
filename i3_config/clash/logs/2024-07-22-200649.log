@@ -1,0 +1,109 @@
+20:06:49 INF inbound create success inbound=mixed addr=:7890 network=tcp
+20:06:49 INF inbound create success inbound=mixed addr=:7890 network=udp
+20:06:49 INF [API] listening addr=127.0.0.1:37017
+20:06:49 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:46362 rAddr=raw.githubusercontent.com:443
+20:06:49 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT lAddr=127.0.0.1:46380 rAddr=raw.githubusercontent.com:443
+20:06:50 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:46370 rAddr=api.github.com:443 proxy=DIRECT
+20:06:50 INF [Config] initial compatible provider name=谷歌服务
+20:06:50 INF [Config] initial compatible provider name=Twitter
+20:06:50 INF [Config] initial compatible provider name=境内使用
+20:06:50 INF [Config] initial compatible provider name=微软服务
+20:06:50 INF [Config] initial compatible provider name=TikTok
+20:06:50 INF [Config] initial compatible provider name=ChatGPT
+20:06:50 INF [Config] initial compatible provider name=Netflix
+20:06:50 INF [Config] initial compatible provider name=磁力下载
+20:06:50 INF [Config] initial compatible provider name=Telegram
+20:06:50 INF [Config] initial compatible provider name=苹果服务
+20:06:50 INF [Config] initial compatible provider name=Copilot
+20:06:50 INF [Config] initial compatible provider name=海外使用
+20:06:50 INF [Config] initial compatible provider name=故障转移
+20:06:50 INF [Config] initial compatible provider name=哔哩哔哩
+20:06:50 INF [Config] initial compatible provider name=Steam
+20:06:50 INF [Config] initial compatible provider name=自动选择
+20:06:50 INF [Config] initial compatible provider name=节点选择
+20:06:50 INF [DNS] server listening addr=127.0.0.1:1053
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36598 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36588 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36648 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36606 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36634 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36602 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36622 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:39 INF [TCP] connected lAddr=127.0.0.1:36604 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:45 INF [TCP] connected lAddr=127.0.0.1:48602 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:45 INF [TCP] connected lAddr=127.0.0.1:48604 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:50 INF [TCP] connected lAddr=127.0.0.1:48618 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:56 INF [TCP] connected lAddr=127.0.0.1:44024 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:10:59 INF [TCP] connected lAddr=127.0.0.1:44036 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:11:01 INF [TCP] connected lAddr=127.0.0.1:49766 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:11:05 INF [TCP] connected lAddr=127.0.0.1:49770 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:11:07 INF [TCP] connected lAddr=127.0.0.1:49784 rAddr=files.pythonhosted.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:11:09 INF [TCP] connected lAddr=127.0.0.1:49794 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:11:11 INF [TCP] connected lAddr=127.0.0.1:33524 rAddr=codeload.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:11:18 INF [Config] initial compatible provider name=节点选择
+20:11:18 INF [Config] initial compatible provider name=Netflix
+20:11:18 INF [Config] initial compatible provider name=自动选择
+20:11:18 INF [Config] initial compatible provider name=谷歌服务
+20:11:18 INF [Config] initial compatible provider name=TikTok
+20:11:18 INF [Config] initial compatible provider name=Telegram
+20:11:18 INF [Config] initial compatible provider name=哔哩哔哩
+20:11:18 INF [Config] initial compatible provider name=海外使用
+20:11:18 INF [Config] initial compatible provider name=境内使用
+20:11:18 INF [Config] initial compatible provider name=ChatGPT
+20:11:18 INF [Config] initial compatible provider name=Steam
+20:11:18 INF [Config] initial compatible provider name=Twitter
+20:11:18 INF [Config] initial compatible provider name=故障转移
+20:11:18 INF [Config] initial compatible provider name=苹果服务
+20:11:18 INF [Config] initial compatible provider name=磁力下载
+20:11:18 INF [Config] initial compatible provider name=Copilot
+20:11:18 INF [Config] initial compatible provider name=微软服务
+20:11:18 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+20:11:19 INF [UDP] connected lAddr=198.18.0.1:46983 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:19 INF [UDP] connected lAddr=198.18.0.1:56112 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:19 INF [TCP] connected lAddr=198.18.0.1:47684 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+20:11:21 INF [UDP] connected lAddr=198.18.0.1:57270 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:21 INF [UDP] connected lAddr=198.18.0.1:50347 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:21 INF [TCP] connected lAddr=198.18.0.1:34940 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+20:11:25 INF [UDP] connected lAddr=198.18.0.1:59718 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:25 INF [UDP] connected lAddr=198.18.0.1:58363 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:25 INF [TCP] connected lAddr=198.18.0.1:34942 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+20:11:28 INF [UDP] connected lAddr=198.18.0.1:55461 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:28 INF [UDP] connected lAddr=198.18.0.1:59631 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:28 INF [UDP] connected lAddr=198.18.0.1:48358 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:28 INF [UDP] connected lAddr=198.18.0.1:53149 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:33 INF [UDP] connected lAddr=198.18.0.1:54878 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:33 INF [UDP] connected lAddr=198.18.0.1:58354 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:33 WRN [TCP] dial failed error=t.cnmjcn.cyou:16616 connect error: dial tcp4 61.160.148.90:16616: connect: connection refused proxy=节点选择 lAddr=198.18.0.1:32998 rAddr=116.203.91.91:80 rule=Match rulePayload=
+20:11:40 INF [UDP] connected lAddr=198.18.0.1:51940 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:42 INF [UDP] connected lAddr=198.18.0.1:47946 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:49 INF [UDP] connected lAddr=198.18.0.1:46892 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:49 INF [UDP] connected lAddr=198.18.0.1:36965 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:11:49 INF [TCP] connected lAddr=198.18.0.1:48308 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本JP-T]
+20:12:03 INF [UDP] connected lAddr=198.18.0.1:48839 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:03 INF [UDP] connected lAddr=198.18.0.1:35260 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:03 INF [UDP] connected lAddr=198.18.0.1:50761 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:03 INF [UDP] connected lAddr=198.18.0.1:38478 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.122.127:443: connect: connection refused proxy=节点选择 lAddr=127.0.0.1:47844 rAddr=github.com:443 rule=Match rulePayload=
+20:12:21 INF [UDP] connected lAddr=198.18.0.1:46609 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:28 INF [TCP] connected lAddr=127.0.0.1:47848 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:34 INF [UDP] connected lAddr=198.18.0.1:36478 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:36 INF [TCP] connected lAddr=127.0.0.1:56784 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:36 INF [TCP] connected lAddr=127.0.0.1:56796 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:36 INF [TCP] connected lAddr=127.0.0.1:56802 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:38 INF [UDP] connected lAddr=198.18.0.1:51992 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:40 INF [TCP] connected lAddr=127.0.0.1:56818 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:40 INF [TCP] connected lAddr=127.0.0.1:56816 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:40 INF [TCP] connected lAddr=127.0.0.1:56812 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:41 INF [UDP] connected lAddr=198.18.0.1:40376 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:44 INF [TCP] connected lAddr=127.0.0.1:57476 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:44 INF [TCP] connected lAddr=127.0.0.1:57488 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:44 INF [TCP] connected lAddr=127.0.0.1:57474 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:48 INF [UDP] connected lAddr=198.18.0.1:59138 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:50 INF [UDP] connected lAddr=198.18.0.1:44581 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:12:52 INF [TCP] connected lAddr=127.0.0.1:58772 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:52 INF [TCP] connected lAddr=127.0.0.1:58782 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:55 INF [TCP] connected lAddr=127.0.0.1:58790 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:58 INF [TCP] connected lAddr=127.0.0.1:58800 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:12:59 INF [TCP] connected lAddr=127.0.0.1:58802 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:13:02 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.122.127:443: connect: connection refused proxy=GLOBAL lAddr=127.0.0.1:47022 rAddr=github.com:443
+20:13:25 INF [UDP] connected lAddr=198.18.0.1:56426 rAddr=192.168.1.1:53 mode=global

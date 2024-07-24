@@ -1,0 +1,242 @@
+19:52:47 INF [API] listening addr=127.0.0.1:43157
+19:52:47 INF inbound create success inbound=mixed addr=:7890 network=tcp
+19:52:47 INF inbound create success inbound=mixed addr=:7890 network=udp
+19:52:47 WRN [TCP] dial failed error=lookup api.github.com on [fe80::1%enp7s0]:53: dial udp [fe80::1%enp7s0]:53: connect: cannot assign requested address proxy=DIRECT lAddr=127.0.0.1:48172 rAddr=api.github.com:443
+19:52:47 WRN [TCP] dial failed error=lookup api.github.com on [fe80::1%enp7s0]:53: dial udp [fe80::1%enp7s0]:53: connect: cannot assign requested address proxy=DIRECT lAddr=127.0.0.1:48174 rAddr=api.github.com:443
+19:52:47 INF [Config] initial compatible provider name=哔哩哔哩
+19:52:47 INF [Config] initial compatible provider name=Telegram
+19:52:47 INF [Config] initial compatible provider name=微软服务
+19:52:47 INF [Config] initial compatible provider name=Netflix
+19:52:47 INF [Config] initial compatible provider name=Steam
+19:52:47 INF [Config] initial compatible provider name=境内使用
+19:52:47 INF [Config] initial compatible provider name=节点选择
+19:52:47 INF [Config] initial compatible provider name=谷歌服务
+19:52:47 INF [Config] initial compatible provider name=TikTok
+19:52:47 INF [Config] initial compatible provider name=Twitter
+19:52:47 INF [Config] initial compatible provider name=故障转移
+19:52:47 INF [Config] initial compatible provider name=Copilot
+19:52:47 INF [Config] initial compatible provider name=自动选择
+19:52:47 INF [Config] initial compatible provider name=磁力下载
+19:52:47 INF [Config] initial compatible provider name=苹果服务
+19:52:47 INF [Config] initial compatible provider name=海外使用
+19:52:47 INF [Config] initial compatible provider name=ChatGPT
+19:52:47 INF [Config] initial compatible provider name=境内使用
+19:52:47 INF [Config] initial compatible provider name=苹果服务
+19:52:47 INF [Config] initial compatible provider name=哔哩哔哩
+19:52:47 INF [Config] initial compatible provider name=ChatGPT
+19:52:47 INF [Config] initial compatible provider name=海外使用
+19:52:47 INF [Config] initial compatible provider name=自动选择
+19:52:47 INF [Config] initial compatible provider name=节点选择
+19:52:47 INF [Config] initial compatible provider name=Telegram
+19:52:47 INF [Config] initial compatible provider name=TikTok
+19:52:47 INF [Config] initial compatible provider name=谷歌服务
+19:52:47 INF [Config] initial compatible provider name=Copilot
+19:52:47 INF [Config] initial compatible provider name=磁力下载
+19:52:47 INF [Config] initial compatible provider name=Netflix
+19:52:47 INF [Config] initial compatible provider name=故障转移
+19:52:47 INF [Config] initial compatible provider name=Twitter
+19:52:47 INF [Config] initial compatible provider name=Steam
+19:52:47 INF [Config] initial compatible provider name=微软服务
+19:52:47 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+19:52:47 INF [Inbound] TUN listening iface=utun gateway=198.18.0.1
+19:52:47 INF [UDP] connected lAddr=198.18.0.1:59191 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:47 INF [UDP] connected lAddr=198.18.0.1:33478 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:47 INF [UDP] connected lAddr=198.18.0.1:44687 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:47 INF [UDP] connected lAddr=198.18.0.1:35986 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:47 INF [UDP] connected lAddr=198.18.0.1:39203 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:48 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: netlink receive: network is unreachable proxy=节点选择 lAddr=198.18.0.1:44604 rAddr=116.203.91.91:80 rule=Match rulePayload=
+19:52:50 INF [UDP] connected lAddr=198.18.0.1:43604 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:50 INF [UDP] connected lAddr=198.18.0.1:60434 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:50 INF [TCP] connected lAddr=198.18.0.1:44614 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[日本-优化]
+19:52:51 INF [UDP] connected lAddr=198.18.0.1:39321 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:52:54 INF [UDP] connected lAddr=198.18.0.1:39195 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:53:02 INF [UDP] connected lAddr=198.18.0.1:59052 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:53:11 INF [UDP] connected lAddr=198.18.0.1:56113 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:53:18 INF [UDP] connected lAddr=198.18.0.1:34012 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:53:50 INF [UDP] connected lAddr=198.18.0.1:49568 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:54:09 INF [UDP] connected lAddr=198.18.0.1:42690 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:54:22 INF [UDP] connected lAddr=198.18.0.1:56689 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:54:54 INF [UDP] connected lAddr=198.18.0.1:50807 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43324 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43366 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43314 rAddr=ntp.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43354 rAddr=business.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43338 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43368 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43384 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:00 INF [TCP] connected lAddr=127.0.0.1:43358 rAddr=prod.rewardsplatform.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43398 rAddr=copilot.microsoft.com:443 mode=rule rule=Domain(copilot.microsoft.com) proxy=Copilot[台湾WAP-T]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43436 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43438 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43412 rAddr=substrate.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43452 rAddr=img-s-msn-com.akamaized.net:443 mode=rule rule=DomainSuffix(img-s-msn-com.akamaized.net) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43420 rAddr=c.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43444 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43430 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43426 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43454 rAddr=browser.events.data.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:01 INF [TCP] connected lAddr=127.0.0.1:43464 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43488 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43490 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43474 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43492 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43504 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43532 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43522 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43520 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43518 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43538 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:02 INF [TCP] connected lAddr=127.0.0.1:43540 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[DIRECT]
+19:55:03 INF [TCP] connected lAddr=127.0.0.1:43568 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:03 INF [TCP] connected lAddr=127.0.0.1:43556 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:03 INF [TCP] connected lAddr=127.0.0.1:43578 rAddr=graph.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:03 INF [TCP] connected lAddr=127.0.0.1:43580 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:04 INF [TCP] connected lAddr=127.0.0.1:43582 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:06 INF [TCP] connected lAddr=127.0.0.1:43602 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:06 INF [TCP] connected lAddr=127.0.0.1:43618 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+19:55:06 INF [TCP] connected lAddr=127.0.0.1:43636 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:06 INF [TCP] connected lAddr=127.0.0.1:43662 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:06 INF [TCP] connected lAddr=127.0.0.1:43586 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43652 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43688 rAddr=ntp.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43634 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43676 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43692 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43708 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43710 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43694 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:07 INF [TCP] connected lAddr=127.0.0.1:43724 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:09 INF [TCP] connected lAddr=127.0.0.1:47082 rAddr=olime.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+19:55:09 INF [TCP] connected lAddr=127.0.0.1:47072 rAddr=olime.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+19:55:09 INF [TCP] connected lAddr=127.0.0.1:47090 rAddr=olime.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+19:55:10 INF [TCP] connected lAddr=127.0.0.1:47106 rAddr=olime.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+19:55:11 INF [TCP] connected lAddr=127.0.0.1:47112 rAddr=browser.events.data.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:11 INF [TCP] connected lAddr=127.0.0.1:47132 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+19:55:11 INF [TCP] connected lAddr=127.0.0.1:47144 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+19:55:11 INF [TCP] connected lAddr=127.0.0.1:47120 rAddr=r.bing.com:443 mode=rule rule=Domain(r.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:11 INF [TCP] connected lAddr=127.0.0.1:47122 rAddr=r.bing.com:443 mode=rule rule=Domain(r.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:12 INF [TCP] connected lAddr=127.0.0.1:47156 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[DIRECT]
+19:55:12 INF [TCP] connected lAddr=127.0.0.1:47172 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[DIRECT]
+19:55:12 INF [TCP] connected lAddr=127.0.0.1:47176 rAddr=sydney.bing.com:443 mode=rule rule=DomainSuffix(sydney.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:13 INF [TCP] connected lAddr=127.0.0.1:47188 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+19:55:13 INF [TCP] connected lAddr=127.0.0.1:47198 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+19:55:19 INF [TCP] connected lAddr=127.0.0.1:42170 rAddr=services.bingapis.com:443 mode=rule rule=Domain(services.bingapis.com) proxy=Copilot[台湾WAP-T]
+19:55:21 INF [TCP] connected lAddr=127.0.0.1:42176 rAddr=sydney.bing.com:443 mode=rule rule=DomainSuffix(sydney.bing.com) proxy=Copilot[台湾WAP-T]
+19:55:25 INF [TCP] connected lAddr=127.0.0.1:42180 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:25 INF [TCP] connected lAddr=127.0.0.1:42200 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:25 INF [TCP] connected lAddr=127.0.0.1:42188 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42216 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42222 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42210 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42232 rAddr=camo.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42268 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42276 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42240 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42254 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42282 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42284 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:26 INF [TCP] connected lAddr=127.0.0.1:42294 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:27 INF [TCP] connected lAddr=127.0.0.1:35228 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:32 INF [TCP] connected lAddr=127.0.0.1:35240 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:55:33 INF [TCP] connected lAddr=127.0.0.1:35270 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:33 INF [TCP] connected lAddr=127.0.0.1:35272 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[DIRECT]
+19:55:33 INF [TCP] connected lAddr=127.0.0.1:35288 rAddr=img-s-msn-com.akamaized.net:443 mode=rule rule=DomainSuffix(img-s-msn-com.akamaized.net) proxy=微软服务[DIRECT]
+19:55:33 INF [TCP] connected lAddr=127.0.0.1:35256 rAddr=c.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:33 INF [TCP] connected lAddr=127.0.0.1:35262 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:33 INF [TCP] connected lAddr=127.0.0.1:35258 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(msn.cn) proxy=微软服务[DIRECT]
+19:55:33 INF [TCP] connected lAddr=127.0.0.1:35284 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:48 INF [TCP] connected lAddr=127.0.0.1:50742 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:52 INF [TCP] connected lAddr=127.0.0.1:50762 rAddr=collector.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:52 INF [TCP] connected lAddr=127.0.0.1:50756 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:55:53 INF [TCP] connected lAddr=127.0.0.1:50770 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:56:00 INF [TCP] connected lAddr=127.0.0.1:48080 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:56:00 INF [TCP] connected lAddr=127.0.0.1:48094 rAddr=msedge.b.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:56:02 INF [TCP] connected lAddr=127.0.0.1:48096 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[台湾WAP-T]
+19:56:02 INF [TCP] connected lAddr=127.0.0.1:48110 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:56:05 INF [TCP] connected lAddr=127.0.0.1:48120 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[台湾WAP-T]
+19:56:19 INF [TCP] connected lAddr=127.0.0.1:43958 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:56:25 INF [TCP] connected lAddr=127.0.0.1:43964 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+19:56:27 INF [TCP] connected lAddr=127.0.0.1:48332 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[台湾WAP-T]
+19:56:49 INF [TCP] connected lAddr=127.0.0.1:59914 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:56:55 INF [TCP] connected lAddr=127.0.0.1:59924 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+19:56:55 INF [TCP] connected lAddr=127.0.0.1:59940 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[台湾WAP-T]
+19:56:55 INF [TCP] connected lAddr=127.0.0.1:59942 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=rule rule=DomainSuffix(microsofttranslator.com) proxy=微软服务[DIRECT]
+19:57:02 INF [UDP] connected lAddr=198.18.0.1:55684 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:57:02 WRN [TCP] dial failed error=hinet.mjt000.com:443 connect error: dial tcp4 52.185.142.123:443: i/o timeout proxy=Copilot lAddr=127.0.0.1:60902 rAddr=self.events.data.microsoft.com:443 rule=Domain rulePayload=self.events.data.microsoft.com
+19:57:03 INF [TCP] connected lAddr=127.0.0.1:60904 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[香港WAP-优化]
+19:57:05 INF [TCP] connected lAddr=127.0.0.1:60914 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+19:57:06 INF [TCP] connected lAddr=127.0.0.1:60920 rAddr=www.bing.com:443 mode=rule rule=Domain(www.bing.com) proxy=Copilot[香港WAP-优化]
+19:57:19 INF [TCP] connected lAddr=127.0.0.1:50818 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:57:43 INF [TCP] connected lAddr=127.0.0.1:56498 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+19:57:49 INF [UDP] connected lAddr=198.18.0.1:60993 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:57:50 INF [UDP] connected lAddr=198.18.0.1:57801 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:57:50 INF [TCP] connected lAddr=198.18.0.1:57262 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:57:51 INF [UDP] connected lAddr=198.18.0.1:33255 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:58:15 INF [UDP] connected lAddr=198.18.0.1:54754 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:58:15 INF [UDP] connected lAddr=198.18.0.1:42383 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:58:22 INF [UDP] connected lAddr=198.18.0.1:58027 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:58:23 INF [TCP] connected lAddr=198.18.0.1:42030 rAddr=95.216.144.15:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:58:24 INF [TCP] connected lAddr=127.0.0.1:49942 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:58:24 INF [TCP] connected lAddr=127.0.0.1:49946 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:58:29 INF [TCP] connected lAddr=127.0.0.1:39170 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:58:32 INF [UDP] connected lAddr=198.18.0.1:40731 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:58:36 INF [TCP] connected lAddr=127.0.0.1:39178 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:58:47 INF [TCP] connected lAddr=127.0.0.1:46746 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:58:59 INF [UDP] connected lAddr=198.18.0.1:37441 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:59:00 INF [TCP] connected lAddr=127.0.0.1:45802 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:59:02 INF [TCP] connected lAddr=127.0.0.1:45808 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+19:59:04 INF [TCP] connected lAddr=127.0.0.1:45816 rAddr=self.events.data.microsoft.com:443 mode=rule rule=Domain(self.events.data.microsoft.com) proxy=Copilot[香港WAP-优化]
+19:59:11 INF [UDP] connected lAddr=198.18.0.1:57007 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:59:12 INF [TCP] connected lAddr=198.18.0.1:43632 rAddr=95.216.144.15:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:59:13 INF [TCP] connected lAddr=127.0.0.1:40950 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:59:14 INF [UDP] connected lAddr=198.18.0.1:51686 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:59:15 INF [TCP] connected lAddr=127.0.0.1:40958 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:59:17 INF [UDP] connected lAddr=198.18.0.1:34721 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:59:18 INF [TCP] connected lAddr=127.0.0.1:50660 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:59:23 INF [UDP] connected lAddr=198.18.0.1:33131 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:59:23 INF [UDP] connected lAddr=198.18.0.1:36871 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:59:25 INF [TCP] connected lAddr=127.0.0.1:50674 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+19:59:40 INF [UDP] connected lAddr=198.18.0.1:36347 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+19:59:42 INF [TCP] connected lAddr=127.0.0.1:49776 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+20:00:00 INF [TCP] connected lAddr=127.0.0.1:46624 rAddr=substrate.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[DIRECT]
+20:00:02 INF [TCP] connected lAddr=127.0.0.1:46632 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[DIRECT]
+20:00:20 INF [TCP] connected lAddr=127.0.0.1:33944 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+20:00:31 INF [TCP] connected lAddr=127.0.0.1:50568 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:00:32 INF [TCP] connected lAddr=127.0.0.1:50574 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:01:14 INF [UDP] connected lAddr=198.18.0.1:38235 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:01:18 INF [UDP] connected lAddr=198.18.0.1:32933 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:01:30 INF [UDP] connected lAddr=198.18.0.1:51633 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:01:32 INF [TCP] connected lAddr=127.0.0.1:53578 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:01:33 INF [TCP] connected lAddr=127.0.0.1:53590 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:01:38 INF [TCP] connected lAddr=127.0.0.1:54904 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:01:39 INF [TCP] connected lAddr=127.0.0.1:54914 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+20:01:39 INF [TCP] connected lAddr=127.0.0.1:54928 rAddr=codeload.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:02:27 INF [UDP] connected lAddr=198.18.0.1:44121 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:02:29 INF [TCP] connected lAddr=127.0.0.1:39730 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:02:30 INF [TCP] connected lAddr=127.0.0.1:39716 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:02:33 INF [UDP] connected lAddr=198.18.0.1:38342 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:02:34 INF [TCP] connected lAddr=127.0.0.1:39734 rAddr=aur.archlinux.org:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:02:35 INF [TCP] connected lAddr=127.0.0.1:39746 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:02:47 INF [TCP] connected lAddr=127.0.0.1:43342 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:02:47 INF [UDP] connected lAddr=198.18.0.1:34634 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:02:48 INF [UDP] connected lAddr=198.18.0.1:49539 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:02:49 INF [UDP] connected lAddr=198.18.0.1:54682 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:02:50 INF [UDP] connected lAddr=198.18.0.1:41591 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:02:50 INF [TCP] connected lAddr=198.18.0.1:58970 rAddr=116.203.91.91:80 mode=rule rule=Match() proxy=节点选择[香港WAP-优化]
+20:02:51 INF [UDP] connected lAddr=198.18.0.1:41158 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:02:57 INF [TCP] connected lAddr=127.0.0.1:38906 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+20:03:22 INF [TCP] connected lAddr=127.0.0.1:39654 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:03:27 INF [UDP] connected lAddr=198.18.0.1:33381 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:03:39 INF [TCP] connected lAddr=127.0.0.1:55818 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:03:45 INF [TCP] connected lAddr=127.0.0.1:55820 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:03:45 INF [TCP] connected lAddr=127.0.0.1:55832 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2]
+20:04:16 INF [TCP] connected lAddr=127.0.0.1:49746 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+20:04:19 INF [UDP] connected lAddr=198.18.0.1:49111 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:04:31 INF [TCP] connected lAddr=127.0.0.1:58000 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+20:04:58 INF [TCP] connected lAddr=127.0.0.1:38880 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+20:05:34 INF [TCP] connected lAddr=127.0.0.1:41936 rAddr=client.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[DIRECT]
+20:05:35 INF [UDP] connected lAddr=198.18.0.1:45357 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:05:39 INF [TCP] connected lAddr=127.0.0.1:55090 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+20:05:40 INF [UDP] connected lAddr=198.18.0.1:34445 rAddr=192.168.1.1:53 mode=rule rule=IPCIDR(192.168.0.0/16) proxy=DIRECT
+20:05:44 INF [TCP] connected lAddr=127.0.0.1:55106 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
+20:05:55 INF [TCP] connected lAddr=127.0.0.1:58636 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[新加坡-优化]
